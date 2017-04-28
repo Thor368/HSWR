@@ -29,7 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:alexlib
 LIBS:HSWR V2-cache
 EELAYER 25 0
 EELAYER END
