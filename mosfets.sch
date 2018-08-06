@@ -1,36 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:HSWR V2-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:HSWR V2-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -90,7 +60,7 @@ Wire Wire Line
 	10050 3650 10250 3650
 Connection ~ 10050 3650
 $Comp
-L +BATT #PWR024
+L power:+BATT #PWR024
 U 1 1 575A4EA5
 P 10050 1700
 F 0 "#PWR024" H 10050 1550 50  0001 C CNN
@@ -101,7 +71,7 @@ F 3 "" H 10050 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R29
+L Device:R R29
 U 1 1 57621E05
 P 9550 4750
 F 0 "R29" V 9630 4750 50  0000 C CNN
@@ -114,7 +84,7 @@ $EndComp
 Wire Wire Line
 	9750 4750 9700 4750
 $Comp
-L C C8
+L Device:C C8
 U 1 1 57621E21
 P 8200 5250
 F 0 "C8" H 8225 5350 50  0000 L CNN
@@ -125,7 +95,7 @@ F 3 "" H 8200 5250 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R27
+L Device:R R27
 U 1 1 57621E27
 P 9350 5200
 F 0 "R27" V 9430 5200 50  0000 C CNN
@@ -136,7 +106,7 @@ F 3 "" H 9350 5200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ZXTC2045E6 Q10
+L HSWR-V2-rescue:ZXTC2045E6 Q10
 U 1 1 57621E2D
 P 8800 4850
 F 0 "Q10" H 9100 5125 50  0000 R CNN
@@ -153,7 +123,7 @@ Connection ~ 9350 5400
 Wire Wire Line
 	8350 4400 8350 5050
 $Comp
-L R R25
+L Device:R R25
 U 1 1 57621E3C
 P 8600 4400
 F 0 "R25" V 8680 4400 50  0000 C CNN
@@ -176,7 +146,7 @@ Wire Wire Line
 Wire Wire Line
 	10050 5400 10050 4950
 $Comp
-L R R28
+L Device:R R28
 U 1 1 576296B6
 P 9550 2600
 F 0 "R28" V 9630 2600 50  0000 C CNN
@@ -190,7 +160,7 @@ Wire Wire Line
 	9750 2600 9700 2600
 Connection ~ 10050 3250
 $Comp
-L C C7
+L Device:C C7
 U 1 1 576296D2
 P 8200 3100
 F 0 "C7" H 8225 3200 50  0000 L CNN
@@ -201,7 +171,7 @@ F 3 "" H 8200 3100 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R26
+L Device:R R26
 U 1 1 576296D8
 P 9350 3050
 F 0 "R26" V 9430 3050 50  0000 C CNN
@@ -212,7 +182,7 @@ F 3 "" H 9350 3050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ZXTC2045E6 Q9
+L HSWR-V2-rescue:ZXTC2045E6 Q9
 U 1 1 576296DE
 P 8800 2700
 F 0 "Q9" H 9100 2975 50  0000 R CNN
@@ -231,7 +201,7 @@ Connection ~ 9350 3250
 Wire Wire Line
 	8350 2250 8350 2900
 $Comp
-L R R24
+L Device:R R24
 U 1 1 576296ED
 P 8600 2250
 F 0 "R24" V 8680 2250 50  0000 C CNN
@@ -260,7 +230,7 @@ Wire Wire Line
 Connection ~ 8200 4300
 Connection ~ 8200 5400
 $Comp
-L Q_NMOS_GDS Q12
+L Device:Q_NMOS_GDS Q12
 U 1 1 57637BFB
 P 9950 4750
 F 0 "Q12" H 10250 4800 50  0000 R CNN
@@ -271,7 +241,7 @@ F 3 "" H 9950 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GDS Q11
+L Device:Q_NMOS_GDS Q11
 U 1 1 57637E5A
 P 9950 2600
 F 0 "Q11" H 10250 2650 50  0000 R CNN
@@ -301,7 +271,7 @@ Wire Wire Line
 	6600 3650 6800 3650
 Connection ~ 6600 3650
 $Comp
-L +BATT #PWR025
+L power:+BATT #PWR025
 U 1 1 589857E2
 P 6600 1700
 F 0 "#PWR025" H 6600 1550 50  0001 C CNN
@@ -312,7 +282,7 @@ F 3 "" H 6600 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R23
+L Device:R R23
 U 1 1 589857E8
 P 6100 4750
 F 0 "R23" V 6180 4750 50  0000 C CNN
@@ -325,7 +295,7 @@ $EndComp
 Wire Wire Line
 	6300 4750 6250 4750
 $Comp
-L C C6
+L Device:C C6
 U 1 1 589857F0
 P 4750 5250
 F 0 "C6" H 4775 5350 50  0000 L CNN
@@ -336,7 +306,7 @@ F 3 "" H 4750 5250 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R21
+L Device:R R21
 U 1 1 589857F7
 P 5900 5200
 F 0 "R21" V 5980 5200 50  0000 C CNN
@@ -347,7 +317,7 @@ F 3 "" H 5900 5200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ZXTC2045E6 Q6
+L HSWR-V2-rescue:ZXTC2045E6 Q6
 U 1 1 589857FE
 P 5350 4850
 F 0 "Q6" H 5650 5125 50  0000 R CNN
@@ -364,7 +334,7 @@ Connection ~ 5900 5400
 Wire Wire Line
 	4900 4400 4900 5050
 $Comp
-L R R19
+L Device:R R19
 U 1 1 58985809
 P 5150 4400
 F 0 "R19" V 5230 4400 50  0000 C CNN
@@ -387,7 +357,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 5400 6600 4950
 $Comp
-L R R22
+L Device:R R22
 U 1 1 58985817
 P 6100 2600
 F 0 "R22" V 6180 2600 50  0000 C CNN
@@ -401,7 +371,7 @@ Wire Wire Line
 	6300 2600 6250 2600
 Connection ~ 6600 3250
 $Comp
-L C C5
+L Device:C C5
 U 1 1 58985820
 P 4750 3100
 F 0 "C5" H 4775 3200 50  0000 L CNN
@@ -412,7 +382,7 @@ F 3 "" H 4750 3100 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R20
+L Device:R R20
 U 1 1 58985827
 P 5900 3050
 F 0 "R20" V 5980 3050 50  0000 C CNN
@@ -423,7 +393,7 @@ F 3 "" H 5900 3050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ZXTC2045E6 Q5
+L HSWR-V2-rescue:ZXTC2045E6 Q5
 U 1 1 5898582E
 P 5350 2700
 F 0 "Q5" H 5650 2975 50  0000 R CNN
@@ -442,7 +412,7 @@ Connection ~ 5900 3250
 Wire Wire Line
 	4900 2250 4900 2900
 $Comp
-L R R18
+L Device:R R18
 U 1 1 5898583A
 P 5150 2250
 F 0 "R18" V 5230 2250 50  0000 C CNN
@@ -471,7 +441,7 @@ Wire Wire Line
 Connection ~ 4750 4300
 Connection ~ 4750 5400
 $Comp
-L Q_NMOS_GDS Q8
+L Device:Q_NMOS_GDS Q8
 U 1 1 5898584D
 P 6500 4750
 F 0 "Q8" H 6800 4800 50  0000 R CNN
@@ -482,7 +452,7 @@ F 3 "" H 6500 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GDS Q7
+L Device:Q_NMOS_GDS Q7
 U 1 1 58985854
 P 6500 2600
 F 0 "Q7" H 6800 2650 50  0000 R CNN
@@ -512,7 +482,7 @@ Wire Wire Line
 	3150 3650 3350 3650
 Connection ~ 3150 3650
 $Comp
-L +BATT #PWR026
+L power:+BATT #PWR026
 U 1 1 58986AF5
 P 3150 1700
 F 0 "#PWR026" H 3150 1550 50  0001 C CNN
@@ -523,7 +493,7 @@ F 3 "" H 3150 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R17
+L Device:R R17
 U 1 1 58986AFB
 P 2700 4750
 F 0 "R17" V 2780 4750 50  0000 C CNN
@@ -536,7 +506,7 @@ $EndComp
 Wire Wire Line
 	2850 4750 2850 4750
 $Comp
-L C C4
+L Device:C C4
 U 1 1 58986B03
 P 1350 5250
 F 0 "C4" H 1375 5350 50  0000 L CNN
@@ -547,7 +517,7 @@ F 3 "" H 1350 5250 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R15
+L Device:R R15
 U 1 1 58986B0A
 P 2500 5200
 F 0 "R15" V 2580 5200 50  0000 C CNN
@@ -558,7 +528,7 @@ F 3 "" H 2500 5200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ZXTC2045E6 Q2
+L HSWR-V2-rescue:ZXTC2045E6 Q2
 U 1 1 58986B11
 P 1950 4850
 F 0 "Q2" H 2250 5125 50  0000 R CNN
@@ -575,7 +545,7 @@ Connection ~ 2500 5400
 Wire Wire Line
 	1500 4400 1500 5050
 $Comp
-L R R13
+L Device:R R13
 U 1 1 58986B1C
 P 1750 4400
 F 0 "R13" V 1830 4400 50  0000 C CNN
@@ -598,7 +568,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 5400 3150 4950
 $Comp
-L R R16
+L Device:R R16
 U 1 1 58986B2A
 P 2700 2600
 F 0 "R16" V 2780 2600 50  0000 C CNN
@@ -612,7 +582,7 @@ Wire Wire Line
 	2850 2600 2850 2600
 Connection ~ 3150 3250
 $Comp
-L C C3
+L Device:C C3
 U 1 1 58986B33
 P 1350 3100
 F 0 "C3" H 1375 3200 50  0000 L CNN
@@ -623,7 +593,7 @@ F 3 "" H 1350 3100 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R14
+L Device:R R14
 U 1 1 58986B3A
 P 2500 3050
 F 0 "R14" V 2580 3050 50  0000 C CNN
@@ -634,7 +604,7 @@ F 3 "" H 2500 3050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ZXTC2045E6 Q1
+L HSWR-V2-rescue:ZXTC2045E6 Q1
 U 1 1 58986B41
 P 1950 2700
 F 0 "Q1" H 2250 2975 50  0000 R CNN
@@ -653,7 +623,7 @@ Connection ~ 2500 3250
 Wire Wire Line
 	1500 2250 1500 2900
 $Comp
-L R R12
+L Device:R R12
 U 1 1 58986B4D
 P 1750 2250
 F 0 "R12" V 1830 2250 50  0000 C CNN
@@ -682,7 +652,7 @@ Wire Wire Line
 Connection ~ 1350 4300
 Connection ~ 1350 5400
 $Comp
-L Q_NMOS_GDS Q4
+L Device:Q_NMOS_GDS Q4
 U 1 1 58986B60
 P 3050 4750
 F 0 "Q4" H 3350 4800 50  0000 R CNN
@@ -693,7 +663,7 @@ F 3 "" H 3050 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GDS Q3
+L Device:Q_NMOS_GDS Q3
 U 1 1 58986B67
 P 3050 2600
 F 0 "Q3" H 3350 2650 50  0000 R CNN
@@ -720,7 +690,7 @@ Connection ~ 2500 4750
 Wire Wire Line
 	1200 5400 3800 5400
 $Comp
-L +BATT #PWR027
+L power:+BATT #PWR027
 U 1 1 58A716A6
 P 3450 7000
 F 0 "#PWR027" H 3450 6850 50  0001 C CNN
@@ -731,7 +701,7 @@ F 3 "" H 3450 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C52
+L Device:C C52
 U 1 1 58A7831F
 P 3550 5200
 F 0 "C52" H 3575 5300 50  0000 L CNN
@@ -742,7 +712,7 @@ F 3 "" H 3550 5200 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C54
+L Device:C C54
 U 1 1 58A78A84
 P 3800 5200
 F 0 "C54" H 3825 5300 50  0000 L CNN
@@ -767,7 +737,7 @@ Wire Wire Line
 Connection ~ 3150 1700
 Connection ~ 3800 5050
 $Comp
-L C C55
+L Device:C C55
 U 1 1 58A797A9
 P 7000 5200
 F 0 "C55" H 7025 5300 50  0000 L CNN
@@ -778,7 +748,7 @@ F 3 "" H 7000 5200 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C56
+L Device:C C56
 U 1 1 58A797AF
 P 7250 5200
 F 0 "C56" H 7275 5300 50  0000 L CNN
@@ -801,7 +771,7 @@ Wire Wire Line
 	7250 1700 6600 1700
 Connection ~ 7250 5050
 $Comp
-L C C57
+L Device:C C57
 U 1 1 58A799C2
 P 10450 5200
 F 0 "C57" H 10475 5300 50  0000 L CNN
@@ -812,7 +782,7 @@ F 3 "" H 10450 5200 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C58
+L Device:C C58
 U 1 1 58A799C8
 P 10700 5200
 F 0 "C58" H 10725 5300 50  0000 L CNN
@@ -839,7 +809,7 @@ Connection ~ 10050 5400
 Connection ~ 10050 1700
 Connection ~ 6600 1700
 $Comp
-L CP C51
+L Device:CP C51
 U 1 1 58A7B686
 P 3450 7150
 F 0 "C51" H 3475 7250 50  0000 L CNN
@@ -850,7 +820,7 @@ F 3 "" H 3450 7150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C53
+L Device:CP C53
 U 1 1 58A7B84C
 P 3700 7150
 F 0 "C53" H 3725 7250 50  0000 L CNN
@@ -861,7 +831,7 @@ F 3 "" H 3700 7150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C50
+L Device:CP C50
 U 1 1 58A7B8F0
 P 3200 7150
 F 0 "C50" H 3225 7250 50  0000 L CNN
@@ -872,7 +842,7 @@ F 3 "" H 3200 7150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDPWR #PWR028
+L HSWR-V2-rescue:GNDPWR #PWR028
 U 1 1 58A7BA9C
 P 3450 7300
 F 0 "#PWR028" H 3450 7100 50  0001 C CNN
