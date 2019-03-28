@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 4 9
 Title "HSWR CPU"
 Date "2017-02-05"
 Rev "2.0"
@@ -3944,17 +3944,6 @@ F 3 "~" H 4100 3200 50  0001 C CNN
 	1    4100 3200
 	1    0    0    -1  
 $EndComp
-$Comp
-L MCU_ST_STM32F4:STM32F405RGTx U1
-U 1 1 5C9EF5EF
-P 5700 3600
-F 0 "U1" H 5700 3500 50  0000 C CNN
-F 1 "STM32F405RGTx" H 5700 3600 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 5100 1900 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" H 5700 3600 50  0001 C CNN
-	1    5700 3600
-	1    0    0    -1  
-$EndComp
 Text HLabel 6400 2000 2    50   Input ~ 0
 U_U
 Text HLabel 6400 2100 2    50   Input ~ 0
@@ -3981,16 +3970,15 @@ Text HLabel 6400 3100 2    50   Input ~ 0
 USB_DM
 Text HLabel 6400 3200 2    50   Input ~ 0
 USB_DP
-NoConn ~ 6400 3500
-Text HLabel 6400 3700 2    50   Input ~ 0
+Text HLabel 5000 4700 0    50   Input ~ 0
 LED_GREEN
-Text HLabel 6400 3800 2    50   Input ~ 0
+Text HLabel 5000 4800 0    50   Input ~ 0
 LED_RED
 Text HLabel 6400 4300 2    50   Input ~ 0
 SERVO
 Text HLabel 6400 4500 2    50   Input ~ 0
 CAN_RX
-Text HLabel 6400 4600 2    50   Input ~ 0
+Text HLabel 6400 4600 2    50   Output ~ 0
 CAN_TX
 Text HLabel 6400 4700 2    50   Input ~ 0
 TX_SCL_MOSI
@@ -4006,7 +3994,6 @@ NoConn ~ 6400 3900
 NoConn ~ 6400 4000
 NoConn ~ 6400 4100
 NoConn ~ 6400 4200
-NoConn ~ 6400 4400
 NoConn ~ 6400 4900
 Text HLabel 5000 3700 0    50   Input ~ 0
 U_I
@@ -4026,8 +4013,6 @@ Text HLabel 5000 4500 0    50   Input ~ 0
 HALL_3
 NoConn ~ 5000 4200
 NoConn ~ 5000 4600
-NoConn ~ 5000 4700
-NoConn ~ 5000 4800
 NoConn ~ 5000 4900
 NoConn ~ 5000 5000
 NoConn ~ 5000 5100
@@ -4367,4 +4352,17 @@ F 3 "" H 9600 3100 50  0001 C CNN
 	1    9600 3100
 	0    1    1    0   
 $EndComp
+$Comp
+L MCU_ST_STM32F4:STM32F405RGTx U1
+U 1 1 5C9EF5EF
+P 5700 3600
+F 0 "U1" H 5700 3500 50  0000 C CNN
+F 1 "STM32F405RGTx" H 5700 3600 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 5100 1900 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" H 5700 3600 50  0001 C CNN
+	1    5700 3600
+	1    0    0    -1  
+$EndComp
+Text HLabel 6400 3500 2    50   Input ~ 0
+CAN_VSS_SENSE
 $EndSCHEMATC

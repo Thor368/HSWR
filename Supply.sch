@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 4 9
 Title ""
 Date ""
 Rev ""
@@ -20,7 +20,7 @@ U 1 1 5C9BC448
 P 2800 5350
 F 0 "NT1" H 2800 5528 50  0000 C CNN
 F 1 "Net-Tie_2" H 2800 5437 50  0000 C CNN
-F 2 "NetTie:NetTie-3_SMD_Pad0.5mm" H 2800 5350 50  0001 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 2800 5350 50  0001 C CNN
 F 3 "~" H 2800 5350 50  0001 C CNN
 	1    2800 5350
 	1    0    0    -1  
