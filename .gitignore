@@ -1,3 +1,4 @@
 rescue-backup
 *.bak
 *.kicad_pcb-bak
+/Gerber

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 9
+Sheet 7 8
 Title "HSWR CAN Transceiver"
 Date "2017-02-05"
 Rev "2.0"
@@ -116,8 +116,6 @@ F 3 "" H 5700 2700 60  0000 C CNN
 	1    5700 2700
 	-1   0    0    -1  
 $EndComp
-Text HLabel 4350 2500 0    50   Input ~ 0
-12V_ext
 $Comp
 L Regulator_Linear:AP1117-50 U5
 U 1 1 5CA08F00
@@ -222,4 +220,16 @@ Wire Wire Line
 Wire Wire Line
 	6050 2500 6200 2500
 Connection ~ 6200 2500
+$Comp
+L power:+12VA #PWR0199
+U 1 1 5C9EF966
+P 4350 2500
+F 0 "#PWR0199" H 4350 2350 50  0001 C CNN
+F 1 "+12VA" H 4365 2673 50  0000 C CNN
+F 2 "" H 4350 2500 50  0001 C CNN
+F 3 "" H 4350 2500 50  0001 C CNN
+	1    4350 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 4350 2500
 $EndSCHEMATC
