@@ -150,9 +150,11 @@ Wire Wire Line
 Connection ~ 5350 3150
 Connection ~ 5350 3350
 $Comp
-L Auktoralib:ADUM3054 IC4
+L HSWR-V2-rescue:ADUM3054-Auktoralib IC4
 U 1 1 5CA06D6C
 P 5950 3400
+AR Path="/5CA06D6C" Ref="IC4"  Part="1" 
+AR Path="/5899E225/5CA06D6C" Ref="IC4"  Part="1" 
 F 0 "IC4" H 5500 2850 50  0000 C CNN
 F 1 "ADUM3054" H 6350 3900 50  0000 C CNN
 F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 5950 3300 50  0001 C CNN

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 5 8
 Title "HSWR MOSFET Driver"
 Date "2017-02-05"
 Rev "2.0"
@@ -173,7 +173,6 @@ Text HLabel 2750 2150 2    50   Input ~ 0
 U_VP
 Wire Wire Line
 	2750 2150 2750 2200
-Connection ~ 2750 2200
 $Comp
 L HSWR-V2-rescue:INA181-Auktoralib IC1
 U 1 1 5CA27007
@@ -288,7 +287,7 @@ L Device:R R26
 U 1 1 5CA3226A
 P 5750 1950
 F 0 "R26" V 5850 1950 50  0000 C CNN
-F 1 "470R" V 5750 1950 50  0000 C CNN
+F 1 "100R" V 5750 1950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5680 1950 50  0001 C CNN
 F 3 "~" H 5750 1950 50  0001 C CNN
 	1    5750 1950
@@ -367,7 +366,6 @@ Wire Wire Line
 	2300 1350 2450 1350
 Wire Wire Line
 	2450 1700 2450 1350
-Connection ~ 2450 1700
 Connection ~ 2450 1350
 Wire Notes Line
 	9000 900  10800 900 
@@ -572,7 +570,6 @@ Text HLabel 2750 3850 2    50   Input ~ 0
 V_VP
 Wire Wire Line
 	2750 3850 2750 3900
-Connection ~ 2750 3900
 $Comp
 L HSWR-V2-rescue:INA181-Auktoralib IC2
 U 1 1 5CA7465B
@@ -615,7 +612,7 @@ L Device:R R27
 U 1 1 5CA7469C
 P 5750 3650
 F 0 "R27" V 5850 3650 50  0000 C CNN
-F 1 "470R" V 5750 3650 50  0000 C CNN
+F 1 "100R" V 5750 3650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5680 3650 50  0001 C CNN
 F 3 "~" H 5750 3650 50  0001 C CNN
 	1    5750 3650
@@ -692,7 +689,6 @@ Wire Wire Line
 	2300 3050 2450 3050
 Wire Wire Line
 	2450 3400 2450 3050
-Connection ~ 2450 3400
 Connection ~ 2450 3050
 $Comp
 L Device:D_Small D5
@@ -792,12 +788,10 @@ Text HLabel 2750 5600 2    50   Input ~ 0
 W_VP
 Wire Wire Line
 	2750 5600 2750 5650
-Connection ~ 2750 5650
 Wire Wire Line
 	2300 4800 2450 4800
 Wire Wire Line
 	2450 5150 2450 4800
-Connection ~ 2450 5150
 Connection ~ 2450 4800
 $Comp
 L HSWR-V2-rescue:INA181-Auktoralib IC3
@@ -841,7 +835,7 @@ L Device:R R32
 U 1 1 5CA80510
 P 5750 5350
 F 0 "R32" V 5850 5350 50  0000 C CNN
-F 1 "470R" V 5750 5350 50  0000 C CNN
+F 1 "100R" V 5750 5350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5680 5350 50  0001 C CNN
 F 3 "~" H 5750 5350 50  0001 C CNN
 	1    5750 5350

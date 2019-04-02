@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Auktoralib:ADuM4160 IC5
+L HSWR-V2-rescue:ADuM4160-Auktoralib IC5
 U 1 1 5CA151F5
 P 5450 3900
 F 0 "IC5" H 5300 4150 50  0000 L CNN

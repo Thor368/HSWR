@@ -48,7 +48,7 @@ F 3 "" H 3950 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Auktoralib:JW5052C IC7
+L HSWR-V2-rescue:JW5052C-Auktoralib IC7
 U 1 1 5C9E348B
 P 3850 5550
 F 0 "IC7" H 3850 6115 50  0000 C CNN
@@ -206,7 +206,7 @@ F 3 "" H 5300 5450 50  0001 C CNN
 $EndComp
 Connection ~ 5300 5450
 $Comp
-L Auktoralib:JW5052C IC6
+L HSWR-V2-rescue:JW5052C-Auktoralib IC6
 U 1 1 5C9E68F7
 P 3850 4150
 F 0 "IC6" H 3850 4715 50  0000 C CNN
@@ -454,7 +454,7 @@ F 3 "" H 4250 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Auktoralib:DCDC_6pin IC8
+L HSWR-V2-rescue:DCDC_6pin-Auktoralib IC8
 U 1 1 5C9F1AAA
 P 3850 2900
 F 0 "IC8" H 3850 3325 50  0000 C CNN
