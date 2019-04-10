@@ -1,0 +1,3298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\jonas.krieger.AUKTORA\Desktop\Amalga-100\Amalga_100.sch</source>
+    <date>01.04.2019 18:48:02</date>
+    <tool>Eeschema (5.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>HSWR V2.0 200V 50A</title>
+        <company>Benjamin Vedder</company>
+        <rev>2.0</rev>
+        <date>2017-02-05</date>
+        <source>Amalga_100.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Top level"/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power MOSFETS/" tstamps="/5895E67A/">
+      <title_block>
+        <title>HSWR MOSFET Power Stage</title>
+        <company>Benjamin Vedder</company>
+        <rev>2.0</rev>
+        <date>2017-02-05</date>
+        <source>mosfets.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/CAN bus transceiver/" tstamps="/5899E225/">
+      <title_block>
+        <title>HSWR CAN Transceiver</title>
+        <company>Benjamin Vedder</company>
+        <rev>2.0</rev>
+        <date>2017-02-05</date>
+        <source>CAN.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Filters/" tstamps="/5899E226/">
+      <title_block>
+        <title>HSWR HAL Filters</title>
+        <company>Benjamin Vedder</company>
+        <rev>2.0</rev>
+        <date>2017-02-05</date>
+        <source>hall_filters.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/MCU/" tstamps="/5899E230/">
+      <title_block>
+        <title>HSWR CPU</title>
+        <company>Benjamin Vedder</company>
+        <rev>2.0</rev>
+        <date>2017-02-05</date>
+        <source>CPU.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Supply/" tstamps="/5899E25F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Supply.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/USB-Isolator/" tstamps="/5CB8FAD2/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>USB-Isolator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/Mosfet driver/" tstamps="/5895E6A0/">
+      <title_block>
+        <title>HSWR MOSFET Driver</title>
+        <company/>
+        <rev>2.0</rev>
+        <date>2017-02-05</date>
+        <source>Power.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/Resolver/" tstamps="/5C9D0FFC/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Resolver.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/Resolver/Buffer Circuit R2D/" tstamps="/5C9D0FFC/5CBFECD2/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Buffer Circuit R2D.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P4">
+      <value>IN-</value>
+      <footprint>MountingHole:MountingHole_6.5mm_Pad_Via</footprint>
+      <libsource lib="Amalga_100-rescue" part="CONN_1-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5895E67C</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>IN+</value>
+      <footprint>MountingHole:MountingHole_6.5mm_Pad_Via</footprint>
+      <libsource lib="Amalga_100-rescue" part="CONN_1-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5895E67D</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>MOTOR3</value>
+      <footprint>eigene_mod:redcube_250A</footprint>
+      <libsource lib="Amalga_100-rescue" part="CONN_1-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5895E67E</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>MOTOR2</value>
+      <footprint>eigene_mod:redcube_250A</footprint>
+      <libsource lib="Amalga_100-rescue" part="CONN_1-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5895E67F</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>MOTOR1</value>
+      <footprint>eigene_mod:redcube_250A</footprint>
+      <libsource lib="Amalga_100-rescue" part="CONN_1-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5895E680</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>220k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5895E69E</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5895E69F</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5895E6AC</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>NTC 10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58962D54</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58962D5B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58962D7B</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5899E222</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5899E223</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>120R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5899E227</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>RED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="LED-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5899E228</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>120R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5899E22A</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>GREEN</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="LED-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5899E22B</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="LED-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5899E22D</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5899E22E</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>USB_B</value>
+      <footprint>Connector_USB:USB_B_TE_5787834_Vertical</footprint>
+      <libsource lib="Amalga_100-rescue" part="USB_B-RESCUE-HSWR_V2-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5899E24E</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>Interface</value>
+      <footprint>alexmod:XG4A_20_wo_56</footprint>
+      <libsource lib="Amalga_100-rescue" part="CONN_01X18_20-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5899E267</tstamp>
+    </comp>
+    <comp ref="MH2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C890CA7</tstamp>
+    </comp>
+    <comp ref="MH1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C890DEC</tstamp>
+    </comp>
+    <comp ref="MH3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8983A3</tstamp>
+    </comp>
+    <comp ref="MH4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C89AA74</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>SS14</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <libsource lib="Amalga_100-rescue" part="D_Schottky_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB9D33A</tstamp>
+    </comp>
+    <comp ref="MH8">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCD3E90</tstamp>
+    </comp>
+    <comp ref="MH5">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCD3E97</tstamp>
+    </comp>
+    <comp ref="MH6">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCD3E9E</tstamp>
+    </comp>
+    <comp ref="MH7">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCD3EA5</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>57621E05</tstamp>
+    </comp>
+    <comp ref="Q12">
+      <value>IRFP4668PBF</value>
+      <footprint>eigene_mod:TO-264_flat_reverse_2</footprint>
+      <libsource lib="Amalga_100-rescue" part="Q_NMOS_GDS-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>57637BFB</tstamp>
+    </comp>
+    <comp ref="Q11">
+      <value>IRFP4668PBF</value>
+      <footprint>eigene_mod:TO-264_flat_reverse_2</footprint>
+      <libsource lib="Amalga_100-rescue" part="Q_NMOS_GDS-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>57637E5A</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>589857E8</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>58985817</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>IRFP4668PBF</value>
+      <footprint>eigene_mod:TO-264_flat_reverse_2</footprint>
+      <libsource lib="Amalga_100-rescue" part="Q_NMOS_GDS-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5898584D</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>IRFP4668PBF</value>
+      <footprint>eigene_mod:TO-264_flat_reverse_2</footprint>
+      <libsource lib="Amalga_100-rescue" part="Q_NMOS_GDS-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>58985854</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>58986AFB</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>58986B2A</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>IRFP4668PBF</value>
+      <footprint>eigene_mod:TO-264_flat_reverse_2</footprint>
+      <libsource lib="Amalga_100-rescue" part="Q_NMOS_GDS-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>58986B60</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>1u 600V</value>
+      <footprint>Capacitor_SMD:C_2220_5650Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>58A7831F</tstamp>
+    </comp>
+    <comp ref="C54">
+      <value>1u 600V</value>
+      <footprint>Capacitor_SMD:C_2220_5650Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>58A78A84</tstamp>
+    </comp>
+    <comp ref="C57">
+      <value>1u 600V</value>
+      <footprint>Capacitor_SMD:C_2220_5650Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>58A799C2</tstamp>
+    </comp>
+    <comp ref="C58">
+      <value>1u 600V</value>
+      <footprint>Capacitor_SMD:C_2220_5650Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>58A799C8</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>470u 600V</value>
+      <footprint>Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn</footprint>
+      <libsource lib="Amalga_100-rescue" part="CP-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>58A7B686</tstamp>
+    </comp>
+    <comp ref="C53">
+      <value>470u 600V</value>
+      <footprint>Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn</footprint>
+      <libsource lib="Amalga_100-rescue" part="CP-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>58A7B84C</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>470u 600V</value>
+      <footprint>Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn</footprint>
+      <libsource lib="Amalga_100-rescue" part="CP-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>58A7B8F0</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>CDBDSC10650-G</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2_TabPin1</footprint>
+      <libsource lib="Amalga_100-rescue" part="D_Schottky-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5C6ED3E8</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>CDBDSC10650-G</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2_TabPin1</footprint>
+      <libsource lib="Amalga_100-rescue" part="D_Schottky-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5C74EF55</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>CDBDSC10650-G</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2_TabPin1</footprint>
+      <libsource lib="Amalga_100-rescue" part="D_Schottky-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5C7562A4</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>CDBDSC10650-G</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2_TabPin1</footprint>
+      <libsource lib="Amalga_100-rescue" part="D_Schottky-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5C76599F</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>CDBDSC10650-G</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2_TabPin1</footprint>
+      <libsource lib="Amalga_100-rescue" part="D_Schottky-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5C76DADF</tstamp>
+    </comp>
+    <comp ref="C55">
+      <value>1u 600V</value>
+      <footprint>Capacitor_SMD:C_2220_5650Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>58A797A9</tstamp>
+    </comp>
+    <comp ref="C56">
+      <value>1u 600V</value>
+      <footprint>Capacitor_SMD:C_2220_5650Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>58A797AF</tstamp>
+    </comp>
+    <comp ref="C65">
+      <value>1u 600V</value>
+      <footprint>Capacitor_SMD:C_2220_5650Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5C92A519</tstamp>
+    </comp>
+    <comp ref="C66">
+      <value>1u 600V</value>
+      <footprint>Capacitor_SMD:C_2220_5650Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5C93F4C0</tstamp>
+    </comp>
+    <comp ref="C67">
+      <value>1u 600V</value>
+      <footprint>Capacitor_SMD:C_2220_5650Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5C9497CF</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>IRFP4668PBF</value>
+      <footprint>eigene_mod:TO-264_flat_reverse_2</footprint>
+      <libsource lib="Amalga_100-rescue" part="Q_NMOS_GDS-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>58986B67</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>CDBDSC10650-G</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2_TabPin1</footprint>
+      <libsource lib="Amalga_100-rescue" part="D_Schottky-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5C75DAEC</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5CB41531</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>CDBDSC10650-G</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2_TabPin1</footprint>
+      <libsource lib="Amalga_100-rescue" part="D_Schottky-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5CB4153A</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>IRFP4668PBF</value>
+      <footprint>eigene_mod:TO-264_flat_reverse_2</footprint>
+      <libsource lib="Amalga_100-rescue" part="Q_NMOS_GDS-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5CB41548</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5CB4969A</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>CDBDSC10650-G</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2_TabPin1</footprint>
+      <libsource lib="Amalga_100-rescue" part="D_Schottky-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5CB496A2</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>IRFP4668PBF</value>
+      <footprint>eigene_mod:TO-264_flat_reverse_2</footprint>
+      <libsource lib="Amalga_100-rescue" part="Q_NMOS_GDS-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5CB496AF</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>CDBDSC10650-G</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2_TabPin1</footprint>
+      <libsource lib="Amalga_100-rescue" part="D_Schottky-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5CB53B14</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>IRFP4668PBF</value>
+      <footprint>eigene_mod:TO-264_flat_reverse_2</footprint>
+      <libsource lib="Amalga_100-rescue" part="Q_NMOS_GDS-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5CB53B21</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>CDBDSC10650-G</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2_TabPin1</footprint>
+      <libsource lib="Amalga_100-rescue" part="D_Schottky-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5CB7E6E9</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>IRFP4668PBF</value>
+      <footprint>eigene_mod:TO-264_flat_reverse_2</footprint>
+      <libsource lib="Amalga_100-rescue" part="Q_NMOS_GDS-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5CB7E6F6</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5CB82CBC</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5CB87374</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>CDBDSC10650-G</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2_TabPin1</footprint>
+      <libsource lib="Amalga_100-rescue" part="D_Schottky-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5CBAABD0</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>IRFP4668PBF</value>
+      <footprint>eigene_mod:TO-264_flat_reverse_2</footprint>
+      <libsource lib="Amalga_100-rescue" part="Q_NMOS_GDS-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5CBAABDD</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>CDBDSC10650-G</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2_TabPin1</footprint>
+      <libsource lib="Amalga_100-rescue" part="D_Schottky-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5CBAF853</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>IRFP4668PBF</value>
+      <footprint>eigene_mod:TO-264_flat_reverse_2</footprint>
+      <libsource lib="Amalga_100-rescue" part="Q_NMOS_GDS-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5CBAF860</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5CBFFC58</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5CC059BB</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5CC0CF86</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5CA511DF</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5CA6CEA6</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5CAE529B</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5CAFADD2</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5CB18F08</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/5895E67A/"/>
+      <tstamp>5CB18F17</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>ADM3052</value>
+      <footprint>Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm</footprint>
+      <libsource lib="Amalga_100-rescue" part="ADM3052-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/CAN bus transceiver/" tstamps="/5899E225/"/>
+      <tstamp>5759CEA3</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/CAN bus transceiver/" tstamps="/5899E225/"/>
+      <tstamp>5759CF39</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/CAN bus transceiver/" tstamps="/5899E225/"/>
+      <tstamp>5759CF9E</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>300R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/CAN bus transceiver/" tstamps="/5899E225/"/>
+      <tstamp>5759CFE0</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/CAN bus transceiver/" tstamps="/5899E225/"/>
+      <tstamp>5759D08A</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>120R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/CAN bus transceiver/" tstamps="/5899E225/"/>
+      <tstamp>5759ED7A</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/CAN bus transceiver/" tstamps="/5899E225/"/>
+      <tstamp>575A0498</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/Filters/" tstamps="/5899E226/"/>
+      <tstamp>53FBB581</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/Filters/" tstamps="/5899E226/"/>
+      <tstamp>53FBB588</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/Filters/" tstamps="/5899E226/"/>
+      <tstamp>53FBB58F</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/Filters/" tstamps="/5899E226/"/>
+      <tstamp>53FBB596</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>4n7</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/Filters/" tstamps="/5899E226/"/>
+      <tstamp>53FBB59D</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>4n7</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/Filters/" tstamps="/5899E226/"/>
+      <tstamp>53FBB5A4</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>4n7</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/Filters/" tstamps="/5899E226/"/>
+      <tstamp>53FBB5AB</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/Filters/" tstamps="/5899E226/"/>
+      <tstamp>53FBB5B8</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/Filters/" tstamps="/5899E226/"/>
+      <tstamp>53FBB5BF</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/Filters/" tstamps="/5899E226/"/>
+      <tstamp>53FBB5C6</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>4n7</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/Filters/" tstamps="/5899E226/"/>
+      <tstamp>53FBB5CD</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>STM32F40X_LQFP64</value>
+      <footprint>Package_QFP:LQFP-64_10x10mm_P0.5mm</footprint>
+      <libsource lib="Amalga_100-rescue" part="STM32F40X_LQFP64-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/MCU/" tstamps="/5899E230/"/>
+      <tstamp>53F757A7</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/MCU/" tstamps="/5899E230/"/>
+      <tstamp>53F757AE</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/MCU/" tstamps="/5899E230/"/>
+      <tstamp>53F757B5</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>15p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/MCU/" tstamps="/5899E230/"/>
+      <tstamp>53F757DB</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>15p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/MCU/" tstamps="/5899E230/"/>
+      <tstamp>53F757E2</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/MCU/" tstamps="/5899E230/"/>
+      <tstamp>53F757F8</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/MCU/" tstamps="/5899E230/"/>
+      <tstamp>53F75896</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>SWD</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Amalga_100-rescue" part="CONN_6-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/MCU/" tstamps="/5899E230/"/>
+      <tstamp>53F77410</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/MCU/" tstamps="/5899E230/"/>
+      <tstamp>53F77426</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/MCU/" tstamps="/5899E230/"/>
+      <tstamp>53F7742D</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/MCU/" tstamps="/5899E230/"/>
+      <tstamp>53F77447</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/MCU/" tstamps="/5899E230/"/>
+      <tstamp>53F7744E</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>8MHz</value>
+      <footprint>Crystal:Crystal_HC49-U_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="Crystal-Device" description=""/>
+      <sheetpath names="/MCU/" tstamps="/5899E230/"/>
+      <tstamp>5B6893E1</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>2u2</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Supply/" tstamps="/5899E25F/"/>
+      <tstamp>589B5CE1</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>B1212S-2W</value>
+      <footprint>Converter_DCDC:Converter_DCDC_TRACO_TEN20-xxxx_THT</footprint>
+      <datasheet>http://www.tracopower.com/products/ten20win.pdf</datasheet>
+      <libsource lib="B1212s-2w" part="B1212S-2W" description="4A Isolated DC/DC Converter Module, fixed 5V Output Voltage, 9-36V Input Voltage"/>
+      <sheetpath names="/Supply/" tstamps="/5899E25F/"/>
+      <tstamp>5CA513BF</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>JW5052C</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps563200.pdf</datasheet>
+      <libsource lib="JW5052c" part="JW5052C" description="2A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6"/>
+      <sheetpath names="/Supply/" tstamps="/5899E25F/"/>
+      <tstamp>5CA514A9</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>2u2</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Supply/" tstamps="/5899E25F/"/>
+      <tstamp>5CA54335</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>28k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Supply/" tstamps="/5899E25F/"/>
+      <tstamp>5CA5F3E9</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Supply/" tstamps="/5899E25F/"/>
+      <tstamp>5CA60413</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>110k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Supply/" tstamps="/5899E25F/"/>
+      <tstamp>5CA72618</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>15k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Supply/" tstamps="/5899E25F/"/>
+      <tstamp>5CA73BD2</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Supply/" tstamps="/5899E25F/"/>
+      <tstamp>5CA7636C</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Supply/" tstamps="/5899E25F/"/>
+      <tstamp>5CA7F1E2</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>4.7uH</value>
+      <footprint>Inductor_SMD:L_Taiyo-Yuden_NR-60xx</footprint>
+      <libsource lib="Amalga_100-rescue" part="INDUCTOR-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/Supply/" tstamps="/5899E25F/"/>
+      <tstamp>5CA82FDD</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>JW5052C</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps563200.pdf</datasheet>
+      <libsource lib="JW5052c" part="JW5052C" description="2A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6"/>
+      <sheetpath names="/Supply/" tstamps="/5899E25F/"/>
+      <tstamp>5CAA8367</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Supply/" tstamps="/5899E25F/"/>
+      <tstamp>5CAA8374</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Supply/" tstamps="/5899E25F/"/>
+      <tstamp>5CAA837B</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>49k9</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Supply/" tstamps="/5899E25F/"/>
+      <tstamp>5CAA8399</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>11k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Supply/" tstamps="/5899E25F/"/>
+      <tstamp>5CAA83A0</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Supply/" tstamps="/5899E25F/"/>
+      <tstamp>5CAA83A8</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Supply/" tstamps="/5899E25F/"/>
+      <tstamp>5CAA83B8</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>4.7uH</value>
+      <footprint>Inductor_SMD:L_Taiyo-Yuden_NR-60xx</footprint>
+      <libsource lib="Amalga_100-rescue" part="INDUCTOR-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/Supply/" tstamps="/5899E25F/"/>
+      <tstamp>5CAA83BF</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>ADUM3160</value>
+      <footprint>Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM3160.pdf</datasheet>
+      <libsource lib="Interface_USB" part="ADUM3160" description="Full/Low Speed, iCoupler USB Digital Isolator, 2.5kV protection"/>
+      <sheetpath names="/USB-Isolator/" tstamps="/5CB8FAD2/"/>
+      <tstamp>5CB9A61A</tstamp>
+    </comp>
+    <comp ref="C68">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/USB-Isolator/" tstamps="/5CB8FAD2/"/>
+      <tstamp>5CB9A644</tstamp>
+    </comp>
+    <comp ref="C69">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/USB-Isolator/" tstamps="/5CB8FAD2/"/>
+      <tstamp>5CB9A657</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/USB-Isolator/" tstamps="/5CB8FAD2/"/>
+      <tstamp>5CB9A609</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/USB-Isolator/" tstamps="/5CB8FAD2/"/>
+      <tstamp>5CB9A602</tstamp>
+    </comp>
+    <comp ref="R62">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/USB-Isolator/" tstamps="/5CB8FAD2/"/>
+      <tstamp>5C9F7D39</tstamp>
+    </comp>
+    <comp ref="R63">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/USB-Isolator/" tstamps="/5CB8FAD2/"/>
+      <tstamp>5C9F7D40</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>220k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>504F8F6F</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>504F8F75</tstamp>
+    </comp>
+    <comp ref="R56">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>504F8F93</tstamp>
+    </comp>
+    <comp ref="R55">
+      <value>220k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>504F8F99</tstamp>
+    </comp>
+    <comp ref="R57">
+      <value>220k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>504F8FA3</tstamp>
+    </comp>
+    <comp ref="R58">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-RESCUE-BLDC_4-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>504F8FA9</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>RFN2L4S</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <libsource lib="Amalga_100-rescue" part="D_Small-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>574EBB78</tstamp>
+    </comp>
+    <comp ref="IC5">
+      <value>INA240A1</value>
+      <footprint>Package_SO:TSSOP-8_4.4x3mm_P0.65mm</footprint>
+      <libsource lib="Amalga_100-rescue" part="INA240-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>5897392F</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>CSS2H-3920R-L500</value>
+      <footprint>alexmod:CSS3920</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>58975219</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>opt</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>589759A2</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>opt</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>58975A1E</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>opt</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>58975DA5</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>58977E27</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>58977E93</tstamp>
+    </comp>
+    <comp ref="IC4">
+      <value>INA240A1</value>
+      <footprint>Package_SO:TSSOP-8_4.4x3mm_P0.65mm</footprint>
+      <libsource lib="Amalga_100-rescue" part="INA240-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>58979471</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>CSS2H-3920R-L500</value>
+      <footprint>alexmod:CSS3920</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>58979477</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>opt</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>5897947F</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>opt</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>58979485</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>opt</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>5897948F</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>589794B2</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>589794B8</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>INA240A1</value>
+      <footprint>Package_SO:TSSOP-8_4.4x3mm_P0.65mm</footprint>
+      <libsource lib="Amalga_100-rescue" part="INA240-HSWR-V2-rescue" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>5C6466A4</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>opt</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>5C6466AB</tstamp>
+    </comp>
+    <comp ref="R59">
+      <value>opt</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>5C6466B2</tstamp>
+    </comp>
+    <comp ref="C63">
+      <value>opt</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>5C6466BB</tstamp>
+    </comp>
+    <comp ref="C64">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>5C6466D8</tstamp>
+    </comp>
+    <comp ref="C62">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>5C6466DF</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>CSS2H-3920R-L500</value>
+      <footprint>alexmod:CSS3920</footprint>
+      <libsource lib="Amalga_100-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>5C64ABCA</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>IRS2186</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irs2186pbf.pdf</datasheet>
+      <libsource lib="Driver_FET" part="IRS2186" description="High and Low Side Gate Driver,  600V operation, 4A output current, DIP-8/SOIC-8"/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>5CAE75BD</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>5CC47FFD</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>5CC50B11</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>RFN2L4S</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <libsource lib="Amalga_100-rescue" part="D_Small-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>5CA275E8</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>IRS2186</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irs2186pbf.pdf</datasheet>
+      <libsource lib="Driver_FET" part="IRS2186" description="High and Low Side Gate Driver,  600V operation, 4A output current, DIP-8/SOIC-8"/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>5CA275EF</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>5CA275FD</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>5CA27604</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>RFN2L4S</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <libsource lib="Amalga_100-rescue" part="D_Small-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>5CA341A9</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>IRS2186</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irs2186pbf.pdf</datasheet>
+      <libsource lib="Driver_FET" part="IRS2186" description="High and Low Side Gate Driver,  600V operation, 4A output current, DIP-8/SOIC-8"/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>5CA341B0</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>5CA341BE</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/5895E6A0/"/>
+      <tstamp>5CA341C5</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>AD2S1200YSTZ</value>
+      <footprint>Package_QFP:LQFP-44_10x10mm_P0.8mm</footprint>
+      <libsource lib="Amalga_100-rescue" part="AD2S1200YSTZ-AD2S1200" description=""/>
+      <sheetpath names="/Resolver/" tstamps="/5C9D0FFC/"/>
+      <tstamp>5C9D196A</tstamp>
+    </comp>
+    <comp ref="C71">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/Resolver/" tstamps="/5C9D0FFC/"/>
+      <tstamp>5C9EA929</tstamp>
+    </comp>
+    <comp ref="C72">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/Resolver/" tstamps="/5C9D0FFC/"/>
+      <tstamp>5C9EB524</tstamp>
+    </comp>
+    <comp ref="C70">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/Resolver/" tstamps="/5C9D0FFC/"/>
+      <tstamp>5C9EF1AD</tstamp>
+    </comp>
+    <comp ref="Y2">
+      <value>8.912 MHZ</value>
+      <footprint>Crystal:Crystal_HC49-U_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="Crystal-Device" description=""/>
+      <sheetpath names="/Resolver/" tstamps="/5C9D0FFC/"/>
+      <tstamp>5C9F3BAA</tstamp>
+    </comp>
+    <comp ref="C76">
+      <value>20pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/Resolver/" tstamps="/5C9D0FFC/"/>
+      <tstamp>5CA006CE</tstamp>
+    </comp>
+    <comp ref="C75">
+      <value>20pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/Resolver/" tstamps="/5C9D0FFC/"/>
+      <tstamp>5CA00AFC</tstamp>
+    </comp>
+    <comp ref="C77">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="CP1_Small-Device" description=""/>
+      <sheetpath names="/Resolver/" tstamps="/5C9D0FFC/"/>
+      <tstamp>5CA02EBC</tstamp>
+    </comp>
+    <comp ref="C73">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Amalga_100-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/Resolver/" tstamps="/5C9D0FFC/"/>
+      <tstamp>5CA0662B</tstamp>
+    </comp>
+    <comp ref="C74">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="CP1_Small-Device" description=""/>
+      <sheetpath names="/Resolver/" tstamps="/5C9D0FFC/"/>
+      <tstamp>5CA06638</tstamp>
+    </comp>
+    <comp ref="R60">
+      <value>?R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/Resolver/" tstamps="/5C9D0FFC/"/>
+      <tstamp>5CC7139A</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>AD8664ARZ</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <libsource lib="Amalga_100-rescue" part="AD8664ARZ-AD8664ARZ" description=""/>
+      <sheetpath names="/Resolver/Buffer Circuit R2D/" tstamps="/5C9D0FFC/5CBFECD2/"/>
+      <tstamp>5CC0090A</tstamp>
+    </comp>
+    <comp ref="R68">
+      <value>?R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/Resolver/Buffer Circuit R2D/" tstamps="/5C9D0FFC/5CBFECD2/"/>
+      <tstamp>5CC00918</tstamp>
+    </comp>
+    <comp ref="Q13">
+      <value>Q_NPN_BCE</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_BCE" description="Transistor NPN (general)"/>
+      <sheetpath names="/Resolver/Buffer Circuit R2D/" tstamps="/5C9D0FFC/5CBFECD2/"/>
+      <tstamp>5CC00953</tstamp>
+    </comp>
+    <comp ref="Q14">
+      <value>Q_PNP_BCE</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_PNP_BCE" description="Transistor PNP (general)"/>
+      <sheetpath names="/Resolver/Buffer Circuit R2D/" tstamps="/5C9D0FFC/5CBFECD2/"/>
+      <tstamp>5CC0095A</tstamp>
+    </comp>
+    <comp ref="R69">
+      <value>2K7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/Resolver/Buffer Circuit R2D/" tstamps="/5C9D0FFC/5CBFECD2/"/>
+      <tstamp>5CC00961</tstamp>
+    </comp>
+    <comp ref="R70">
+      <value>2K7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/Resolver/Buffer Circuit R2D/" tstamps="/5C9D0FFC/5CBFECD2/"/>
+      <tstamp>5CC00968</tstamp>
+    </comp>
+    <comp ref="R71">
+      <value>33R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/Resolver/Buffer Circuit R2D/" tstamps="/5C9D0FFC/5CBFECD2/"/>
+      <tstamp>5CC0096F</tstamp>
+    </comp>
+    <comp ref="R72">
+      <value>33R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/Resolver/Buffer Circuit R2D/" tstamps="/5C9D0FFC/5CBFECD2/"/>
+      <tstamp>5CC00976</tstamp>
+    </comp>
+    <comp ref="Q15">
+      <value>Q_NPN_BCE</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_BCE" description="Transistor NPN (general)"/>
+      <sheetpath names="/Resolver/Buffer Circuit R2D/" tstamps="/5C9D0FFC/5CBFECD2/"/>
+      <tstamp>5CC037D1</tstamp>
+    </comp>
+    <comp ref="Q16">
+      <value>Q_PNP_BCE</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_PNP_BCE" description="Transistor PNP (general)"/>
+      <sheetpath names="/Resolver/Buffer Circuit R2D/" tstamps="/5C9D0FFC/5CBFECD2/"/>
+      <tstamp>5CC037D8</tstamp>
+    </comp>
+    <comp ref="R73">
+      <value>2K7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/Resolver/Buffer Circuit R2D/" tstamps="/5C9D0FFC/5CBFECD2/"/>
+      <tstamp>5CC037DF</tstamp>
+    </comp>
+    <comp ref="R74">
+      <value>2K7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/Resolver/Buffer Circuit R2D/" tstamps="/5C9D0FFC/5CBFECD2/"/>
+      <tstamp>5CC037E6</tstamp>
+    </comp>
+    <comp ref="R75">
+      <value>33R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/Resolver/Buffer Circuit R2D/" tstamps="/5C9D0FFC/5CBFECD2/"/>
+      <tstamp>5CC037ED</tstamp>
+    </comp>
+    <comp ref="R76">
+      <value>33R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/Resolver/Buffer Circuit R2D/" tstamps="/5C9D0FFC/5CBFECD2/"/>
+      <tstamp>5CC037F4</tstamp>
+    </comp>
+    <comp ref="R65">
+      <value>?R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/Resolver/Buffer Circuit R2D/" tstamps="/5C9D0FFC/5CBFECD2/"/>
+      <tstamp>5CC04051</tstamp>
+    </comp>
+    <comp ref="R66">
+      <value>?R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/Resolver/Buffer Circuit R2D/" tstamps="/5C9D0FFC/5CBFECD2/"/>
+      <tstamp>5CC04058</tstamp>
+    </comp>
+    <comp ref="R61">
+      <value>?R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/Resolver/Buffer Circuit R2D/" tstamps="/5C9D0FFC/5CBFECD2/"/>
+      <tstamp>5CC07F2C</tstamp>
+    </comp>
+    <comp ref="R64">
+      <value>?R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/Resolver/Buffer Circuit R2D/" tstamps="/5C9D0FFC/5CBFECD2/"/>
+      <tstamp>5CC08ED1</tstamp>
+    </comp>
+    <comp ref="R67">
+      <value>?R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Amalga_100-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/Resolver/Buffer Circuit R2D/" tstamps="/5C9D0FFC/5CBFECD2/"/>
+      <tstamp>5CC00911</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amalga_100-rescue" part="AD2S1200YSTZ-AD2S1200">
+      <footprints>
+        <fp>ST_44_1</fp>
+        <fp>ST_44_1-M</fp>
+        <fp>ST_44_1-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD2S1200YSTZ-AD2S1200</field>
+        <field name="Footprint">ST_44_1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DVDD" type="power_in"/>
+        <pin num="2" name="RD*" type="unspc"/>
+        <pin num="3" name="CS*" type="unspc"/>
+        <pin num="4" name="SAMPLE*" type="unspc"/>
+        <pin num="5" name="RDVEL*" type="unspc"/>
+        <pin num="6" name="SOE*" type="unspc"/>
+        <pin num="7" name="DB11/SO" type="unspc"/>
+        <pin num="8" name="DB10/SCLK" type="unspc"/>
+        <pin num="9" name="DB9" type="unspc"/>
+        <pin num="10" name="DB8" type="unspc"/>
+        <pin num="11" name="DB7" type="unspc"/>
+        <pin num="12" name="DB6" type="unspc"/>
+        <pin num="13" name="DB5" type="unspc"/>
+        <pin num="14" name="DB4" type="unspc"/>
+        <pin num="15" name="DB3" type="unspc"/>
+        <pin num="16" name="DGND" type="unspc"/>
+        <pin num="17" name="DVDD" type="power_in"/>
+        <pin num="18" name="DB2" type="unspc"/>
+        <pin num="19" name="DB1" type="unspc"/>
+        <pin num="20" name="DB0" type="unspc"/>
+        <pin num="21" name="XTALOUT" type="unspc"/>
+        <pin num="22" name="CLKIN" type="unspc"/>
+        <pin num="23" name="DGND" type="unspc"/>
+        <pin num="24" name="CPO" type="unspc"/>
+        <pin num="25" name="A" type="unspc"/>
+        <pin num="26" name="B" type="unspc"/>
+        <pin num="27" name="NM" type="unspc"/>
+        <pin num="28" name="DIR" type="unspc"/>
+        <pin num="29" name="DOS" type="unspc"/>
+        <pin num="30" name="LOT" type="unspc"/>
+        <pin num="31" name="FS1" type="unspc"/>
+        <pin num="32" name="FS2" type="unspc"/>
+        <pin num="33" name="RESET*" type="unspc"/>
+        <pin num="34" name="EXC" type="unspc"/>
+        <pin num="35" name="EXC*" type="unspc"/>
+        <pin num="36" name="AGND" type="unspc"/>
+        <pin num="37" name="Sin" type="unspc"/>
+        <pin num="38" name="SinLO" type="unspc"/>
+        <pin num="39" name="AVDD" type="power_in"/>
+        <pin num="40" name="CosLO" type="unspc"/>
+        <pin num="41" name="Cos" type="unspc"/>
+        <pin num="42" name="AGND" type="unspc"/>
+        <pin num="43" name="REFBYP" type="unspc"/>
+        <pin num="44" name="REFOUT" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amalga_100-rescue" part="AD8664ARZ-AD8664ARZ">
+      <footprints>
+        <fp>R_14</fp>
+        <fp>R_14-M</fp>
+        <fp>R_14-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD8664ARZ-AD8664ARZ</field>
+        <field name="Footprint">R_14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT_A" type="unspc"/>
+        <pin num="2" name="-IN_A" type="unspc"/>
+        <pin num="3" name="+IN_A" type="unspc"/>
+        <pin num="4" name="V+" type="unspc"/>
+        <pin num="5" name="+IN_B" type="unspc"/>
+        <pin num="6" name="-IN_B" type="unspc"/>
+        <pin num="7" name="OUT_B" type="unspc"/>
+        <pin num="8" name="OUT_C" type="unspc"/>
+        <pin num="9" name="-IN_C" type="unspc"/>
+        <pin num="10" name="+IN_C" type="unspc"/>
+        <pin num="11" name="V-" type="unspc"/>
+        <pin num="12" name="+IN_D" type="unspc"/>
+        <pin num="13" name="-IN_D" type="unspc"/>
+        <pin num="14" name="OUT_D" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amalga_100-rescue" part="ADM3052-HSWR-V2-rescue">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ADM3052-HSWR-V2-rescue</field>
+      </fields>
+      <pins>
+        <pin num="2" name="GND1" type="input"/>
+        <pin num="3" name="GND1" type="input"/>
+        <pin num="4" name="V+Sense" type="input"/>
+        <pin num="5" name="RxD" type="input"/>
+        <pin num="6" name="TxD" type="input"/>
+        <pin num="7" name="VDD1" type="input"/>
+        <pin num="8" name="GND1" type="input"/>
+        <pin num="9" name="V-" type="input"/>
+        <pin num="10" name="VRef" type="input"/>
+        <pin num="11" name="CANL" type="input"/>
+        <pin num="12" name="CANH" type="input"/>
+        <pin num="13" name="Cint" type="input"/>
+        <pin num="14" name="V+R" type="input"/>
+        <pin num="15" name="V+" type="input"/>
+        <pin num="16" name="V-" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amalga_100-rescue" part="C-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amalga_100-rescue" part="C-RESCUE-BLDC_4-HSWR-V2-rescue">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-RESCUE-BLDC_4-HSWR-V2-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amalga_100-rescue" part="CONN_01X18_20-HSWR-V2-rescue">
+      <footprints>
+        <fp>Pin_Header_Straight_1X20</fp>
+        <fp>Pin_Header_Angled_1X20</fp>
+        <fp>Socket_Strip_Straight_1X20</fp>
+        <fp>Socket_Strip_Angled_1X20</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X18_20-HSWR-V2-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amalga_100-rescue" part="CONN_1-HSWR-V2-rescue">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_1-HSWR-V2-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amalga_100-rescue" part="CONN_6-HSWR-V2-rescue">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_6-HSWR-V2-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amalga_100-rescue" part="CP-Device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amalga_100-rescue" part="CP1_Small-Device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amalga_100-rescue" part="C_Small-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amalga_100-rescue" part="Crystal-Device">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amalga_100-rescue" part="D_Schottky-Device">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amalga_100-rescue" part="D_Schottky_Small-Device">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amalga_100-rescue" part="D_Small-Device">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amalga_100-rescue" part="INA240-HSWR-V2-rescue">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">INA240-HSWR-V2-rescue</field>
+      </fields>
+      <pins>
+        <pin num="2" name="IN+" type="input"/>
+        <pin num="3" name="IN-" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="VS" type="input"/>
+        <pin num="6" name="REF2" type="input"/>
+        <pin num="7" name="REF1" type="input"/>
+        <pin num="8" name="OUT" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amalga_100-rescue" part="INDUCTOR-HSWR-V2-rescue">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR-HSWR-V2-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amalga_100-rescue" part="LED-RESCUE-BLDC_4-HSWR-V2-rescue">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-RESCUE-BLDC_4-HSWR-V2-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amalga_100-rescue" part="MountingHole-Mechanical">
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MH</field>
+        <field name="Value">MountingHole-Mechanical</field>
+      </fields>
+    </libpart>
+    <libpart lib="Amalga_100-rescue" part="Q_NMOS_GDS-Device">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GDS-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amalga_100-rescue" part="R-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amalga_100-rescue" part="R-RESCUE-BLDC_4-HSWR-V2-rescue">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-BLDC_4-HSWR-V2-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amalga_100-rescue" part="R_Small-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amalga_100-rescue" part="STM32F40X_LQFP64-HSWR-V2-rescue">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F40X_LQFP64-HSWR-V2-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13_(RTC_AF1)" type="BiDi"/>
+        <pin num="3" name="PC14-OSC32_IN" type="BiDi"/>
+        <pin num="4" name="PC15-OSC32_OUT" type="power_in"/>
+        <pin num="5" name="PH0-OSC_IN" type="BiDi"/>
+        <pin num="6" name="PH1-OSC_OUT" type="BiDi"/>
+        <pin num="7" name="NRST" type="BiDi"/>
+        <pin num="8" name="PC0(ADC123_IN10)" type="BiDi"/>
+        <pin num="9" name="PC1(ADC123_IN11)" type="BiDi"/>
+        <pin num="10" name="PC2(ADC123_IN12)" type="BiDi"/>
+        <pin num="11" name="PC3(ADC123_IN13)" type="BiDi"/>
+        <pin num="12" name="VSSA" type="power_in"/>
+        <pin num="13" name="VDDA" type="power_in"/>
+        <pin num="14" name="PA0(ADC123_IN0/WKUP)" type="BiDi"/>
+        <pin num="15" name="PA1(ADC123_IN1)" type="BiDi"/>
+        <pin num="16" name="PA2(ADC123_IN2)" type="BiDi"/>
+        <pin num="17" name="PA3(ADC123_IN3)" type="BiDi"/>
+        <pin num="18" name="VSS" type="power_in"/>
+        <pin num="19" name="VDD" type="power_in"/>
+        <pin num="20" name="PA4(ADC12_IN4/DAC1_OUT)" type="BiDi"/>
+        <pin num="21" name="PA5(ADC12_IN5/DAC2_OUT)" type="BiDi"/>
+        <pin num="22" name="PA6(ADC12_IN6)" type="BiDi"/>
+        <pin num="23" name="PA7(ADC12_IN7)" type="BiDi"/>
+        <pin num="24" name="PC4(ADC12_IN14)" type="BiDi"/>
+        <pin num="25" name="PC5(ADC12_IN15)" type="BiDi"/>
+        <pin num="26" name="PB0(ADC12_IN8)" type="BiDi"/>
+        <pin num="27" name="PB1(ADC12_IN9)" type="BiDi"/>
+        <pin num="28" name="PB2-BOOT1" type="BiDi"/>
+        <pin num="29" name="PB10" type="BiDi"/>
+        <pin num="30" name="PB11" type="BiDi"/>
+        <pin num="31" name="VCAP1" type="power_out"/>
+        <pin num="32" name="VDD" type="power_in"/>
+        <pin num="33" name="PB12" type="BiDi"/>
+        <pin num="34" name="PB13(OTG_HS_VBUS)" type="BiDi"/>
+        <pin num="35" name="PB14" type="BiDi"/>
+        <pin num="36" name="PB15" type="BiDi"/>
+        <pin num="37" name="PC6" type="BiDi"/>
+        <pin num="38" name="PC7" type="BiDi"/>
+        <pin num="39" name="PC8" type="BiDi"/>
+        <pin num="40" name="PC9" type="BiDi"/>
+        <pin num="41" name="PA8" type="BiDi"/>
+        <pin num="42" name="PA9(OTG_FS_VBUS)" type="BiDi"/>
+        <pin num="43" name="PA10" type="BiDi"/>
+        <pin num="44" name="PA11" type="BiDi"/>
+        <pin num="45" name="PA12" type="BiDi"/>
+        <pin num="46" name="PA13(JTMS-SWDIO)" type="BiDi"/>
+        <pin num="47" name="VCAP2" type="power_out"/>
+        <pin num="48" name="VDD" type="power_in"/>
+        <pin num="49" name="PA14(JTCK-SWCLK)" type="BiDi"/>
+        <pin num="50" name="PA15(JTDI)" type="BiDi"/>
+        <pin num="51" name="PC10" type="BiDi"/>
+        <pin num="52" name="PC11" type="BiDi"/>
+        <pin num="53" name="PC12" type="BiDi"/>
+        <pin num="54" name="PD2" type="BiDi"/>
+        <pin num="55" name="PB3(JTDO/TRACESWO)" type="BiDi"/>
+        <pin num="56" name="PB4(NJTRST)" type="BiDi"/>
+        <pin num="57" name="PB5" type="BiDi"/>
+        <pin num="58" name="PB6" type="BiDi"/>
+        <pin num="59" name="PB7" type="BiDi"/>
+        <pin num="60" name="BOOT0(VPP)" type="input"/>
+        <pin num="61" name="PB8" type="BiDi"/>
+        <pin num="62" name="PB9" type="BiDi"/>
+        <pin num="63" name="VSS" type="power_in"/>
+        <pin num="64" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amalga_100-rescue" part="USB_B-RESCUE-HSWR_V2-HSWR-V2-rescue">
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">USB_B-RESCUE-HSWR_V2-HSWR-V2-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="B1212s-2w" part="B1212S-2W">
+      <aliases>
+        <alias>TEN20-2410WIN</alias>
+        <alias>TEN20-2412WIN</alias>
+        <alias>TEN20-2413WIN</alias>
+        <alias>TEN20-4810WIN</alias>
+        <alias>TEN20-4811WIN</alias>
+        <alias>TEN20-4812WIN</alias>
+        <alias>TEN20-4813WIN</alias>
+      </aliases>
+      <description>4A Isolated DC/DC Converter Module, fixed 5V Output Voltage, 9-36V Input Voltage</description>
+      <docs>http://www.tracopower.com/products/ten20win.pdf</docs>
+      <footprints>
+        <fp>*TRACO*TEN20*xxxx*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">B1212S-2W</field>
+        <field name="Footprint">Converter_DCDC:Converter_DCDC_TRACO_TEN20-xxxx_THT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+Vi" type="power_in"/>
+        <pin num="2" name="-VI" type="input"/>
+        <pin num="4" name="-Vo" type="power_out"/>
+        <pin num="5" name="COM" type="passive"/>
+        <pin num="6" name="+Vo" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_BCE">
+      <description>Transistor NPN (general)</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BCE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PNP_BCE">
+      <description>Transistor PNP (general)</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PNP_BCE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_FET" part="IRS2186">
+      <description>High and Low Side Gate Driver,  600V operation, 4A output current, DIP-8/SOIC-8</description>
+      <docs>http://www.irf.com/product-info/datasheets/data/irs2186pbf.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IRS2186</field>
+      </fields>
+      <pins>
+        <pin num="1" name="HIN" type="input"/>
+        <pin num="2" name="LIN" type="input"/>
+        <pin num="3" name="COM" type="power_in"/>
+        <pin num="4" name="LO" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="VS" type="passive"/>
+        <pin num="7" name="HO" type="output"/>
+        <pin num="8" name="VB" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_USB" part="ADUM4160">
+      <aliases>
+        <alias>ADUM3160</alias>
+      </aliases>
+      <description>Full/Low Speed, iCoupler USB Digital Isolator, 5kV protection, SOIC-16</description>
+      <docs>http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM4160.pdf</docs>
+      <footprints>
+        <fp>SOIC*7.5x10.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADUM4160</field>
+        <field name="Footprint">Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS1" type="power_in"/>
+        <pin num="2" name="GND1" type="power_in"/>
+        <pin num="3" name="VDD1" type="power_in"/>
+        <pin num="4" name="PDEN" type="input"/>
+        <pin num="5" name="SPU" type="input"/>
+        <pin num="6" name="UD-" type="3state"/>
+        <pin num="7" name="UD+" type="3state"/>
+        <pin num="8" name="GND1" type="power_in"/>
+        <pin num="9" name="GND2" type="power_in"/>
+        <pin num="10" name="DD+" type="3state"/>
+        <pin num="11" name="DD-" type="3state"/>
+        <pin num="12" name="PIN" type="input"/>
+        <pin num="13" name="SPD" type="input"/>
+        <pin num="14" name="VDD2" type="power_in"/>
+        <pin num="15" name="GND2" type="power_in"/>
+        <pin num="16" name="VBUS2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="JW5052c" part="JW5052C">
+      <aliases>
+        <alias>TPS563200</alias>
+      </aliases>
+      <description>2A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps563200.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">JW5052C</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BST" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="VIN" type="power_in"/>
+        <pin num="6" name="SW" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amalga_100-rescue">
+      <uri>C:\Users\jonas.krieger.AUKTORA\Desktop\Amalga-100/Amalga_100-rescue.lib</uri>
+    </library>
+    <library logical="B1212s-2w">
+      <uri>C:\Users\jonas.krieger.AUKTORA\Desktop\Amalga-100/eigene_mod/B1212s-2w.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Driver_FET">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Driver_FET.lib</uri>
+    </library>
+    <library logical="Interface_USB">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Interface_USB.lib</uri>
+    </library>
+    <library logical="JW5052c">
+      <uri>C:\Users\jonas.krieger.AUKTORA\Desktop\Amalga-100/eigene_mod/JW5052c.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/MCU/TX_SDA_NSS">
+      <node ref="P2" pin="15"/>
+      <node ref="U1" pin="37"/>
+      <node ref="U1" pin="20"/>
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="2" name="/MCU/SCK_ADC_EXT">
+      <node ref="U1" pin="21"/>
+      <node ref="P2" pin="14"/>
+    </net>
+    <net code="3" name="/Filters/TEMP_IN">
+      <node ref="C13" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="P2" pin="11"/>
+      <node ref="R32" pin="1"/>
+    </net>
+    <net code="4" name="/Filters/HALL1_IN">
+      <node ref="R38" pin="1"/>
+      <node ref="R35" pin="1"/>
+      <node ref="P2" pin="10"/>
+    </net>
+    <net code="5" name="+12VA">
+      <node ref="R31" pin="2"/>
+      <node ref="IC1" pin="15"/>
+      <node ref="C11" pin="1"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="6" name="+5V">
+      <node ref="C74" pin="1"/>
+      <node ref="R60" pin="2"/>
+      <node ref="R61" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R41" pin="2"/>
+      <node ref="C70" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R40" pin="2"/>
+      <node ref="P2" pin="7"/>
+      <node ref="C73" pin="1"/>
+      <node ref="U6" pin="17"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U6" pin="39"/>
+      <node ref="U4" pin="5"/>
+      <node ref="C5" pin="2"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C77" pin="1"/>
+    </net>
+    <net code="7" name="/MCU/RX_SCL_MOSI">
+      <node ref="U1" pin="23"/>
+      <node ref="U1" pin="29"/>
+      <node ref="P2" pin="16"/>
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="8" name="/MCU/AN_IN">
+      <node ref="R7" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="9" name="/MCU/BR_SO2">
+      <node ref="U1" pin="10"/>
+      <node ref="IC5" pin="8"/>
+    </net>
+    <net code="10" name="/MCU/BR_SO1">
+      <node ref="U1" pin="9"/>
+      <node ref="IC4" pin="8"/>
+    </net>
+    <net code="11" name="/MCU/SENS3">
+      <node ref="U1" pin="14"/>
+      <node ref="R58" pin="2"/>
+      <node ref="R57" pin="2"/>
+    </net>
+    <net code="12" name="/MCU/SENS2">
+      <node ref="R56" pin="2"/>
+      <node ref="U1" pin="15"/>
+      <node ref="R55" pin="2"/>
+    </net>
+    <net code="13" name="/Filters/HALL3_IN">
+      <node ref="P2" pin="8"/>
+      <node ref="R33" pin="1"/>
+      <node ref="R36" pin="1"/>
+    </net>
+    <net code="14" name="/MCU/BR_SO3">
+      <node ref="IC3" pin="8"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="15" name="/MCU/SERVO">
+      <node ref="C1" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="57"/>
+    </net>
+    <net code="16" name="/Filters/HALL2_IN">
+      <node ref="R37" pin="1"/>
+      <node ref="R34" pin="1"/>
+      <node ref="P2" pin="9"/>
+    </net>
+    <net code="17" name="/MCU/SENS1">
+      <node ref="R54" pin="2"/>
+      <node ref="U1" pin="16"/>
+      <node ref="R53" pin="2"/>
+    </net>
+    <net code="18" name="Earth">
+      <node ref="C11" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="P2" pin="4"/>
+      <node ref="IC1" pin="9"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="19" name="/CAN bus transceiver/CANL">
+      <node ref="R30" pin="2"/>
+      <node ref="P2" pin="3"/>
+      <node ref="IC1" pin="11"/>
+    </net>
+    <net code="20" name="/CAN bus transceiver/CANH">
+      <node ref="IC1" pin="12"/>
+      <node ref="P2" pin="2"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="21" name="Net-(P2-Pad19)">
+      <node ref="P2" pin="19"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="22" name="/MCU/MISO_ADC_EXT2">
+      <node ref="P2" pin="17"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="23" name="/MCU/LED_RED">
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="24" name="/MCU/LED_GREEN">
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="25" name="/CAN bus transceiver/CAN_TX">
+      <node ref="IC1" pin="6"/>
+      <node ref="U1" pin="62"/>
+    </net>
+    <net code="26" name="/CAN bus transceiver/CAN_RX">
+      <node ref="U1" pin="61"/>
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="27" name="/Filters/HALL1_OUT">
+      <node ref="R38" pin="2"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U1" pin="58"/>
+    </net>
+    <net code="28" name="/Filters/HALL2_OUT">
+      <node ref="R37" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U1" pin="59"/>
+    </net>
+    <net code="29" name="/Filters/HALL3_OUT">
+      <node ref="U1" pin="52"/>
+      <node ref="C14" pin="1"/>
+      <node ref="R36" pin="2"/>
+    </net>
+    <net code="30" name="/MCU/L3">
+      <node ref="U9" pin="2"/>
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="31" name="/MCU/H3">
+      <node ref="U1" pin="41"/>
+      <node ref="U9" pin="1"/>
+    </net>
+    <net code="32" name="/MCU/L2">
+      <node ref="U1" pin="35"/>
+      <node ref="U8" pin="2"/>
+    </net>
+    <net code="33" name="/MCU/H2">
+      <node ref="U1" pin="42"/>
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="34" name="/MCU/L1">
+      <node ref="U1" pin="36"/>
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="35" name="/MCU/H1">
+      <node ref="U7" pin="1"/>
+      <node ref="U1" pin="43"/>
+    </net>
+    <net code="36" name="/Mosfet driver/H1_LOW">
+      <node ref="R48" pin="2"/>
+      <node ref="C54" pin="2"/>
+      <node ref="C52" pin="2"/>
+      <node ref="D11" pin="2"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="C65" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="R51" pin="2"/>
+    </net>
+    <net code="37" name="/Mosfet driver/H2_LOW">
+      <node ref="C56" pin="2"/>
+      <node ref="C55" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="R46" pin="2"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="C66" pin="2"/>
+      <node ref="D13" pin="2"/>
+      <node ref="Q8" pin="3"/>
+      <node ref="R45" pin="2"/>
+    </net>
+    <net code="38" name="/CAN bus transceiver/V+Sense">
+      <node ref="IC1" pin="4"/>
+    </net>
+    <net code="39" name="/Mosfet driver/H3_out">
+      <node ref="U9" pin="7"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="40" name="/Power MOSFETS/H2_out">
+      <node ref="U8" pin="4"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="41" name="/Mosfet driver/H2_out">
+      <node ref="U8" pin="7"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="42" name="/Mosfet driver/L1_out">
+      <node ref="U7" pin="4"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="43" name="/Mosfet driver/H1_out">
+      <node ref="U7" pin="7"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="44" name="/Power MOSFETS/H3_out">
+      <node ref="U9" pin="4"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="45" name="/Resolver/Cos(S2)">
+      <node ref="U6" pin="41"/>
+    </net>
+    <net code="46" name="/Resolver/Sample">
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="47" name="/Resolver/RD">
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="48" name="/Resolver/SPI_SO">
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="49" name="/Resolver/SPI_SCLK">
+      <node ref="U6" pin="8"/>
+    </net>
+    <net code="50" name="/Resolver/Sin(S1)">
+      <node ref="U6" pin="37"/>
+    </net>
+    <net code="51" name="/Resolver/SinLO(S3)">
+      <node ref="U6" pin="38"/>
+    </net>
+    <net code="52" name="/Resolver/CosLO(S6)">
+      <node ref="U6" pin="40"/>
+    </net>
+    <net code="53" name="/Resolver/R1">
+      <node ref="R75" pin="1"/>
+      <node ref="R76" pin="2"/>
+      <node ref="U10" pin="13"/>
+    </net>
+    <net code="54" name="/Resolver/R2">
+      <node ref="R71" pin="1"/>
+      <node ref="R72" pin="2"/>
+      <node ref="U10" pin="6"/>
+    </net>
+    <net code="55" name="/USB-Isolator/UD+">
+      <node ref="R62" pin="2"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="56" name="/USB-Isolator/UD-">
+      <node ref="P1" pin="2"/>
+      <node ref="R63" pin="2"/>
+    </net>
+    <net code="57" name="/USB-Isolator/VBUS1">
+      <node ref="U5" pin="1"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="58" name="/USB-Isolator/VBUS2">
+      <node ref="U5" pin="16"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="59" name="/USB-Isolator/GND1">
+      <node ref="P1" pin="4"/>
+      <node ref="U5" pin="8"/>
+      <node ref="P1" pin="5"/>
+      <node ref="U5" pin="2"/>
+      <node ref="C68" pin="2"/>
+    </net>
+    <net code="60" name="/USB-Isolator/DD-">
+      <node ref="U1" pin="44"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="61" name="/USB-Isolator/DD+">
+      <node ref="U1" pin="45"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="62" name="GND">
+      <node ref="C26" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R58" pin="1"/>
+      <node ref="R44" pin="1"/>
+      <node ref="R56" pin="1"/>
+      <node ref="R54" pin="1"/>
+      <node ref="IC5" pin="7"/>
+      <node ref="IC5" pin="4"/>
+      <node ref="C4" pin="1"/>
+      <node ref="IC4" pin="7"/>
+      <node ref="IC4" pin="4"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="U1" pin="60"/>
+      <node ref="U1" pin="63"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U1" pin="12"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="U1" pin="18"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="P8" pin="3"/>
+      <node ref="R10" pin="2"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C44" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="U9" pin="3"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C41" pin="2"/>
+      <node ref="U10" pin="11"/>
+      <node ref="C77" pin="2"/>
+      <node ref="IC3" pin="7"/>
+      <node ref="C75" pin="2"/>
+      <node ref="C39" pin="2"/>
+      <node ref="C43" pin="2"/>
+      <node ref="C74" pin="2"/>
+      <node ref="C76" pin="2"/>
+      <node ref="U6" pin="36"/>
+      <node ref="U5" pin="15"/>
+      <node ref="U5" pin="9"/>
+      <node ref="U6" pin="6"/>
+      <node ref="U6" pin="42"/>
+      <node ref="U6" pin="3"/>
+      <node ref="C69" pin="2"/>
+      <node ref="P2" pin="18"/>
+      <node ref="R64" pin="1"/>
+      <node ref="IC3" pin="4"/>
+      <node ref="P2" pin="20"/>
+      <node ref="Q16" pin="3"/>
+      <node ref="P2" pin="12"/>
+      <node ref="C73" pin="2"/>
+      <node ref="C47" pin="2"/>
+      <node ref="C62" pin="2"/>
+      <node ref="R42" pin="1"/>
+      <node ref="Q14" pin="3"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C71" pin="2"/>
+      <node ref="C70" pin="2"/>
+      <node ref="U7" pin="3"/>
+      <node ref="C72" pin="2"/>
+      <node ref="C64" pin="2"/>
+    </net>
+    <net code="63" name="+BATT">
+      <node ref="Q7" pin="2"/>
+      <node ref="C51" pin="1"/>
+      <node ref="C67" pin="1"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="C53" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="D8" pin="1"/>
+      <node ref="C50" pin="1"/>
+      <node ref="Q9" pin="2"/>
+      <node ref="D10" pin="1"/>
+      <node ref="C52" pin="1"/>
+      <node ref="C54" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="C57" pin="1"/>
+      <node ref="Q11" pin="2"/>
+      <node ref="C58" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="C65" pin="1"/>
+      <node ref="C55" pin="1"/>
+      <node ref="C56" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="P3" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C66" pin="1"/>
+    </net>
+    <net code="64" name="/MCU/ADC_TEMP">
+      <node ref="U1" pin="17"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="65" name="+3V3">
+      <node ref="C26" pin="2"/>
+      <node ref="R43" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="L2" pin="1"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="U1" pin="48"/>
+      <node ref="C23" pin="2"/>
+      <node ref="P2" pin="13"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U1" pin="32"/>
+      <node ref="U1" pin="19"/>
+      <node ref="U1" pin="13"/>
+      <node ref="P8" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="64"/>
+      <node ref="IC3" pin="6"/>
+      <node ref="IC3" pin="5"/>
+      <node ref="IC1" pin="7"/>
+      <node ref="IC4" pin="5"/>
+      <node ref="R32" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C41" pin="1"/>
+      <node ref="IC5" pin="6"/>
+      <node ref="C44" pin="1"/>
+      <node ref="IC5" pin="5"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R35" pin="2"/>
+      <node ref="R34" pin="2"/>
+      <node ref="C62" pin="1"/>
+      <node ref="C64" pin="1"/>
+      <node ref="C39" pin="1"/>
+      <node ref="C43" pin="1"/>
+      <node ref="R33" pin="2"/>
+      <node ref="IC4" pin="6"/>
+    </net>
+    <net code="66" name="GNDPWR">
+      <node ref="R59" pin="2"/>
+      <node ref="R45" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="P4" pin="1"/>
+      <node ref="C51" pin="2"/>
+      <node ref="R47" pin="1"/>
+      <node ref="C53" pin="2"/>
+      <node ref="R50" pin="2"/>
+      <node ref="C50" pin="2"/>
+      <node ref="R52" pin="2"/>
+      <node ref="R48" pin="1"/>
+    </net>
+    <net code="67" name="/Mosfet driver/H2_VS">
+      <node ref="D8" pin="2"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D12" pin="2"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="R55" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="Q7" pin="3"/>
+      <node ref="P6" pin="1"/>
+    </net>
+    <net code="68" name="/Mosfet driver/H1_VS">
+      <node ref="Q4" pin="2"/>
+      <node ref="D11" pin="1"/>
+      <node ref="P5" pin="1"/>
+      <node ref="D10" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="R57" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="69" name="/Mosfet driver/H3_LOW">
+      <node ref="R49" pin="2"/>
+      <node ref="R47" pin="2"/>
+      <node ref="Q10" pin="3"/>
+      <node ref="D15" pin="2"/>
+      <node ref="C67" pin="2"/>
+      <node ref="D17" pin="2"/>
+      <node ref="Q12" pin="3"/>
+      <node ref="C58" pin="2"/>
+      <node ref="C57" pin="2"/>
+    </net>
+    <net code="70" name="/Mosfet driver/H3_VS">
+      <node ref="R53" pin="1"/>
+      <node ref="Q12" pin="2"/>
+      <node ref="Q11" pin="3"/>
+      <node ref="P7" pin="1"/>
+      <node ref="Q9" pin="3"/>
+      <node ref="D16" pin="2"/>
+      <node ref="D14" pin="2"/>
+      <node ref="D15" pin="1"/>
+      <node ref="Q10" pin="2"/>
+      <node ref="D17" pin="1"/>
+    </net>
+    <net code="71" name="/MCU/EN_GATE">
+      <node ref="U1" pin="51"/>
+    </net>
+    <net code="72" name="Net-(D3-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="73" name="Net-(D4-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="74" name="Net-(D2-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="75" name="Net-(Q9-Pad1)">
+      <node ref="R26" pin="1"/>
+      <node ref="Q9" pin="1"/>
+    </net>
+    <net code="76" name="Net-(Q6-Pad1)">
+      <node ref="Q6" pin="1"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="77" name="Net-(R18-Pad1)">
+      <node ref="R23" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="78" name="Net-(Q10-Pad1)">
+      <node ref="Q10" pin="1"/>
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="79" name="Net-(Q1-Pad1)">
+      <node ref="R14" pin="1"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="80" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="81" name="Net-(Q5-Pad1)">
+      <node ref="R20" pin="1"/>
+      <node ref="Q5" pin="1"/>
+    </net>
+    <net code="82" name="Net-(R24-Pad1)">
+      <node ref="R29" pin="2"/>
+      <node ref="R24" pin="1"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="83" name="Net-(R25-Pad1)">
+      <node ref="R28" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="84" name="Net-(R19-Pad1)">
+      <node ref="R19" pin="1"/>
+      <node ref="R22" pin="2"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="85" name="Net-(R13-Pad1)">
+      <node ref="R14" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="86" name="Net-(R12-Pad1)">
+      <node ref="R17" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="87" name="Net-(Q12-Pad1)">
+      <node ref="R29" pin="1"/>
+      <node ref="Q12" pin="1"/>
+    </net>
+    <net code="88" name="Net-(Q11-Pad1)">
+      <node ref="R28" pin="1"/>
+      <node ref="Q11" pin="1"/>
+    </net>
+    <net code="89" name="Net-(Q4-Pad1)">
+      <node ref="R17" pin="1"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="90" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="91" name="Net-(Q7-Pad1)">
+      <node ref="Q7" pin="1"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="92" name="Net-(Q8-Pad1)">
+      <node ref="R23" pin="1"/>
+      <node ref="Q8" pin="1"/>
+    </net>
+    <net code="93" name="Net-(C63-Pad1)">
+      <node ref="IC3" pin="2"/>
+      <node ref="R46" pin="1"/>
+      <node ref="C63" pin="1"/>
+    </net>
+    <net code="94" name="Net-(C63-Pad2)">
+      <node ref="C63" pin="2"/>
+      <node ref="IC3" pin="3"/>
+      <node ref="R59" pin="1"/>
+    </net>
+    <net code="95" name="Net-(C31-Pad2)">
+      <node ref="C31" pin="2"/>
+      <node ref="U7" pin="6"/>
+    </net>
+    <net code="96" name="Net-(C31-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="U7" pin="8"/>
+    </net>
+    <net code="97" name="+12V">
+      <node ref="U8" pin="5"/>
+      <node ref="D18" pin="2"/>
+      <node ref="U7" pin="5"/>
+      <node ref="C28" pin="1"/>
+      <node ref="D19" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R39" pin="2"/>
+      <node ref="Q15" pin="2"/>
+      <node ref="U10" pin="4"/>
+      <node ref="D6" pin="2"/>
+      <node ref="Q13" pin="2"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U9" pin="5"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C47" pin="1"/>
+      <node ref="C30" pin="1"/>
+    </net>
+    <net code="98" name="Net-(C42-Pad1)">
+      <node ref="C42" pin="1"/>
+      <node ref="IC5" pin="2"/>
+      <node ref="R51" pin="1"/>
+    </net>
+    <net code="99" name="Net-(C40-Pad1)">
+      <node ref="IC4" pin="2"/>
+      <node ref="C40" pin="1"/>
+      <node ref="R49" pin="1"/>
+    </net>
+    <net code="100" name="Net-(C40-Pad2)">
+      <node ref="IC4" pin="3"/>
+      <node ref="R50" pin="1"/>
+      <node ref="C40" pin="2"/>
+    </net>
+    <net code="101" name="Net-(C42-Pad2)">
+      <node ref="C42" pin="2"/>
+      <node ref="IC5" pin="3"/>
+      <node ref="R52" pin="1"/>
+    </net>
+    <net code="102" name="Net-(C33-Pad2)">
+      <node ref="C33" pin="2"/>
+      <node ref="U9" pin="6"/>
+    </net>
+    <net code="103" name="Net-(C33-Pad1)">
+      <node ref="D19" pin="1"/>
+      <node ref="U9" pin="8"/>
+      <node ref="C33" pin="1"/>
+    </net>
+    <net code="104" name="Net-(C32-Pad2)">
+      <node ref="C32" pin="2"/>
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="105" name="Net-(C32-Pad1)">
+      <node ref="D18" pin="1"/>
+      <node ref="U8" pin="8"/>
+      <node ref="C32" pin="1"/>
+    </net>
+    <net code="106" name="Net-(C10-Pad2)">
+      <node ref="R31" pin="1"/>
+      <node ref="IC1" pin="14"/>
+      <node ref="C10" pin="2"/>
+    </net>
+    <net code="107" name="Net-(C12-Pad2)">
+      <node ref="IC1" pin="2"/>
+      <node ref="C12" pin="2"/>
+    </net>
+    <net code="108" name="Net-(IC1-Pad10)">
+      <node ref="IC1" pin="10"/>
+    </net>
+    <net code="109" name="Net-(C9-Pad1)">
+      <node ref="IC1" pin="13"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="110" name="Net-(C9-Pad2)">
+      <node ref="C9" pin="2"/>
+      <node ref="IC1" pin="16"/>
+    </net>
+    <net code="111" name="Net-(IC1-Pad3)">
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="112" name="Net-(P8-Pad6)">
+      <node ref="P8" pin="6"/>
+    </net>
+    <net code="113" name="Net-(C19-Pad1)">
+      <node ref="U1" pin="47"/>
+      <node ref="C19" pin="1"/>
+    </net>
+    <net code="114" name="Net-(C18-Pad1)">
+      <node ref="C18" pin="1"/>
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="115" name="Net-(U1-Pad55)">
+      <node ref="U1" pin="55"/>
+    </net>
+    <net code="116" name="SWCLK">
+      <node ref="U1" pin="49"/>
+      <node ref="P8" pin="2"/>
+    </net>
+    <net code="117" name="SWDIO">
+      <node ref="P8" pin="4"/>
+      <node ref="U1" pin="46"/>
+    </net>
+    <net code="118" name="NRST">
+      <node ref="C21" pin="2"/>
+      <node ref="P8" pin="5"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="119" name="Net-(C22-Pad1)">
+      <node ref="Y1" pin="2"/>
+      <node ref="C22" pin="1"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="120" name="Net-(U1-Pad39)">
+      <node ref="U1" pin="39"/>
+    </net>
+    <net code="121" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="122" name="Net-(U1-Pad40)">
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="123" name="Net-(C17-Pad1)">
+      <node ref="Y1" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="124" name="Net-(U1-Pad50)">
+      <node ref="U1" pin="50"/>
+    </net>
+    <net code="125" name="/MCU/FAULT">
+      <node ref="U1" pin="53"/>
+    </net>
+    <net code="126" name="Net-(U1-Pad54)">
+      <node ref="U1" pin="54"/>
+    </net>
+    <net code="127" name="Net-(U1-Pad56)">
+      <node ref="U1" pin="56"/>
+    </net>
+    <net code="128" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="129" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="130" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="131" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="132" name="/MCU/DC_CAL">
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="133" name="Net-(R40-Pad1)">
+      <node ref="U4" pin="4"/>
+      <node ref="R40" pin="1"/>
+    </net>
+    <net code="134" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="U3" pin="6"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="135" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="136" name="Net-(C7-Pad1)">
+      <node ref="U4" pin="6"/>
+      <node ref="C7" pin="1"/>
+      <node ref="L2" pin="2"/>
+    </net>
+    <net code="137" name="Net-(R43-Pad1)">
+      <node ref="R44" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="R43" pin="1"/>
+    </net>
+    <net code="138" name="Net-(R39-Pad1)">
+      <node ref="R39" pin="1"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="139" name="Net-(C3-Pad1)">
+      <node ref="U2" pin="1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="140" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="141" name="Net-(R41-Pad1)">
+      <node ref="R41" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="R42" pin="2"/>
+    </net>
+    <net code="142" name="Net-(U6-Pad9)">
+      <node ref="U6" pin="9"/>
+    </net>
+    <net code="143" name="Net-(C71-Pad1)">
+      <node ref="C72" pin="1"/>
+      <node ref="C71" pin="1"/>
+      <node ref="U6" pin="43"/>
+    </net>
+    <net code="144" name="Net-(C76-Pad1)">
+      <node ref="U6" pin="22"/>
+      <node ref="C76" pin="1"/>
+      <node ref="Y2" pin="2"/>
+    </net>
+    <net code="145" name="/Resolver/Buffer Circuit R2D/*EXC">
+      <node ref="U6" pin="35"/>
+      <node ref="R65" pin="2"/>
+    </net>
+    <net code="146" name="/Resolver/Buffer Circuit R2D/EXC">
+      <node ref="U6" pin="34"/>
+      <node ref="R67" pin="2"/>
+    </net>
+    <net code="147" name="Net-(R60-Pad1)">
+      <node ref="R60" pin="1"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="148" name="Net-(C75-Pad1)">
+      <node ref="Y2" pin="1"/>
+      <node ref="C75" pin="1"/>
+      <node ref="U6" pin="21"/>
+    </net>
+    <net code="149" name="Net-(U6-Pad18)">
+      <node ref="U6" pin="18"/>
+    </net>
+    <net code="150" name="Net-(U6-Pad27)">
+      <node ref="U6" pin="27"/>
+    </net>
+    <net code="151" name="Net-(U6-Pad26)">
+      <node ref="U6" pin="26"/>
+    </net>
+    <net code="152" name="Net-(U6-Pad25)">
+      <node ref="U6" pin="25"/>
+    </net>
+    <net code="153" name="Net-(U6-Pad24)">
+      <node ref="U6" pin="24"/>
+    </net>
+    <net code="154" name="Net-(U6-Pad23)">
+      <node ref="U6" pin="23"/>
+    </net>
+    <net code="155" name="Net-(U6-Pad20)">
+      <node ref="U6" pin="20"/>
+    </net>
+    <net code="156" name="Net-(U6-Pad19)">
+      <node ref="U6" pin="19"/>
+    </net>
+    <net code="157" name="Net-(U6-Pad16)">
+      <node ref="U6" pin="16"/>
+    </net>
+    <net code="158" name="Net-(U6-Pad15)">
+      <node ref="U6" pin="15"/>
+    </net>
+    <net code="159" name="Net-(U6-Pad14)">
+      <node ref="U6" pin="14"/>
+    </net>
+    <net code="160" name="Net-(U6-Pad13)">
+      <node ref="U6" pin="13"/>
+    </net>
+    <net code="161" name="Net-(U6-Pad12)">
+      <node ref="U6" pin="12"/>
+    </net>
+    <net code="162" name="Net-(U6-Pad11)">
+      <node ref="U6" pin="11"/>
+    </net>
+    <net code="163" name="Net-(U6-Pad10)">
+      <node ref="U6" pin="10"/>
+    </net>
+    <net code="164" name="Net-(U6-Pad29)">
+      <node ref="U6" pin="29"/>
+    </net>
+    <net code="165" name="Net-(U6-Pad28)">
+      <node ref="U6" pin="28"/>
+    </net>
+    <net code="166" name="Net-(U6-Pad44)">
+      <node ref="U6" pin="44"/>
+    </net>
+    <net code="167" name="Net-(U6-Pad33)">
+      <node ref="U6" pin="33"/>
+    </net>
+    <net code="168" name="Net-(U6-Pad32)">
+      <node ref="U6" pin="32"/>
+    </net>
+    <net code="169" name="Net-(U6-Pad31)">
+      <node ref="U6" pin="31"/>
+    </net>
+    <net code="170" name="Net-(U6-Pad30)">
+      <node ref="U6" pin="30"/>
+    </net>
+    <net code="171" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="U5" pin="11"/>
+    </net>
+    <net code="172" name="Net-(R63-Pad1)">
+      <node ref="U5" pin="6"/>
+      <node ref="R63" pin="1"/>
+    </net>
+    <net code="173" name="Net-(R62-Pad1)">
+      <node ref="U5" pin="7"/>
+      <node ref="R62" pin="1"/>
+    </net>
+    <net code="174" name="Net-(R1-Pad2)">
+      <node ref="U5" pin="10"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="175" name="Net-(C68-Pad1)">
+      <node ref="C68" pin="1"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U5" pin="4"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="176" name="Net-(C69-Pad1)">
+      <node ref="U5" pin="12"/>
+      <node ref="U5" pin="13"/>
+      <node ref="U5" pin="14"/>
+      <node ref="C69" pin="1"/>
+    </net>
+    <net code="177" name="Net-(R65-Pad1)">
+      <node ref="U10" pin="9"/>
+      <node ref="R66" pin="1"/>
+      <node ref="R65" pin="1"/>
+    </net>
+    <net code="178" name="Net-(Q15-Pad1)">
+      <node ref="Q15" pin="1"/>
+      <node ref="R73" pin="1"/>
+    </net>
+    <net code="179" name="Net-(Q16-Pad1)">
+      <node ref="Q16" pin="1"/>
+      <node ref="R74" pin="1"/>
+    </net>
+    <net code="180" name="Net-(Q15-Pad3)">
+      <node ref="Q15" pin="3"/>
+      <node ref="R75" pin="2"/>
+    </net>
+    <net code="181" name="Net-(Q16-Pad2)">
+      <node ref="R76" pin="1"/>
+      <node ref="Q16" pin="2"/>
+    </net>
+    <net code="182" name="Net-(R67-Pad1)">
+      <node ref="R68" pin="1"/>
+      <node ref="R67" pin="1"/>
+      <node ref="U10" pin="2"/>
+    </net>
+    <net code="183" name="Net-(R61-Pad1)">
+      <node ref="R61" pin="1"/>
+      <node ref="U10" pin="3"/>
+      <node ref="U10" pin="10"/>
+      <node ref="R64" pin="2"/>
+    </net>
+    <net code="184" name="Net-(R66-Pad2)">
+      <node ref="R66" pin="2"/>
+      <node ref="U10" pin="8"/>
+      <node ref="U10" pin="12"/>
+    </net>
+    <net code="185" name="Net-(R73-Pad2)">
+      <node ref="U10" pin="14"/>
+      <node ref="R73" pin="2"/>
+      <node ref="R74" pin="2"/>
+    </net>
+    <net code="186" name="Net-(R68-Pad2)">
+      <node ref="U10" pin="5"/>
+      <node ref="R68" pin="2"/>
+      <node ref="U10" pin="1"/>
+    </net>
+    <net code="187" name="Net-(Q14-Pad2)">
+      <node ref="Q14" pin="2"/>
+      <node ref="R72" pin="1"/>
+    </net>
+    <net code="188" name="Net-(R69-Pad2)">
+      <node ref="R69" pin="2"/>
+      <node ref="U10" pin="7"/>
+      <node ref="R70" pin="2"/>
+    </net>
+    <net code="189" name="Net-(Q13-Pad3)">
+      <node ref="Q13" pin="3"/>
+      <node ref="R71" pin="2"/>
+    </net>
+    <net code="190" name="Net-(Q13-Pad1)">
+      <node ref="R69" pin="1"/>
+      <node ref="Q13" pin="1"/>
+    </net>
+    <net code="191" name="Net-(Q14-Pad1)">
+      <node ref="R70" pin="1"/>
+      <node ref="Q14" pin="1"/>
+    </net>
+  </nets>
+</export>

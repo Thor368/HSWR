@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name HSWR-V2-rescue)(type Legacy)(uri "${KIPRJMOD}/HSWR V2-rescue.lib")(options "")(descr ""))
+  (lib (name Amalga_100-rescue)(type Legacy)(uri ${KIPRJMOD}/Amalga_100-rescue.lib)(options "")(descr ""))
+  (lib (name AD8664ARZ)(type Legacy)(uri C:/Users/jonas.krieger.AUKTORA/Desktop/Amalga-100/eigene_mod/AD8664ARZ.lib)(options "")(descr ""))
 )
