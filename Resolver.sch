@@ -488,8 +488,8 @@ L Amalga_100-rescue:GND-power #PWR?
 U 1 1 5CAF8D8E
 P 5850 5350
 AR Path="/5895E6A0/5CAF8D8E" Ref="#PWR?"  Part="1" 
-AR Path="/5C9D0FFC/5CAF8D8E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5850 5100 50  0001 C CNN
+AR Path="/5C9D0FFC/5CAF8D8E" Ref="#PWR0138"  Part="1" 
+F 0 "#PWR0138" H 5850 5100 50  0001 C CNN
 F 1 "GND" H 5850 5200 50  0000 C CNN
 F 2 "" H 5850 5350 50  0000 C CNN
 F 3 "" H 5850 5350 50  0000 C CNN
@@ -504,4 +504,36 @@ Text HLabel 2150 3200 0    59   Output ~ 0
 *RDvel
 Wire Wire Line
 	2150 3200 2850 3200
+Text Notes 7000 5150 0    39   ~ 0
+Frequency Setting:\nFS1--FS2--kHz\n  1      1    10\n  1      0    12\n  0      1    15\n  0      0    20
+Wire Notes Line
+	5450 4050 7150 4750
+Wire Notes Line
+	7000 5150 7550 5150
+Wire Notes Line
+	7550 4750 7000 4750
+Wire Notes Line
+	7000 4750 7000 5150
+Wire Notes Line
+	7550 4750 7550 5150
+Text Notes 4500 5800 0    39   ~ 0
+Encoder Output\n\nNM (northMount)\nDIR (Direction: (1)forw. (0)backw)\nA\nB
+Wire Notes Line
+	5350 4600 4650 5400
+Wire Notes Line
+	4500 5800 5550 5800
+Wire Notes Line
+	5550 5400 4500 5400
+Wire Notes Line
+	4500 5400 4500 5800
+Wire Notes Line
+	5550 5400 5550 5800
+Text HLabel 5850 4600 2    79   Output ~ 0
+B(enc)
+Text HLabel 5850 4500 2    79   Output ~ 0
+NM(enc)
+Text HLabel 5850 4400 2    79   Output ~ 0
+DIR(enc)
+Text HLabel 5850 4700 2    79   Output ~ 0
+A(enc)
 $EndSCHEMATC
