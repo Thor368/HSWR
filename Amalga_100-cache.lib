@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Amalga_100-rescue:+12V-power
+# Amalga_100-rescue_+12V-power
 #
-DEF Amalga_100-rescue:+12V-power #PWR 0 0 Y Y 1 F P
+DEF Amalga_100-rescue_+12V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Amalga_100-rescue:+12V-power" 0 140 50 H V C CNN
+F1 "Amalga_100-rescue_+12V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:+12VA-power
+# Amalga_100-rescue_+12VA-power
 #
-DEF Amalga_100-rescue:+12VA-power #PWR 0 0 Y Y 1 F P
+DEF Amalga_100-rescue_+12VA-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Amalga_100-rescue:+12VA-power" 0 140 50 H V C CNN
+F1 "Amalga_100-rescue_+12VA-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +12VA 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:+3V3-power
+# Amalga_100-rescue_+3V3-power
 #
-DEF Amalga_100-rescue:+3V3-power #PWR 0 0 Y Y 1 F P
+DEF Amalga_100-rescue_+3V3-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Amalga_100-rescue:+3V3-power" 0 140 50 H V C CNN
+F1 "Amalga_100-rescue_+3V3-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -46,11 +46,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:+5V-power
+# Amalga_100-rescue_+5V-power
 #
-DEF Amalga_100-rescue:+5V-power #PWR 0 0 Y Y 1 F P
+DEF Amalga_100-rescue_+5V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Amalga_100-rescue:+5V-power" 0 140 50 H V C CNN
+F1 "Amalga_100-rescue_+5V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -61,11 +61,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:+BATT-power
+# Amalga_100-rescue_+BATT-power
 #
-DEF Amalga_100-rescue:+BATT-power #PWR 0 0 Y Y 1 F P
+DEF Amalga_100-rescue_+BATT-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Amalga_100-rescue:+BATT-power" 0 140 50 H V C CNN
+F1 "Amalga_100-rescue_+BATT-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -76,11 +76,11 @@ X +BATT 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:AD2S1200YSTZ-AD2S1200
+# Amalga_100-rescue_AD2S1200YSTZ-AD2S1200
 #
-DEF Amalga_100-rescue:AD2S1200YSTZ-AD2S1200 U 0 10 Y Y 1 F N
+DEF Amalga_100-rescue_AD2S1200YSTZ-AD2S1200 U 0 10 Y Y 1 F N
 F0 "U" 1500 400 60 H V C CNN
-F1 "Amalga_100-rescue:AD2S1200YSTZ-AD2S1200" 1500 300 60 H V C CNN
+F1 "Amalga_100-rescue_AD2S1200YSTZ-AD2S1200" 1500 300 60 H V C CNN
 F2 "ST_44_1" 1500 240 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -140,11 +140,11 @@ X DB9 9 0 -800 300 R 59 59 1 0 U
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:AD8664ARZ-AD8664ARZ
+# Amalga_100-rescue_AD8664ARZ-AD8664ARZ
 #
-DEF Amalga_100-rescue:AD8664ARZ-AD8664ARZ U 0 10 Y Y 1 F N
+DEF Amalga_100-rescue_AD8664ARZ-AD8664ARZ U 0 10 Y Y 1 F N
 F0 "U" 900 500 60 H V C CNN
-F1 "Amalga_100-rescue:AD8664ARZ-AD8664ARZ" 900 400 60 H V C CNN
+F1 "Amalga_100-rescue_AD8664ARZ-AD8664ARZ" 900 400 60 H V C CNN
 F2 "R_14" 900 340 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -174,11 +174,11 @@ X -IN_C 9 0 -700 300 R 59 59 1 0 U
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:ADM3052-HSWR-V2-rescue
+# Amalga_100-rescue_ADM3052-HSWR-V2-rescue
 #
-DEF Amalga_100-rescue:ADM3052-HSWR-V2-rescue IC 0 40 Y Y 1 F N
+DEF Amalga_100-rescue_ADM3052-HSWR-V2-rescue IC 0 40 Y Y 1 F N
 F0 "IC" 0 0 60 H V C CNN
-F1 "Amalga_100-rescue:ADM3052-HSWR-V2-rescue" 0 -150 60 H V C CNN
+F1 "Amalga_100-rescue_ADM3052-HSWR-V2-rescue" 0 -150 60 H V C CNN
 F2 "" 150 100 60 H V C CNN
 F3 "" 150 100 60 H V C CNN
 DRAW
@@ -201,11 +201,11 @@ X V- 9 650 -250 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:B1215S-2W-B1215s-2w
+# Amalga_100-rescue_B1215S-2W-B1215s-2w
 #
-DEF Amalga_100-rescue:B1215S-2W-B1215s-2w U 0 40 Y Y 1 F N
+DEF Amalga_100-rescue_B1215S-2W-B1215s-2w U 0 40 Y Y 1 F N
 F0 "U" 0 400 50 H V C CNN
-F1 "Amalga_100-rescue:B1215S-2W-B1215s-2w" 50 500 50 H V C CNN
+F1 "Amalga_100-rescue_B1215S-2W-B1215s-2w" 50 500 50 H V C CNN
 F2 "" 0 400 50 H I C CNN
 F3 "" 0 400 50 H I C CNN
 DRAW
@@ -229,11 +229,11 @@ X VOUT- 6 550 -200 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:C-Device
+# Amalga_100-rescue_C-Device
 #
-DEF Amalga_100-rescue:C-Device C 0 10 N Y 1 F N
+DEF Amalga_100-rescue_C-Device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Amalga_100-rescue:C-Device" 25 -100 50 H V L CNN
+F1 "Amalga_100-rescue_C-Device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -247,11 +247,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:C-RESCUE-BLDC_4-HSWR-V2-rescue
+# Amalga_100-rescue_C-RESCUE-BLDC_4-HSWR-V2-rescue
 #
-DEF Amalga_100-rescue:C-RESCUE-BLDC_4-HSWR-V2-rescue C 0 10 N Y 1 F N
+DEF Amalga_100-rescue_C-RESCUE-BLDC_4-HSWR-V2-rescue C 0 10 N Y 1 F N
 F0 "C" 0 100 40 H V L CNN
-F1 "Amalga_100-rescue:C-RESCUE-BLDC_4-HSWR-V2-rescue" 6 -85 40 H V L CNN
+F1 "Amalga_100-rescue_C-RESCUE-BLDC_4-HSWR-V2-rescue" 6 -85 40 H V L CNN
 F2 "" 38 -150 30 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -267,11 +267,11 @@ X ~ 2 0 -200 170 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:CONN_01X18_20-HSWR-V2-rescue
+# Amalga_100-rescue_CONN_01X18_20-HSWR-V2-rescue
 #
-DEF Amalga_100-rescue:CONN_01X18_20-HSWR-V2-rescue P 0 40 Y N 1 F N
+DEF Amalga_100-rescue_CONN_01X18_20-HSWR-V2-rescue P 0 40 Y N 1 F N
 F0 "P" 0 1050 50 H V C CNN
-F1 "Amalga_100-rescue:CONN_01X18_20-HSWR-V2-rescue" 100 0 50 V V C CNN
+F1 "Amalga_100-rescue_CONN_01X18_20-HSWR-V2-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -323,11 +323,11 @@ X P9 9 -200 150 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:CONN_1-HSWR-V2-rescue
+# Amalga_100-rescue_CONN_1-HSWR-V2-rescue
 #
-DEF ~Amalga_100-rescue:CONN_1-HSWR-V2-rescue P 0 30 N N 1 F N
+DEF ~Amalga_100-rescue_CONN_1-HSWR-V2-rescue P 0 30 N N 1 F N
 F0 "P" 80 0 40 H V L CNN
-F1 "Amalga_100-rescue:CONN_1-HSWR-V2-rescue" 0 55 30 H I C CNN
+F1 "Amalga_100-rescue_CONN_1-HSWR-V2-rescue" 0 55 30 H I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -337,11 +337,11 @@ X 1 1 -150 0 100 R 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:CONN_6-HSWR-V2-rescue
+# Amalga_100-rescue_CONN_6-HSWR-V2-rescue
 #
-DEF Amalga_100-rescue:CONN_6-HSWR-V2-rescue P 0 30 Y N 1 F N
+DEF Amalga_100-rescue_CONN_6-HSWR-V2-rescue P 0 30 Y N 1 F N
 F0 "P" -50 0 60 V V C CNN
-F1 "Amalga_100-rescue:CONN_6-HSWR-V2-rescue" 50 0 60 V V C CNN
+F1 "Amalga_100-rescue_CONN_6-HSWR-V2-rescue" 50 0 60 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -355,11 +355,11 @@ X 6 6 -350 -250 250 R 60 60 1 1 P I
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:CP-Device
+# Amalga_100-rescue_CP-Device
 #
-DEF Amalga_100-rescue:CP-Device C 0 10 N Y 1 F N
+DEF Amalga_100-rescue_CP-Device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Amalga_100-rescue:CP-Device" 25 -100 50 H V L CNN
+F1 "Amalga_100-rescue_CP-Device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -378,11 +378,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:CP1_Small-Device
+# Amalga_100-rescue_CP1_Small-Device
 #
-DEF Amalga_100-rescue:CP1_Small-Device C 0 10 N N 1 F N
+DEF Amalga_100-rescue_CP1_Small-Device C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "Amalga_100-rescue:CP1_Small-Device" 10 -80 50 H V L CNN
+F1 "Amalga_100-rescue_CP1_Small-Device" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -398,11 +398,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:C_Small-Device
+# Amalga_100-rescue_C_Small-Device
 #
-DEF Amalga_100-rescue:C_Small-Device C 0 10 N N 1 F N
+DEF Amalga_100-rescue_C_Small-Device C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "Amalga_100-rescue:C_Small-Device" 10 -80 50 H V L CNN
+F1 "Amalga_100-rescue_C_Small-Device" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -416,11 +416,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:Crystal-Device
+# Amalga_100-rescue_Crystal-Device
 #
-DEF Amalga_100-rescue:Crystal-Device Y 0 40 N N 1 F N
+DEF Amalga_100-rescue_Crystal-Device Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "Amalga_100-rescue:Crystal-Device" 0 -150 50 H V C CNN
+F1 "Amalga_100-rescue_Crystal-Device" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -437,11 +437,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:D_Schottky-Device
+# Amalga_100-rescue_D_Schottky-Device
 #
-DEF Amalga_100-rescue:D_Schottky-Device D 0 40 N N 1 F N
+DEF Amalga_100-rescue_D_Schottky-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Amalga_100-rescue:D_Schottky-Device" 0 -100 50 H V C CNN
+F1 "Amalga_100-rescue_D_Schottky-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -459,11 +459,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:D_Small-Device
+# Amalga_100-rescue_D_Small-Device
 #
-DEF Amalga_100-rescue:D_Small-Device D 0 10 N N 1 F N
+DEF Amalga_100-rescue_D_Small-Device D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "Amalga_100-rescue:D_Small-Device" -150 -80 50 H V L CNN
+F1 "Amalga_100-rescue_D_Small-Device" -150 -80 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -481,11 +481,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:Earth-power
+# Amalga_100-rescue_Earth-power
 #
-DEF ~Amalga_100-rescue:Earth-power #PWR 0 0 Y Y 1 F P
+DEF ~Amalga_100-rescue_Earth-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Amalga_100-rescue:Earth-power" 0 -150 50 H I C CNN
+F1 "Amalga_100-rescue_Earth-power" 0 -150 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -497,11 +497,11 @@ X Earth 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:GND-RESCUE-BLDC_4-HSWR-V2-rescue
+# Amalga_100-rescue_GND-RESCUE-BLDC_4-HSWR-V2-rescue
 #
-DEF ~Amalga_100-rescue:GND-RESCUE-BLDC_4-HSWR-V2-rescue #PWR 0 0 Y Y 1 F P
+DEF ~Amalga_100-rescue_GND-RESCUE-BLDC_4-HSWR-V2-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 0 30 H I C CNN
-F1 "Amalga_100-rescue:GND-RESCUE-BLDC_4-HSWR-V2-rescue" 0 -70 30 H I C CNN
+F1 "Amalga_100-rescue_GND-RESCUE-BLDC_4-HSWR-V2-rescue" 0 -70 30 H I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -510,11 +510,11 @@ X GND 1 0 0 0 U 30 30 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:GND-power
+# Amalga_100-rescue_GND-power
 #
-DEF Amalga_100-rescue:GND-power #PWR 0 0 Y Y 1 F P
+DEF Amalga_100-rescue_GND-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Amalga_100-rescue:GND-power" 0 -150 50 H V C CNN
+F1 "Amalga_100-rescue_GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -523,11 +523,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:GNDPWR-HSWR-V2-rescue
+# Amalga_100-rescue_GNDPWR-HSWR-V2-rescue
 #
-DEF Amalga_100-rescue:GNDPWR-HSWR-V2-rescue #PWR 0 0 Y Y 1 F P
+DEF Amalga_100-rescue_GNDPWR-HSWR-V2-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -200 50 H I C CNN
-F1 "Amalga_100-rescue:GNDPWR-HSWR-V2-rescue" 0 -130 50 H V C CNN
+F1 "Amalga_100-rescue_GNDPWR-HSWR-V2-rescue" 0 -130 50 H V C CNN
 F2 "" 0 -50 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 DRAW
@@ -542,11 +542,11 @@ X GNDPWR 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:INA240-HSWR-V2-rescue
+# Amalga_100-rescue_INA240-HSWR-V2-rescue
 #
-DEF Amalga_100-rescue:INA240-HSWR-V2-rescue IC 0 40 Y Y 1 F N
+DEF Amalga_100-rescue_INA240-HSWR-V2-rescue IC 0 40 Y Y 1 F N
 F0 "IC" 0 -50 60 H V C CNN
-F1 "Amalga_100-rescue:INA240-HSWR-V2-rescue" 0 50 60 H V C CNN
+F1 "Amalga_100-rescue_INA240-HSWR-V2-rescue" 0 50 60 H V C CNN
 F2 "" 200 -100 60 H V C CNN
 F3 "" 200 -100 60 H V C CNN
 DRAW
@@ -561,11 +561,11 @@ X OUT 8 550 0 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:INDUCTOR-HSWR-V2-rescue
+# Amalga_100-rescue_INDUCTOR-HSWR-V2-rescue
 #
-DEF Amalga_100-rescue:INDUCTOR-HSWR-V2-rescue L 0 40 N N 1 F N
+DEF Amalga_100-rescue_INDUCTOR-HSWR-V2-rescue L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "Amalga_100-rescue:INDUCTOR-HSWR-V2-rescue" 100 0 50 V V C CNN
+F1 "Amalga_100-rescue_INDUCTOR-HSWR-V2-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -578,11 +578,11 @@ X 2 2 0 -300 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:IRS2186-Driver_FET
+# Amalga_100-rescue_IRS2186-Driver_FET
 #
-DEF Amalga_100-rescue:IRS2186-Driver_FET U 0 40 Y Y 1 F N
+DEF Amalga_100-rescue_IRS2186-Driver_FET U 0 40 Y Y 1 F N
 F0 "U" 100 500 50 H V L CNN
-F1 "Amalga_100-rescue:IRS2186-Driver_FET" 100 400 50 H V L CNN
+F1 "Amalga_100-rescue_IRS2186-Driver_FET" 100 400 50 H V L CNN
 F2 "" 150 350 50 H I L CIN
 F3 "" -200 -550 50 H I C CNN
 $FPLIST
@@ -602,11 +602,11 @@ X VB 8 300 200 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:JW5052C-JW5052c
+# Amalga_100-rescue_JW5052C-JW5052c
 #
-DEF Amalga_100-rescue:JW5052C-JW5052c U 0 10 Y Y 1 F N
+DEF Amalga_100-rescue_JW5052C-JW5052c U 0 10 Y Y 1 F N
 F0 "U" -300 250 50 H V L CNN
-F1 "Amalga_100-rescue:JW5052C-JW5052c" -100 250 50 H V L CNN
+F1 "Amalga_100-rescue_JW5052C-JW5052c" -100 250 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-6" 50 -250 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -623,11 +623,11 @@ X SW 6 400 0 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:LED-RESCUE-BLDC_4-HSWR-V2-rescue
+# Amalga_100-rescue_LED-RESCUE-BLDC_4-HSWR-V2-rescue
 #
-DEF Amalga_100-rescue:LED-RESCUE-BLDC_4-HSWR-V2-rescue D 0 40 Y N 1 F N
+DEF Amalga_100-rescue_LED-RESCUE-BLDC_4-HSWR-V2-rescue D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Amalga_100-rescue:LED-RESCUE-BLDC_4-HSWR-V2-rescue" 0 -100 50 H V C CNN
+F1 "Amalga_100-rescue_LED-RESCUE-BLDC_4-HSWR-V2-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -649,11 +649,11 @@ X K 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:MountingHole-Mechanical
+# Amalga_100-rescue_MountingHole-Mechanical
 #
-DEF Amalga_100-rescue:MountingHole-Mechanical MH 0 40 Y Y 1 F N
+DEF Amalga_100-rescue_MountingHole-Mechanical MH 0 40 Y Y 1 F N
 F0 "MH" 0 200 50 H V C CNN
-F1 "Amalga_100-rescue:MountingHole-Mechanical" 0 125 50 H V C CNN
+F1 "Amalga_100-rescue_MountingHole-Mechanical" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -664,11 +664,11 @@ C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:Q_NMOS_GDS-Device
+# Amalga_100-rescue_Q_NMOS_GDS-Device
 #
-DEF Amalga_100-rescue:Q_NMOS_GDS-Device Q 0 0 Y N 1 F N
+DEF Amalga_100-rescue_Q_NMOS_GDS-Device Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Amalga_100-rescue:Q_NMOS_GDS-Device" 200 -50 50 H V L CNN
+F1 "Amalga_100-rescue_Q_NMOS_GDS-Device" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -696,11 +696,11 @@ X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:R-Device
+# Amalga_100-rescue_R-Device
 #
-DEF Amalga_100-rescue:R-Device R 0 0 N Y 1 F N
+DEF Amalga_100-rescue_R-Device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Amalga_100-rescue:R-Device" 0 0 50 V V C CNN
+F1 "Amalga_100-rescue_R-Device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -713,11 +713,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:R-RESCUE-BLDC_4-HSWR-V2-rescue
+# Amalga_100-rescue_R-RESCUE-BLDC_4-HSWR-V2-rescue
 #
-DEF Amalga_100-rescue:R-RESCUE-BLDC_4-HSWR-V2-rescue R 0 0 N Y 1 F N
+DEF Amalga_100-rescue_R-RESCUE-BLDC_4-HSWR-V2-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 40 V V C CNN
-F1 "Amalga_100-rescue:R-RESCUE-BLDC_4-HSWR-V2-rescue" 7 1 40 V V C CNN
+F1 "Amalga_100-rescue_R-RESCUE-BLDC_4-HSWR-V2-rescue" 7 1 40 V V C CNN
 F2 "" -70 0 30 V V C CNN
 F3 "" 0 0 30 H V C CNN
 $FPLIST
@@ -734,11 +734,11 @@ X ~ 2 0 -250 100 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:R_Small-Device
+# Amalga_100-rescue_R_Small-Device
 #
-DEF Amalga_100-rescue:R_Small-Device R 0 10 N N 1 F N
+DEF Amalga_100-rescue_R_Small-Device R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "Amalga_100-rescue:R_Small-Device" 30 -40 50 H V L CNN
+F1 "Amalga_100-rescue_R_Small-Device" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -751,11 +751,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:STM32F40X_LQFP64-HSWR-V2-rescue
+# Amalga_100-rescue_STM32F40X_LQFP64-HSWR-V2-rescue
 #
-DEF Amalga_100-rescue:STM32F40X_LQFP64-HSWR-V2-rescue U 0 40 Y Y 1 F N
+DEF Amalga_100-rescue_STM32F40X_LQFP64-HSWR-V2-rescue U 0 40 Y Y 1 F N
 F0 "U" -50 2300 60 H V C CNN
-F1 "Amalga_100-rescue:STM32F40X_LQFP64-HSWR-V2-rescue" 0 -2350 60 H V C CNN
+F1 "Amalga_100-rescue_STM32F40X_LQFP64-HSWR-V2-rescue" 0 -2350 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -827,11 +827,11 @@ X PC1(ADC123_IN11) 9 -1250 -750 300 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Amalga_100-rescue:USB_B-RESCUE-HSWR_V2-HSWR-V2-rescue
+# Amalga_100-rescue_USB_B-RESCUE-HSWR_V2-HSWR-V2-rescue
 #
-DEF Amalga_100-rescue:USB_B-RESCUE-HSWR_V2-HSWR-V2-rescue P 0 40 Y Y 1 F N
+DEF Amalga_100-rescue_USB_B-RESCUE-HSWR_V2-HSWR-V2-rescue P 0 40 Y Y 1 F N
 F0 "P" 200 -200 50 H V C CNN
-F1 "Amalga_100-rescue:USB_B-RESCUE-HSWR_V2-HSWR-V2-rescue" -50 200 50 H V C CNN
+F1 "Amalga_100-rescue_USB_B-RESCUE-HSWR_V2-HSWR-V2-rescue" -50 200 50 H V C CNN
 F2 "" -50 -100 50 V V C CNN
 F3 "" -50 -100 50 V V C CNN
 $FPLIST
@@ -851,11 +851,11 @@ X shield 5 300 100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Q_PNP_BEC
+# Device_Q_PNP_BEC
 #
-DEF Device:Q_PNP_BEC Q 0 0 Y N 1 F N
+DEF Device_Q_PNP_BEC Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Device:Q_PNP_BEC" 200 -50 50 H V L CNN
+F1 "Device_Q_PNP_BEC" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -870,11 +870,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Interface_USB:ADUM3160
+# Interface_USB_ADUM3160
 #
-DEF Interface_USB:ADUM3160 U 0 40 Y Y 1 F N
+DEF Interface_USB_ADUM3160 U 0 40 Y Y 1 F N
 F0 "U" -400 550 50 H V L CNN
-F1 "Interface_USB:ADUM3160" 150 550 50 H V L CNN
+F1 "Interface_USB_ADUM3160" 150 550 50 H V L CNN
 F2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" 0 -700 50 H I C CNN
 F3 "" -200 0 50 H I C CNN
 ALIAS ADUM3160
@@ -918,11 +918,11 @@ X GND2 9 100 -600 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Transistor_BJT:BC847
+# Transistor_BJT_BC847
 #
-DEF Transistor_BJT:BC847 Q 0 0 Y N 1 F N
+DEF Transistor_BJT_BC847 Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "Transistor_BJT:BC847" 200 0 50 H V L CNN
+F1 "Transistor_BJT_BC847" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 ALIAS BC818 BC847 BC848 BC849 BC850 MMBT3904 MMBT5550L MMBT5551L
@@ -941,11 +941,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power:+15V
+# power_+15V
 #
-DEF power:+15V #PWR 0 0 Y Y 1 F P
+DEF power_+15V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+15V" 0 140 50 H V C CNN
+F1 "power_+15V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

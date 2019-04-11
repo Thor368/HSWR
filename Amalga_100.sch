@@ -7668,6 +7668,7 @@ F34 "CAN_VSS_Sense" I L 3300 3850 50
 F35 "CS_(R2D)" I L 3300 5750 50 
 F36 "RDvel_(R2D)" I L 3300 5650 50 
 F37 "RD_(R2D)" I L 3300 5550 50 
+F38 "dir(enc)" I L 3300 3000 50 
 $EndSheet
 Wire Wire Line
 	4700 4950 4700 5200
@@ -7864,4 +7865,20 @@ Wire Wire Line
 	1300 5150 3300 5150
 Wire Wire Line
 	2150 5350 3300 5350
+Text GLabel 3000 7000 2    50   Input ~ 0
+A(enc)
+Text GLabel 3000 7100 2    50   Input ~ 0
+B(enc)
+Text GLabel 3000 7200 2    50   Input ~ 0
+NM(enc)
+Text GLabel 3000 7300 2    50   Input ~ 0
+dir(enc)
+Text GLabel 3300 2700 0    50   Input ~ 0
+A(enc)
+Text GLabel 3300 2800 0    50   Input ~ 0
+B(enc)
+Text GLabel 3300 2900 0    50   Input ~ 0
+NM(enc)
+Text GLabel 3300 3000 0    50   Input ~ 0
+dir(enc)
 $EndSCHEMATC

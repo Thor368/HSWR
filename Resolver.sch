@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 10
+Sheet 9 10
 Title ""
 Date ""
 Rev ""
@@ -252,7 +252,7 @@ U 1 1 5CA02EBC
 P 6500 3450
 F 0 "C77" H 6591 3496 50  0000 L CNN
 F 1 "4.7uF" H 6591 3405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6500 3450 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S" H 6500 3450 50  0001 C CNN
 F 3 "~" H 6500 3450 50  0001 C CNN
 	1    6500 3450
 	1    0    0    -1  
@@ -357,7 +357,7 @@ U 1 1 5CA06638
 P 1350 4550
 F 0 "C74" H 1441 4596 50  0000 L CNN
 F 1 "4.7uF" H 1441 4505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1350 4550 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S" H 1350 4550 50  0001 C CNN
 F 3 "~" H 1350 4550 50  0001 C CNN
 	1    1350 4550
 	1    0    0    -1  
@@ -504,18 +504,18 @@ Text HLabel 2150 3200 0    59   Output ~ 0
 *RDvel
 Wire Wire Line
 	2150 3200 2850 3200
-Text Notes 7000 5150 0    39   ~ 0
-Frequency Setting:\nFS1--FS2--kHz\n  1      1    10\n  1      0    12\n  0      1    15\n  0      0    20
+Text Notes 7000 5300 0    39   ~ 0
+Frequency Setting:\n(10 khz default)\n\nFS1--FS2--kHz\n  1      1    10\n  1      0    12\n  0      1    15\n  0      0    20
 Wire Notes Line
 	5450 4050 7150 4750
 Wire Notes Line
-	7000 5150 7550 5150
+	7000 5300 7550 5300
 Wire Notes Line
 	7550 4750 7000 4750
 Wire Notes Line
-	7000 4750 7000 5150
+	7000 4750 7000 5300
 Wire Notes Line
-	7550 4750 7550 5150
+	7550 4750 7550 5300
 Text Notes 4500 5800 0    39   ~ 0
 Encoder Output\n\nNM (northMount)\nDIR (Direction: (1)forw. (0)backw)\nA\nB
 Wire Notes Line

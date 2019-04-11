@@ -168,4 +168,11 @@ F 3 "" H 6650 4100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6650 4100
+Wire Wire Line
+	6650 4300 6650 4400
+Connection ~ 6650 4300
+Connection ~ 6650 4500
+Connection ~ 6650 4400
+Wire Wire Line
+	6650 4400 6650 4500
 $EndSCHEMATC

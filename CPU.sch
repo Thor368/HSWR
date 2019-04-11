@@ -133,8 +133,6 @@ NoConn ~ 7000 1750
 NoConn ~ 7000 1850
 NoConn ~ 4500 6050
 NoConn ~ 4500 5850
-NoConn ~ 4500 5050
-NoConn ~ 4500 5450
 $Comp
 L Amalga_100-rescue:GND-RESCUE-BLDC_4-HSWR-V2-rescue #PWR043
 U 1 1 53F75856
@@ -4390,4 +4388,8 @@ Text HLabel 4500 3250 0    50   Input ~ 0
 RDvel_(R2D)
 Text HLabel 4500 3550 0    50   Input ~ 0
 RD_(R2D)
+Text HLabel 4500 5450 0    60   Input ~ 0
+dir(enc)
+NoConn ~ 4500 5750
+NoConn ~ 4500 5050
 $EndSCHEMATC
