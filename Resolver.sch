@@ -536,4 +536,16 @@ Text HLabel 5850 4400 2    79   Output ~ 0
 DIR(enc)
 Text HLabel 5850 4700 2    79   Output ~ 0
 A(enc)
+NoConn ~ 2850 3600
+NoConn ~ 2850 3700
+NoConn ~ 2850 3800
+NoConn ~ 2850 3900
+NoConn ~ 2850 4000
+NoConn ~ 2850 4100
+NoConn ~ 2850 4200
+NoConn ~ 2850 4600
+NoConn ~ 2850 4700
+NoConn ~ 2850 4500
+NoConn ~ 5850 4000
+NoConn ~ 5850 4100
 $EndSCHEMATC

@@ -538,7 +538,7 @@ F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_B
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_PNP_BEC Q14
+L Amalga_100-rescue:Q_PNP_BEC-Device Q14
 U 1 1 5CAF8F99
 P 6550 3300
 F 0 "Q14" H 6741 3254 50  0000 L CNN
@@ -549,7 +549,7 @@ F 3 "~" H 6550 3300 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Q_PNP_BEC Q16
+L Amalga_100-rescue:Q_PNP_BEC-Device Q16
 U 1 1 5CAF9090
 P 9200 3350
 F 0 "Q16" H 9391 3304 50  0000 L CNN
