@@ -3833,15 +3833,15 @@ $EndComp
 Text Notes 2000 5300 2    40   ~ 0
 100R if used as\nservo output
 $Sheet
-S 1700 3550 850  400 
+S 1800 3550 850  400 
 U 5899E225
 F0 "CAN bus transceiver" 40
 F1 "CAN.sch" 40
-F2 "CAN_RX" O R 2550 3650 60 
-F3 "CAN_TX" I R 2550 3750 60 
-F4 "CANH" I L 1700 3650 60 
-F5 "CANL" I L 1700 3750 60 
-F6 "V+Sense" O R 2550 3850 60 
+F2 "CAN_RX" O R 2650 3650 60 
+F3 "CAN_TX" I R 2650 3750 60 
+F4 "CANH" I L 1800 3650 60 
+F5 "CANL" I L 1800 3750 60 
+F6 "V+Sense" O R 2650 3850 60 
 $EndSheet
 $Sheet
 S 1500 4100 850  550 
@@ -7321,13 +7321,13 @@ F 3 "" V 1100 1950 60  0000 C CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	2550 3650 3300 3650
+	2650 3650 3300 3650
 Wire Wire Line
-	3300 3750 2550 3750
+	3300 3750 2650 3750
 Wire Wire Line
-	1700 3750 1300 3750
+	1800 3750 1300 3750
 Wire Wire Line
-	1300 3650 1700 3650
+	1300 3650 1800 3650
 Wire Wire Line
 	1300 4850 3300 4850
 Wire Wire Line
@@ -7617,16 +7617,10 @@ F 3 "~" H 7750 5350 50  0001 C CNN
 	1    7750 5350
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2350 4450
-NoConn ~ 2350 4350
-NoConn ~ 2350 4250
-NoConn ~ 1500 4250
-NoConn ~ 1500 4350
-NoConn ~ 1500 4450
 Wire Wire Line
-	3150 4200 3300 4200
+	3250 4200 3300 4200
 Wire Wire Line
-	3300 4300 3150 4300
+	3300 4300 3250 4300
 $Sheet
 S 3300 1500 1350 4350
 U 5899E230
@@ -7659,27 +7653,27 @@ F25 "L1_pwm" O R 4650 2450 50
 F26 "SPI1_SCK(R2D)" I L 3300 4200 50 
 F27 "SPI1_MISO(R2D)" I L 3300 4300 50 
 F28 "SPI1_MOSI(R2D)" I L 3300 4400 50 
-F29 "HALL_1" I L 3300 2700 50 
-F30 "HALL_2" I L 3300 2800 50 
-F31 "HALL_3" I L 3300 2900 50 
+F29 "HALL_1" I L 3300 3250 50 
+F30 "HALL_2" I L 3300 3100 50 
+F31 "HALL_3" I L 3300 2950 50 
 F32 "TX_SCL_MOSI" I L 3300 4950 50 
 F33 "RX_SDA_NSS" I L 3300 5050 50 
 F34 "CAN_VSS_Sense" I L 3300 3850 50 
 F35 "CS_(R2D)" I L 3300 5750 50 
 F36 "RDvel_(R2D)" I L 3300 5650 50 
 F37 "RD_(R2D)" I L 3300 5550 50 
-F38 "dir(enc)" I L 3300 3000 50 
+F38 "dir(enc)" I L 3300 3400 50 
 $EndSheet
 Wire Wire Line
 	4700 4950 4700 5200
-Text GLabel 3150 4200 0    50   Input ~ 0
+Text GLabel 3250 4200 0    50   Input ~ 0
 SPI1_SCK(R2D)
-Text GLabel 3150 4300 0    50   Input ~ 0
+Text GLabel 3250 4300 0    50   Input ~ 0
 SPI1_MISO(R2D)
-Text GLabel 3150 4400 0    50   Input ~ 0
+Text GLabel 3250 4400 0    50   Input ~ 0
 SPI1_MOSI(R2D)
 Wire Wire Line
-	3150 4400 3300 4400
+	3250 4400 3300 4400
 Text GLabel 3500 6150 2    50   Input ~ 0
 SPI1_SCK(R2D)
 Text GLabel 3500 6300 2    50   Input ~ 0
@@ -7786,7 +7780,7 @@ Wire Notes Line
 Wire Notes Line
 	8050 5100 9700 5100
 Wire Wire Line
-	2550 3850 3300 3850
+	2650 3850 3300 3850
 $Comp
 L Amalga_100-rescue:+3V3-power #PWR?
 U 1 1 5CAEC6FD
@@ -7802,17 +7796,6 @@ F 3 "" H 3200 1450 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	3200 1450 3200 1850
-$Comp
-L Amalga_100-rescue:R-RESCUE-BLDC_4-HSWR-V2-rescue R11
-U 1 1 5CAE8AE9
-P 8800 4700
-F 0 "R11" V 8700 4700 50  0000 C CNN
-F 1 " " V 8800 4700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 8800 4700 60  0001 C CNN
-F 3 "" H 8800 4700 60  0001 C CNN
-	1    8800 4700
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3300 5750 3250 5750
 Wire Wire Line
@@ -7873,12 +7856,84 @@ Text GLabel 3000 7200 2    50   Input ~ 0
 NM(enc)
 Text GLabel 3000 7300 2    50   Input ~ 0
 dir(enc)
-Text GLabel 3300 2700 0    50   Input ~ 0
+Text GLabel 2600 3050 1    50   Input ~ 0
 A(enc)
-Text GLabel 3300 2800 0    50   Input ~ 0
+Text GLabel 2500 2900 1    50   Input ~ 0
 B(enc)
-Text GLabel 3300 2900 0    50   Input ~ 0
+Text GLabel 2400 2750 1    50   Input ~ 0
 NM(enc)
-Text GLabel 3300 3000 0    50   Input ~ 0
+Text GLabel 3300 3400 0    50   Input ~ 0
 dir(enc)
+$Comp
+L Device:Net-Tie_2 NT1
+U 1 1 5CB51E34
+P 8800 4700
+F 0 "NT1" H 8800 4878 50  0000 C CNN
+F 1 "Net-Tie_2" H 8800 4787 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 8800 4700 50  0001 C CNN
+F 3 "~" H 8800 4700 50  0001 C CNN
+	1    8800 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 4700 8550 4700
+Wire Wire Line
+	8900 4700 9050 4700
+Wire Wire Line
+	1300 4250 1500 4250
+Wire Wire Line
+	1300 4350 1500 4350
+Wire Wire Line
+	1300 4450 1500 4450
+Wire Wire Line
+	2350 4250 2400 4250
+Wire Wire Line
+	2350 4350 2500 4350
+Wire Wire Line
+	2350 4450 2600 4450
+Wire Wire Line
+	2600 4450 2600 3450
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP?
+U 1 1 5CB8C74E
+P 2600 3250
+F 0 "JP?" V 2554 3318 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 2645 3318 50  0000 L CNN
+F 2 "" H 2600 3250 50  0001 C CNN
+F 3 "~" H 2600 3250 50  0001 C CNN
+	1    2600 3250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP?
+U 1 1 5CBCA381
+P 2400 2950
+F 0 "JP?" V 2354 3018 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 2445 3018 50  0000 L CNN
+F 2 "" H 2400 2950 50  0001 C CNN
+F 3 "~" H 2400 2950 50  0001 C CNN
+	1    2400 2950
+	0    -1   1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP?
+U 1 1 5CBC521D
+P 2500 3100
+F 0 "JP?" V 2454 3168 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 2545 3168 50  0000 L CNN
+F 2 "" H 2500 3100 50  0001 C CNN
+F 3 "~" H 2500 3100 50  0001 C CNN
+	1    2500 3100
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2500 3300 2500 4350
+Wire Wire Line
+	2400 3150 2400 4250
+Wire Wire Line
+	2750 3250 3300 3250
+Wire Wire Line
+	2650 3100 3300 3100
+Wire Wire Line
+	2550 2950 3300 2950
 $EndSCHEMATC
