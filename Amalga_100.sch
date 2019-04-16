@@ -38,12 +38,12 @@ $EndSheet
 $Comp
 L Amalga_100-rescue:GND-RESCUE-BLDC_4-HSWR-V2-rescue #PWR01
 U 1 1 5895E67B
-P 8550 4800
-F 0 "#PWR01" H 8550 4800 30  0001 C CNN
-F 1 "GND" H 8550 4730 30  0001 C CNN
-F 2 "" H 8550 4800 60  0001 C CNN
-F 3 "" H 8550 4800 60  0001 C CNN
-	1    8550 4800
+P 8550 5700
+F 0 "#PWR01" H 8550 5700 30  0001 C CNN
+F 1 "GND" H 8550 5630 30  0001 C CNN
+F 2 "" H 8550 5700 60  0001 C CNN
+F 3 "" H 8550 5700 60  0001 C CNN
+	1    8550 5700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3627,9 +3627,9 @@ $EndBitmap
 Wire Wire Line
 	8000 3750 8650 3750
 Wire Wire Line
-	8550 4700 8550 4800
+	8550 4700 8550 4900
 Wire Wire Line
-	9050 4700 9050 4800
+	9050 4700 9050 4900
 Wire Wire Line
 	10250 4800 10250 4700
 Wire Notes Line
@@ -3651,12 +3651,12 @@ Wire Wire Line
 $Comp
 L Amalga_100-rescue:GNDPWR-HSWR-V2-rescue #PWR02
 U 1 1 5895E699
-P 9050 4800
-F 0 "#PWR02" H 9050 4600 50  0001 C CNN
-F 1 "GNDPWR" H 9050 4670 50  0000 C CNN
-F 2 "" H 9050 4750 50  0000 C CNN
-F 3 "" H 9050 4750 50  0000 C CNN
-	1    9050 4800
+P 9050 5650
+F 0 "#PWR02" H 9050 5450 50  0001 C CNN
+F 1 "GNDPWR" H 9050 5520 50  0000 C CNN
+F 2 "" H 9050 5600 50  0000 C CNN
+F 3 "" H 9050 5600 50  0000 C CNN
+	1    9050 5650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -7466,9 +7466,9 @@ F 3 "~" H 7250 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	9700 4300 9700 5100
+	9700 4300 9700 5900
 Wire Notes Line
-	8050 5100 8050 4300
+	8050 5900 8050 4300
 Wire Notes Line
 	9700 4300 8050 4300
 $Sheet
@@ -7778,7 +7778,7 @@ $EndComp
 Wire Notes Line
 	7150 5900 7950 5900
 Wire Notes Line
-	8050 5100 9700 5100
+	8050 5900 9700 5900
 Wire Wire Line
 	2650 3850 3300 3850
 $Comp
@@ -7894,34 +7894,34 @@ Wire Wire Line
 Wire Wire Line
 	2600 4450 2600 3450
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JP?
+L Jumper:SolderJumper_3_Bridged12 JP3
 U 1 1 5CB8C74E
 P 2600 3250
-F 0 "JP?" V 2554 3318 50  0000 L CNN
+F 0 "JP3" V 2554 3318 50  0000 L CNN
 F 1 "SolderJumper_3_Bridged12" V 2645 3318 50  0000 L CNN
-F 2 "" H 2600 3250 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 2600 3250 50  0001 C CNN
 F 3 "~" H 2600 3250 50  0001 C CNN
 	1    2600 3250
 	0    -1   1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JP?
+L Jumper:SolderJumper_3_Bridged12 JP1
 U 1 1 5CBCA381
 P 2400 2950
-F 0 "JP?" V 2354 3018 50  0000 L CNN
+F 0 "JP1" V 2354 3018 50  0000 L CNN
 F 1 "SolderJumper_3_Bridged12" V 2445 3018 50  0000 L CNN
-F 2 "" H 2400 2950 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 2400 2950 50  0001 C CNN
 F 3 "~" H 2400 2950 50  0001 C CNN
 	1    2400 2950
 	0    -1   1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JP?
+L Jumper:SolderJumper_3_Bridged12 JP2
 U 1 1 5CBC521D
 P 2500 3100
-F 0 "JP?" V 2454 3168 50  0000 L CNN
+F 0 "JP2" V 2454 3168 50  0000 L CNN
 F 1 "SolderJumper_3_Bridged12" V 2545 3168 50  0000 L CNN
-F 2 "" H 2500 3100 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 2500 3100 50  0001 C CNN
 F 3 "~" H 2500 3100 50  0001 C CNN
 	1    2500 3100
 	0    -1   1    0   
@@ -7936,4 +7936,78 @@ Wire Wire Line
 	2650 3100 3300 3100
 Wire Wire Line
 	2550 2950 3300 2950
+$Comp
+L Amalga_100-rescue:C-Device C45
+U 1 1 5CB814BD
+P 8800 4900
+F 0 "C45" H 8825 5000 50  0000 L CNN
+F 1 "100n" H 8825 4800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8838 4750 50  0001 C CNN
+F 3 "" H 8800 4900 50  0000 C CNN
+	1    8800 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Amalga_100-rescue:C-Device C46
+U 1 1 5CB86C31
+P 8800 5150
+F 0 "C46" H 8825 5250 50  0000 L CNN
+F 1 "100n" H 8825 5050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8838 5000 50  0001 C CNN
+F 3 "" H 8800 5150 50  0000 C CNN
+	1    8800 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Amalga_100-rescue:C-Device C48
+U 1 1 5CBA6759
+P 8800 5450
+F 0 "C48" H 8825 5550 50  0000 L CNN
+F 1 "100n" H 8825 5350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8838 5300 50  0001 C CNN
+F 3 "" H 8800 5450 50  0000 C CNN
+	1    8800 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8950 5450 9050 5450
+Connection ~ 9050 5450
+Wire Wire Line
+	9050 5450 9050 5650
+Wire Wire Line
+	8950 5150 9050 5150
+Connection ~ 9050 5150
+Wire Wire Line
+	9050 5150 9050 5450
+Wire Wire Line
+	8950 4900 9050 4900
+Connection ~ 9050 4900
+Wire Wire Line
+	9050 4900 9050 5150
+Wire Wire Line
+	8650 4900 8550 4900
+Connection ~ 8550 4900
+Wire Wire Line
+	8550 4900 8550 5150
+Wire Wire Line
+	8650 5150 8550 5150
+Connection ~ 8550 5150
+Wire Wire Line
+	8550 5150 8550 5450
+Wire Wire Line
+	8650 5450 8550 5450
+Connection ~ 8550 5450
+Wire Wire Line
+	8550 5450 8550 5700
+$Comp
+L Graphic:SYM_ESD_Small #SYM?
+U 1 1 5CCA21D9
+P 3850 2600
+F 0 "#SYM?" H 3850 2740 50  0001 C CNN
+F 1 "SYM_ESD_Small" H 3850 2475 50  0001 C CNN
+F 2 "" H 3850 2610 50  0001 C CNN
+F 3 "~" H 3850 2610 50  0001 C CNN
+	1    3850 2600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
