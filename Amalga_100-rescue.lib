@@ -1095,6 +1095,19 @@ X PC1(ADC123_IN11) 9 -1250 -750 300 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# SYM_Arrow45_Tiny-graphic_symbols
+#
+DEF ~SYM_Arrow45_Tiny-graphic_symbols #SYM 0 40 Y Y 1 F N
+F0 "#SYM" 160 50 50 H I C CNN
+F1 "SYM_Arrow45_Tiny-graphic_symbols" 0 -70 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 20 -30 -40 30 N
+P 3 0 1 0 20 -30 -10 -20 10 0 F
+ENDDRAW
+ENDDEF
+#
 # TPS65320C-HSWR-V2-rescue
 #
 DEF TPS65320C-HSWR-V2-rescue IC 0 40 Y Y 1 F N

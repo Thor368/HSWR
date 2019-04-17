@@ -8025,7 +8025,7 @@ Wire Wire Line
 	10250 4600 10250 4700
 Connection ~ 10250 4700
 $Comp
-L graphic_symbols:SYM_Arrow45_Tiny SYM2
+L Amalga_100-rescue:SYM_Arrow45_Tiny-graphic_symbols SYM2
 U 1 1 5CB74FA7
 P 3650 2550
 F 0 "SYM2" H 3810 2600 50  0001 C CNN
