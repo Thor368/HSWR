@@ -664,6 +664,23 @@ C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
+# Amalga_100-rescue_Net-Tie_2-Device
+#
+DEF Amalga_100-rescue_Net-Tie_2-Device NT 0 0 N N 1 F N
+F0 "NT" 0 50 50 H V C CNN
+F1 "Amalga_100-rescue_Net-Tie_2-Device" 0 -50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Net*Tie*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -50 0 50 0 N
+X 1 1 -100 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Amalga_100-rescue_Q_NMOS_GDS-Device
 #
 DEF Amalga_100-rescue_Q_NMOS_GDS-Device Q 0 0 Y N 1 F N
@@ -870,23 +887,6 @@ X shield 5 300 100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_Net-Tie_2
-#
-DEF Device_Net-Tie_2 NT 0 0 N N 1 F N
-F0 "NT" 0 50 50 H V C CNN
-F1 "Device_Net-Tie_2" 0 -50 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Net*Tie*
-$ENDFPLIST
-DRAW
-P 2 0 1 10 -50 0 50 0 N
-X 1 1 -100 0 100 R 50 50 1 1 P
-X 2 2 100 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Graphic_SYM_ESD_Small
 #
 DEF ~Graphic_SYM_ESD_Small #SYM 0 40 Y Y 1 F N
@@ -977,6 +977,31 @@ X B 3 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Switch_SW_DIP_x02
+#
+DEF Switch_SW_DIP_x02 SW 0 0 Y N 1 F N
+F0 "SW" 0 250 50 H V C CNN
+F1 "Switch_SW_DIP_x02" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SW?DIP?x2*
+$ENDFPLIST
+DRAW
+C -80 0 20 0 0 0 N
+C -80 100 20 0 0 0 N
+C 80 0 20 0 0 0 N
+C 80 100 20 0 0 0 N
+S -150 200 150 -100 0 1 10 f
+P 2 0 0 0 -60 5 93 46 N
+P 2 0 0 0 -60 105 93 146 N
+X ~ 1 -300 100 200 R 50 50 1 1 P
+X ~ 2 -300 0 200 R 50 50 1 1 P
+X ~ 3 300 0 200 L 50 50 1 1 P
+X ~ 4 300 100 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Transistor_BJT_BC847
 #
 DEF Transistor_BJT_BC847 Q 0 0 Y N 1 F N
@@ -997,6 +1022,19 @@ P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
 X B 1 -200 0 225 R 50 50 1 1 I
 X E 2 100 -200 100 U 50 50 1 1 P
 X C 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# graphic_symbols_SYM_Arrow45_Tiny
+#
+DEF ~graphic_symbols_SYM_Arrow45_Tiny #SYM 0 40 Y Y 1 F N
+F0 "#SYM" 160 50 50 H I C CNN
+F1 "graphic_symbols_SYM_Arrow45_Tiny" 0 -70 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 20 -30 -40 30 N
+P 3 0 1 0 20 -30 -10 -20 10 0 F
 ENDDRAW
 ENDDEF
 #

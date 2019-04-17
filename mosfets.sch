@@ -1036,11 +1036,11 @@ Wire Wire Line
 Wire Wire Line
 	9400 5850 9800 5850
 Wire Wire Line
-	8850 4700 8850 5750
+	8850 4700 8850 5200
 Wire Wire Line
 	6150 6000 6500 6000
 Wire Wire Line
-	5450 5050 5450 5900
+	5450 5050 5450 5400
 Wire Wire Line
 	6500 5650 6150 5650
 Wire Wire Line
@@ -1268,4 +1268,10 @@ Connection ~ 11100 5500
 Wire Wire Line
 	10200 1750 11100 1750
 Connection ~ 10200 1750
+Connection ~ 8850 5200
+Wire Wire Line
+	8850 5200 8850 5750
+Connection ~ 5450 5400
+Wire Wire Line
+	5450 5400 5450 5900
 $EndSCHEMATC

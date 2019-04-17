@@ -52,7 +52,7 @@ U 1 1 5895E67C
 P 10100 4700
 F 0 "P4" H 10180 4700 40  0000 L CNN
 F 1 "IN-" H 10100 4755 30  0001 C CNN
-F 2 "eigene_mod:redcube_250A_2" H 10100 4700 60  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_5mm_Pad_Via" H 10100 4700 60  0001 C CNN
 F 3 "" H 10100 4700 60  0001 C CNN
 	1    10100 4700
 	-1   0    0    1   
@@ -63,7 +63,7 @@ U 1 1 5895E67D
 P 10100 4500
 F 0 "P3" H 10180 4500 40  0000 L CNN
 F 1 "IN+" H 10100 4555 30  0001 C CNN
-F 2 "eigene_mod:redcube_250A_2" H 10100 4500 60  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_5mm_Pad_Via" H 10100 4500 60  0001 C CNN
 F 3 "" H 10100 4500 60  0001 C CNN
 	1    10100 4500
 	-1   0    0    1   
@@ -74,7 +74,7 @@ U 1 1 5895E67E
 P 10200 2450
 F 0 "P5" H 10150 2500 40  0000 L CNN
 F 1 "MOTOR3" H 10200 2505 30  0001 C CNN
-F 2 "eigene_mod:redcube_250A_2" H 10200 2450 60  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_5mm_Pad_Via" H 10200 2450 60  0001 C CNN
 F 3 "" H 10200 2450 60  0001 C CNN
 	1    10200 2450
 	1    0    0    -1  
@@ -85,7 +85,7 @@ U 1 1 5895E67F
 P 10200 2600
 F 0 "P6" H 10150 2650 40  0000 L CNN
 F 1 "MOTOR2" H 10200 2655 30  0001 C CNN
-F 2 "eigene_mod:redcube_250A_2" H 10200 2600 60  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_5mm_Pad_Via" H 10200 2600 60  0001 C CNN
 F 3 "" H 10200 2600 60  0001 C CNN
 	1    10200 2600
 	1    0    0    -1  
@@ -96,7 +96,7 @@ U 1 1 5895E680
 P 10200 2750
 F 0 "P7" H 10150 2800 40  0000 L CNN
 F 1 "MOTOR1" H 10200 2805 30  0001 C CNN
-F 2 "eigene_mod:redcube_250A_2" H 10200 2750 60  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_5mm_Pad_Via" H 10200 2750 60  0001 C CNN
 F 3 "" H 10200 2750 60  0001 C CNN
 	1    10200 2750
 	1    0    0    -1  
@@ -7865,7 +7865,7 @@ NM(enc)
 Text GLabel 3300 3400 0    50   Input ~ 0
 dir(enc)
 $Comp
-L Device:Net-Tie_2 NT1
+L Amalga_100-rescue:Net-Tie_2-Device NT1
 U 1 1 5CB51E34
 P 8800 4700
 F 0 "NT1" H 8800 4878 50  0000 C CNN
@@ -8000,14 +8000,67 @@ Connection ~ 8550 5450
 Wire Wire Line
 	8550 5450 8550 5700
 $Comp
-L Graphic:SYM_ESD_Small #SYM?
+L Graphic:SYM_ESD_Small SYM1
 U 1 1 5CCA21D9
 P 3850 2600
-F 0 "#SYM?" H 3850 2740 50  0001 C CNN
+F 0 "SYM1" H 3850 2740 50  0001 C CNN
 F 1 "SYM_ESD_Small" H 3850 2475 50  0001 C CNN
-F 2 "" H 3850 2610 50  0001 C CNN
+F 2 "Symbols:ESD-Logo_13.2x12mm_SilkScreen" H 3850 2610 50  0001 C CNN
 F 3 "~" H 3850 2610 50  0001 C CNN
 	1    3850 2600
 	1    0    0    -1  
 $EndComp
+$Comp
+L Amalga_100-rescue:CONN_1-HSWR-V2-rescue P10
+U 1 1 5CB6BC4A
+P 10100 4600
+F 0 "P10" H 10180 4600 40  0000 L CNN
+F 1 "IN-" H 10100 4655 30  0001 C CNN
+F 2 "eigene_mod:redcube_250A_2" H 10100 4600 60  0001 C CNN
+F 3 "" H 10100 4600 60  0001 C CNN
+	1    10100 4600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10250 4600 10250 4700
+Connection ~ 10250 4700
+$Comp
+L graphic_symbols:SYM_Arrow45_Tiny SYM2
+U 1 1 5CB74FA7
+P 3650 2550
+F 0 "SYM2" H 3810 2600 50  0001 C CNN
+F 1 "SYM_Arrow45_Tiny" H 3650 2480 50  0001 C CNN
+F 2 "Symbols:Symbol_Attention_CopperTop_Small" H 3650 2550 50  0001 C CNN
+F 3 "~" H 3650 2550 50  0001 C CNN
+	1    3650 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amalga_100-rescue:R-RESCUE-BLDC_4-HSWR-V2-rescue R18
+U 1 1 5CB95475
+P 3450 6750
+F 0 "R18" V 3350 6750 50  0000 C CNN
+F 1 "10k" V 3450 6750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 3450 6750 60  0001 C CNN
+F 3 "" H 3450 6750 60  0001 C CNN
+	1    3450 6750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 6750 3700 6650
+$Comp
+L Amalga_100-rescue:+5V-power #PWR?
+U 1 1 5CBA2946
+P 3700 6650
+AR Path="/5899E25F/5CBA2946" Ref="#PWR?"  Part="1" 
+AR Path="/5C9D0FFC/5CBA2946" Ref="#PWR?"  Part="1" 
+AR Path="/5CBA2946" Ref="#PWR0148"  Part="1" 
+F 0 "#PWR0148" H 3700 6500 50  0001 C CNN
+F 1 "+5V" H 3700 6790 50  0000 C CNN
+F 2 "" H 3700 6650 50  0000 C CNN
+F 3 "" H 3700 6650 50  0000 C CNN
+	1    3700 6650
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 6750
 $EndSCHEMATC

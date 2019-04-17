@@ -118,7 +118,7 @@ GND2
 Text HLabel 2500 3850 0    50   Input ~ 0
 GND1
 Wire Wire Line
-	2500 3850 2500 3550
+	2500 3850 2500 3750
 Wire Wire Line
 	2500 3550 2950 3550
 Connection ~ 2950 3550
@@ -238,4 +238,25 @@ Wire Wire Line
 	3650 2700 4050 2700
 Wire Wire Line
 	3650 2800 4050 2800
+Wire Wire Line
+	2950 3750 3250 3750
+$Comp
+L Amalga_100-rescue:R-Device R?
+U 1 1 5CB7CEF0
+P 2800 3750
+AR Path="/5CB7CEF0" Ref="R?"  Part="1" 
+AR Path="/5CB8FAD2/5CB7CEF0" Ref="R11"  Part="1" 
+F 0 "R11" V 2880 3750 50  0000 C CNN
+F 1 "1Meg" V 2800 3750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 2730 3750 30  0001 C CNN
+F 3 "" H 2800 3750 30  0000 C CNN
+	1    2800 3750
+	0    1    1    0   
+$EndComp
+Connection ~ 3250 3750
+Wire Wire Line
+	2650 3750 2500 3750
+Connection ~ 2500 3750
+Wire Wire Line
+	2500 3750 2500 3550
 $EndSCHEMATC
