@@ -8063,4 +8063,26 @@ F 3 "" H 3700 6650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 3200 6750
+$Comp
+L Amalga_100-rescue:MountingHole-Mechanical MH12
+U 1 1 5CB97376
+P 7250 5000
+F 0 "MH12" H 7350 5046 50  0000 L CNN
+F 1 "MountingHole" H 7350 4955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 7250 5000 50  0001 C CNN
+F 3 "~" H 7250 5000 50  0001 C CNN
+	1    7250 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amalga_100-rescue:MountingHole-Mechanical MH11
+U 1 1 5CB9737D
+P 7250 4800
+F 0 "MH11" H 7350 4846 50  0000 L CNN
+F 1 "MountingHole" H 7350 4755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 7250 4800 50  0001 C CNN
+F 3 "~" H 7250 4800 50  0001 C CNN
+	1    7250 4800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
