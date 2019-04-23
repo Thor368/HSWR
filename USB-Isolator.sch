@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Amalga_100-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -25,7 +25,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 3850 3350 3750
 $Comp
-L Interface_USB:ADUM3160 U?
+L Amalga_100-rescue:ADUM3160-Interface_USB U?
 U 1 1 5CB9A61A
 P 3150 2800
 AR Path="/5CB9A61A" Ref="U?"  Part="1" 

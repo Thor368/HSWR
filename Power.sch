@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Amalga_100-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -930,7 +930,7 @@ Bootstrap Kondensator größer? 2u?
 Wire Notes Line
 	7000 4900 7400 4350
 Text Notes 6750 4350 0    50   ~ 0
-Diode bis 1200 V nötig (?)\n
+Diode bis 630 V nötig (!)\n
 Wire Wire Line
 	1650 6150 2400 6150
 Wire Wire Line

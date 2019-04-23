@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Amalga_100-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -504,18 +504,18 @@ Text HLabel 2150 3200 0    59   Output ~ 0
 *RDvel
 Wire Wire Line
 	2150 3200 2850 3200
-Text Notes 7000 5300 0    39   ~ 0
+Text Notes 4050 4700 0    39   ~ 0
 Frequency Setting:\n(10 khz default)\n\nFS1--FS2--kHz\n  1      1    10\n  1      0    12\n  0      1    15\n  0      0    20
 Wire Notes Line
-	5450 4050 7150 4750
+	5350 4050 4200 4150
 Wire Notes Line
-	7000 5300 7550 5300
+	4050 4700 4600 4700
 Wire Notes Line
-	7550 4750 7000 4750
+	4600 4150 4050 4150
 Wire Notes Line
-	7000 4750 7000 5300
+	4050 4150 4050 4700
 Wire Notes Line
-	7550 4750 7550 5300
+	4600 4150 4600 4700
 Text Notes 4500 5800 0    39   ~ 0
 Encoder Output\n\nNM (northMount)\nDIR (Direction: (1)forw. (0)backw)\nA\nB
 Wire Notes Line
@@ -546,8 +546,8 @@ NoConn ~ 2850 4200
 NoConn ~ 2850 4600
 NoConn ~ 2850 4700
 NoConn ~ 2850 4500
-NoConn ~ 6900 4300
-NoConn ~ 6900 4400
+NoConn ~ 5850 4200
+NoConn ~ 5850 4300
 $Comp
 L Switch:SW_DIP_x02 SW1
 U 1 1 5CB84172
@@ -570,4 +570,23 @@ Wire Wire Line
 Connection ~ 6500 4100
 Wire Wire Line
 	6500 4100 6500 4000
+Wire Wire Line
+	5850 3900 6850 3900
+Wire Wire Line
+	2850 4300 2700 4300
+$Comp
+L Amalga_100-rescue:GND-power #PWR?
+U 1 1 5CDC9AAC
+P 2700 4550
+AR Path="/5895E6A0/5CDC9AAC" Ref="#PWR?"  Part="1" 
+AR Path="/5C9D0FFC/5CDC9AAC" Ref="#PWR0139"  Part="1" 
+F 0 "#PWR0139" H 2700 4300 50  0001 C CNN
+F 1 "GND" H 2700 4400 50  0000 C CNN
+F 2 "" H 2700 4550 50  0000 C CNN
+F 3 "" H 2700 4550 50  0000 C CNN
+	1    2700 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 4300 2700 4550
 $EndSCHEMATC
