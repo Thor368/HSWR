@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Amalga_100-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -787,6 +787,8 @@ F35 "CS_(R2D)" I L 3300 5750 50
 F36 "RDvel_(R2D)" I L 3300 5650 50 
 F37 "RD_(R2D)" I L 3300 5550 50 
 F38 "dir(enc)" I L 3300 3400 50 
+F39 "SIN_IN_RES" I R 4650 4100 50 
+F40 "COS_IN_RES" I R 4650 4200 50 
 $EndSheet
 Wire Wire Line
 	4700 4950 4700 5200
@@ -957,6 +959,7 @@ F14 "B(enc)" O R 3000 7100 50
 F15 "NM(enc)" O R 3000 7200 50 
 F16 "DIR(enc)" O R 3000 7300 50 
 F17 "A(enc)" O R 3000 7000 50 
+F18 "µC1_RES" O R 3000 7450 50 
 $EndSheet
 Wire Wire Line
 	3150 5550 3150 6650
