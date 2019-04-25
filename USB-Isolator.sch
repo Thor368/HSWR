@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Amalga_100-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -40,10 +40,6 @@ $EndComp
 Wire Wire Line
 	3050 2100 3050 2200
 Wire Wire Line
-	2650 2900 2500 2900
-Wire Wire Line
-	2500 2900 2500 2400
-Wire Wire Line
 	2500 2400 2650 2400
 Text Notes 1550 1750 0    50   ~ 0
 SPD: Highspeed(1), Lowspeed(0)\nSPU: Highspeed(1), Lowspeed(0)\nPIN: External Control(1), VDD2 operation on Powerup\nPDEN: Pull-Down enable. (1 for standard Operation)\n(1 ^= high-pegel)
@@ -61,9 +57,6 @@ Wire Wire Line
 	3650 2500 3750 2500
 Wire Wire Line
 	3750 3000 3750 2500
-Wire Wire Line
-	2500 3000 2500 2900
-Connection ~ 2500 2900
 Wire Wire Line
 	2500 3400 2500 3550
 $Comp
@@ -113,9 +106,9 @@ Text HLabel 4400 2700 2    50   Input ~ 0
 DD+
 Text HLabel 4400 2800 2    50   Input ~ 0
 DD-
-Text HLabel 3350 3850 0    50   Input ~ 0
+Text HLabel 3350 3850 3    50   Input ~ 0
 GND2
-Text HLabel 2500 3850 0    50   Input ~ 0
+Text HLabel 2500 3850 3    50   Input ~ 0
 GND1
 Wire Wire Line
 	2500 3850 2500 3750
@@ -254,9 +247,17 @@ F 3 "" H 2800 3750 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 3250 3750
-Wire Wire Line
-	2650 3750 2500 3750
 Connection ~ 2500 3750
 Wire Wire Line
 	2500 3750 2500 3550
+Wire Wire Line
+	2500 2400 2500 3000
+Wire Wire Line
+	2650 3750 2500 3750
+Wire Wire Line
+	2650 2900 2300 2900
+Wire Wire Line
+	2300 2900 2300 3750
+Wire Wire Line
+	2300 3750 2500 3750
 $EndSCHEMATC

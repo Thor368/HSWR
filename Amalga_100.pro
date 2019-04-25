@@ -1,4 +1,4 @@
-update=22.04.2019 12:49:10
+update=26.04.2019 00:24:19
 version=1
 last_client=kicad
 [cvpcb]
@@ -42,7 +42,7 @@ ViaDiameter3=1
 ViaDrill3=0.5
 ViaDiameter4=10
 ViaDrill4=5
-dPairWidth1=0.2
+dPairWidth1=0.25
 dPairGap1=0.25
 dPairViaGap1=0.25
 SilkLineWidth=0.15
@@ -68,7 +68,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.2
 SolderMaskMinWidth=0.2
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu_(top)
 Type=0
@@ -96,6 +96,6 @@ ViaDiameter=1
 ViaDrill=0.6
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.2
+dPairWidth=0.25
 dPairGap=0.25
 dPairViaGap=0.25
