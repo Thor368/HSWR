@@ -131,7 +131,7 @@ $EndComp
 NoConn ~ 7000 2450
 NoConn ~ 7000 1750
 NoConn ~ 7000 1850
-NoConn ~ 4500 6050
+NoConn ~ 4500 5850
 $Comp
 L Amalga_100-rescue:GND-RESCUE-BLDC_4-HSWR-V2-rescue #PWR043
 U 1 1 53F75856
@@ -4381,9 +4381,9 @@ Text HLabel 4500 3350 0    50   Input ~ 0
 SPI1_MOSI(R2D)
 Text HLabel 4500 4850 0    60   Input ~ 0
 U_Bat
-Text HLabel 4500 5750 0    50   Input ~ 0
+Text HLabel 4500 6050 0    50   Input ~ 0
 CS_(R2D)
-Text HLabel 4500 5850 0    50   Input ~ 0
+Text HLabel 4500 5750 0    50   Input ~ 0
 RDvel_(R2D)
 Text HLabel 4500 3550 0    50   Input ~ 0
 RD_(R2D)
@@ -4411,7 +4411,7 @@ Wire Wire Line
 	10150 1000 10400 1000
 NoConn ~ 4500 4050
 Text HLabel 4500 3150 0    50   Input ~ 0
-SIN_IN_RES
+ANALOG_IN_RES_SIN
 Text HLabel 4500 3250 0    50   Input ~ 0
-COS_IN_RES
+ANALOG_IN_RES_COS
 $EndSCHEMATC

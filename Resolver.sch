@@ -335,13 +335,9 @@ $EndComp
 Wire Wire Line
 	2850 2800 2550 2800
 Wire Wire Line
-	5850 3100 6700 3100
+	5850 3100 6600 3100
 Wire Wire Line
-	6700 3100 6700 2350
-Wire Wire Line
-	5850 3200 6800 3200
-Wire Wire Line
-	6800 3200 6800 2350
+	5850 3200 6900 3200
 Wire Wire Line
 	5850 3400 5900 3400
 Wire Wire Line
@@ -388,9 +384,9 @@ Wire Wire Line
 	5850 3800 6950 3800
 Wire Wire Line
 	5850 3700 6950 3700
-Text HLabel 8950 1950 1    79   Output ~ 0
+Text HLabel 8250 1950 1    79   Output ~ 0
 R2
-Text HLabel 8850 1950 1    79   Output ~ 0
+Text HLabel 8100 1950 1    79   Output ~ 0
 R1
 Text HLabel 6700 1950 1    79   Output ~ 0
 Cos(S2)
@@ -434,13 +430,13 @@ SPI_SCLK
 Text HLabel 2850 3400 0    59   Output ~ 0
 SPI_SO
 Wire Wire Line
-	8850 3750 8850 1950
+	8100 3750 8100 1950
 Wire Wire Line
-	7750 3750 8850 3750
+	7750 3750 8100 3750
 Wire Wire Line
-	8950 1950 8950 3850
+	8250 1950 8250 3850
 Wire Wire Line
-	7750 3850 8950 3850
+	7750 3850 8250 3850
 Text Notes 650  2450 0    39   ~ 0
 (1) = read position\n(0) = read velocity
 Wire Notes Line
@@ -644,145 +640,283 @@ $EndComp
 Wire Wire Line
 	6800 2100 6900 2100
 Wire Wire Line
-	6900 2100 6900 2200
-Wire Wire Line
 	6800 2100 6800 1950
 Wire Wire Line
-	6900 2200 6900 2350
-Wire Wire Line
-	6900 2350 6800 2350
-Connection ~ 6900 2200
-Wire Wire Line
-	6700 2350 6600 2350
-Wire Wire Line
-	6600 2350 6600 2200
-Wire Wire Line
-	6600 2200 6600 2100
-Wire Wire Line
 	6600 2100 6700 2100
-Connection ~ 6600 2200
 Wire Wire Line
 	6700 2100 6700 1950
 Wire Wire Line
-	6900 2200 7200 2200
+	6900 2200 6900 2100
+Connection ~ 6900 2200
 Wire Wire Line
-	7200 2200 7200 950 
-Connection ~ 6600 2100
+	6900 2200 6900 3200
+Wire Wire Line
+	6600 2200 6600 3100
+Wire Wire Line
+	6600 2200 6600 2100
+Connection ~ 6600 2200
 $Comp
 L Amalga_100-rescue:R-Device R?
-U 1 1 5CC34D88
-P 7050 950
-AR Path="/5CC34D88" Ref="R?"  Part="1" 
-AR Path="/5C9D0FFC/5CC34D88" Ref="R49"  Part="1" 
-F 0 "R49" V 7130 950 50  0000 C CNN
-F 1 "68k" V 7050 950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 6980 950 30  0001 C CNN
-F 3 "" H 7050 950 30  0000 C CNN
-	1    7050 950 
-	0    1    1    0   
-$EndComp
-$Comp
-L Amalga_100-rescue:R-Device R?
-U 1 1 5CC39EA6
-P 6700 950
-AR Path="/5CC39EA6" Ref="R?"  Part="1" 
-AR Path="/5C9D0FFC/5CC39EA6" Ref="R46"  Part="1" 
-F 0 "R46" V 6780 950 50  0000 C CNN
-F 1 "68k" V 6700 950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 6630 950 30  0001 C CNN
-F 3 "" H 6700 950 30  0000 C CNN
-	1    6700 950 
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6550 950  6600 2100
-Wire Wire Line
-	6850 950  6900 950 
-Wire Wire Line
-	6900 950  6900 700 
-$Comp
-L Amalga_100-rescue:+5V-power #PWR?
-U 1 1 5CC58225
-P 6900 700
-AR Path="/5899E25F/5CC58225" Ref="#PWR?"  Part="1" 
-AR Path="/5C9D0FFC/5CC58225" Ref="#PWR0150"  Part="1" 
-F 0 "#PWR0150" H 6900 550 50  0001 C CNN
-F 1 "+5V" H 6900 840 50  0000 C CNN
-F 2 "" H 6900 700 50  0000 C CNN
-F 3 "" H 6900 700 50  0000 C CNN
-	1    6900 700 
+U 1 1 5CC4AED2
+P 8850 1700
+AR Path="/5CC4AED2" Ref="R?"  Part="1" 
+AR Path="/5C9D0FFC/5CC4AED2" Ref="R52"  Part="1" 
+F 0 "R52" V 8930 1700 50  0000 C CNN
+F 1 "50k" V 8850 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8780 1700 30  0001 C CNN
+F 3 "" H 8850 1700 30  0000 C CNN
+	1    8850 1700
 	1    0    0    -1  
 $EndComp
-Connection ~ 6900 950 
 $Comp
 L Amalga_100-rescue:R-Device R?
-U 1 1 5CC619C4
-P 7350 2200
-AR Path="/5CC619C4" Ref="R?"  Part="1" 
-AR Path="/5C9D0FFC/5CC619C4" Ref="R50"  Part="1" 
-F 0 "R50" V 7430 2200 50  0000 C CNN
-F 1 "68k" V 7350 2200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 7280 2200 30  0001 C CNN
-F 3 "" H 7350 2200 30  0000 C CNN
-	1    7350 2200
-	0    1    1    0   
+U 1 1 5CC4D970
+P 9150 1700
+AR Path="/5CC4D970" Ref="R?"  Part="1" 
+AR Path="/5C9D0FFC/5CC4D970" Ref="R60"  Part="1" 
+F 0 "R60" V 9230 1700 50  0000 C CNN
+F 1 "50k" V 9150 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9080 1700 30  0001 C CNN
+F 3 "" H 9150 1700 30  0000 C CNN
+	1    9150 1700
+	1    0    0    -1  
 $EndComp
 $Comp
 L Amalga_100-rescue:R-Device R?
-U 1 1 5CC619CB
-P 6450 2200
-AR Path="/5CC619CB" Ref="R?"  Part="1" 
-AR Path="/5C9D0FFC/5CC619CB" Ref="R25"  Part="1" 
-F 0 "R25" V 6550 2200 50  0000 C CNN
-F 1 "68k" V 6450 2200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 6380 2200 30  0001 C CNN
-F 3 "" H 6450 2200 30  0000 C CNN
-	1    6450 2200
-	0    1    1    0   
+U 1 1 5CC5040F
+P 9150 1300
+AR Path="/5CC5040F" Ref="R?"  Part="1" 
+AR Path="/5C9D0FFC/5CC5040F" Ref="R59"  Part="1" 
+F 0 "R59" V 9230 1300 50  0000 C CNN
+F 1 "50k" V 9150 1300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9080 1300 30  0001 C CNN
+F 3 "" H 9150 1300 30  0000 C CNN
+	1    9150 1300
+	1    0    0    -1  
 $EndComp
-Connection ~ 7200 2200
+$Comp
+L Amalga_100-rescue:R-Device R?
+U 1 1 5CC52EAB
+P 8850 1300
+AR Path="/5CC52EAB" Ref="R?"  Part="1" 
+AR Path="/5C9D0FFC/5CC52EAB" Ref="R51"  Part="1" 
+F 0 "R51" V 8930 1300 50  0000 C CNN
+F 1 "50k" V 8850 1300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8780 1300 30  0001 C CNN
+F 3 "" H 8850 1300 30  0000 C CNN
+	1    8850 1300
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	6300 2200 6300 2350
-Wire Wire Line
-	6300 2350 6500 2350
-Wire Wire Line
-	6500 2550 7100 2550
-Wire Wire Line
-	7500 2550 7500 2200
-Wire Wire Line
-	6500 2350 6500 2550
+	8850 1850 9000 1850
 $Comp
 L Amalga_100-rescue:GND-power #PWR?
-U 1 1 5CC6E18D
-P 7100 2550
-AR Path="/5895E6A0/5CC6E18D" Ref="#PWR?"  Part="1" 
-AR Path="/5C9D0FFC/5CC6E18D" Ref="#PWR0151"  Part="1" 
-F 0 "#PWR0151" H 7100 2300 50  0001 C CNN
-F 1 "GND" H 7100 2400 50  0000 C CNN
-F 2 "" H 7100 2550 50  0000 C CNN
-F 3 "" H 7100 2550 50  0000 C CNN
-	1    7100 2550
+U 1 1 5CC5AEBB
+P 9000 1850
+AR Path="/5895E6A0/5CC5AEBB" Ref="#PWR?"  Part="1" 
+AR Path="/5C9D0FFC/5CC5AEBB" Ref="#PWR0150"  Part="1" 
+F 0 "#PWR0150" H 9000 1600 50  0001 C CNN
+F 1 "GND" H 9000 1700 50  0000 C CNN
+F 2 "" H 9000 1850 50  0000 C CNN
+F 3 "" H 9000 1850 50  0000 C CNN
+	1    9000 1850
 	1    0    0    -1  
 $EndComp
-Connection ~ 7100 2550
 Wire Wire Line
-	7100 2550 7500 2550
-Text HLabel 6550 650  1    59   Output ~ 0
-µC1_RES
-Connection ~ 6550 950 
+	9000 1850 9150 1850
+Connection ~ 9000 1850
+$Comp
+L Amalga_100-rescue:+5V-power #PWR?
+U 1 1 5CC6B2D1
+P 9000 1100
+AR Path="/5899E25F/5CC6B2D1" Ref="#PWR?"  Part="1" 
+AR Path="/5C9D0FFC/5CC6B2D1" Ref="#PWR0151"  Part="1" 
+F 0 "#PWR0151" H 9000 950 50  0001 C CNN
+F 1 "+5V" H 9000 1240 50  0000 C CNN
+F 2 "" H 9000 1100 50  0000 C CNN
+F 3 "" H 9000 1100 50  0000 C CNN
+	1    9000 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 1150 9000 1150
+Wire Wire Line
+	9000 1100 9000 1150
+Connection ~ 9000 1150
+Wire Wire Line
+	9000 1150 9150 1150
+Wire Wire Line
+	8850 1550 8850 1500
+Wire Wire Line
+	9150 1450 9150 1500
+Wire Wire Line
+	9350 1250 9350 1500
+Text HLabel 8700 1200 1    79   Output ~ 0
+SinLO(S3)
+Text HLabel 9350 1250 1    79   Output ~ 0
+Sin(S1)
+Connection ~ 9150 1500
+Wire Wire Line
+	9150 1500 9150 1550
+Wire Wire Line
+	9150 1500 9350 1500
+Connection ~ 8850 1500
+Wire Wire Line
+	8850 1500 8850 1450
+Wire Wire Line
+	8500 1500 8700 1500
 $Comp
 L Amalga_100-rescue:C_Small-Device C?
-U 1 1 5CC78ED9
-P 6550 850
-AR Path="/5895E6A0/5CC78ED9" Ref="C?"  Part="1" 
-AR Path="/5C9D0FFC/5CC78ED9" Ref="C79"  Part="1" 
-F 0 "C79" H 6560 920 50  0000 L CNN
-F 1 "10nF" H 6560 770 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6550 850 50  0001 C CNN
-F 3 "" H 6550 850 50  0000 C CNN
-	1    6550 850 
+U 1 1 5CCBD752
+P 8500 1400
+AR Path="/5895E6A0/5CCBD752" Ref="C?"  Part="1" 
+AR Path="/5C9D0FFC/5CCBD752" Ref="C80"  Part="1" 
+F 0 "C80" H 8510 1470 50  0000 L CNN
+F 1 "10nF" H 8510 1320 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8500 1400 50  0001 C CNN
+F 3 "" H 8500 1400 50  0000 C CNN
+	1    8500 1400
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6550 750  6550 650 
+	8500 1200 8500 1300
+$Comp
+L Amalga_100-rescue:R-Device R?
+U 1 1 5CCC3D71
+P 10050 1650
+AR Path="/5CCC3D71" Ref="R?"  Part="1" 
+AR Path="/5C9D0FFC/5CCC3D71" Ref="R25"  Part="1" 
+F 0 "R25" V 10130 1650 50  0000 C CNN
+F 1 "50k" V 10050 1650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9980 1650 30  0001 C CNN
+F 3 "" H 10050 1650 30  0000 C CNN
+	1    10050 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amalga_100-rescue:R-Device R?
+U 1 1 5CCC3D78
+P 10350 1650
+AR Path="/5CCC3D78" Ref="R?"  Part="1" 
+AR Path="/5C9D0FFC/5CCC3D78" Ref="R50"  Part="1" 
+F 0 "R50" V 10430 1650 50  0000 C CNN
+F 1 "50k" V 10350 1650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 10280 1650 30  0001 C CNN
+F 3 "" H 10350 1650 30  0000 C CNN
+	1    10350 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amalga_100-rescue:R-Device R?
+U 1 1 5CCC3D7F
+P 10350 1250
+AR Path="/5CCC3D7F" Ref="R?"  Part="1" 
+AR Path="/5C9D0FFC/5CCC3D7F" Ref="R49"  Part="1" 
+F 0 "R49" V 10430 1250 50  0000 C CNN
+F 1 "50k" V 10350 1250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 10280 1250 30  0001 C CNN
+F 3 "" H 10350 1250 30  0000 C CNN
+	1    10350 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amalga_100-rescue:R-Device R?
+U 1 1 5CCC3D86
+P 10050 1250
+AR Path="/5CCC3D86" Ref="R?"  Part="1" 
+AR Path="/5C9D0FFC/5CCC3D86" Ref="R46"  Part="1" 
+F 0 "R46" V 10130 1250 50  0000 C CNN
+F 1 "50k" V 10050 1250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9980 1250 30  0001 C CNN
+F 3 "" H 10050 1250 30  0000 C CNN
+	1    10050 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 1800 10200 1800
+$Comp
+L Amalga_100-rescue:GND-power #PWR?
+U 1 1 5CCC3D8E
+P 10200 1800
+AR Path="/5895E6A0/5CCC3D8E" Ref="#PWR?"  Part="1" 
+AR Path="/5C9D0FFC/5CCC3D8E" Ref="#PWR0152"  Part="1" 
+F 0 "#PWR0152" H 10200 1550 50  0001 C CNN
+F 1 "GND" H 10200 1650 50  0000 C CNN
+F 2 "" H 10200 1800 50  0000 C CNN
+F 3 "" H 10200 1800 50  0000 C CNN
+	1    10200 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 1800 10350 1800
+Connection ~ 10200 1800
+$Comp
+L Amalga_100-rescue:+5V-power #PWR?
+U 1 1 5CCC3D96
+P 10200 1050
+AR Path="/5899E25F/5CCC3D96" Ref="#PWR?"  Part="1" 
+AR Path="/5C9D0FFC/5CCC3D96" Ref="#PWR0153"  Part="1" 
+F 0 "#PWR0153" H 10200 900 50  0001 C CNN
+F 1 "+5V" H 10200 1190 50  0000 C CNN
+F 2 "" H 10200 1050 50  0000 C CNN
+F 3 "" H 10200 1050 50  0000 C CNN
+	1    10200 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 1100 10200 1100
+Wire Wire Line
+	10200 1050 10200 1100
+Connection ~ 10200 1100
+Wire Wire Line
+	10200 1100 10350 1100
+Wire Wire Line
+	10050 1500 10050 1450
+Wire Wire Line
+	10350 1400 10350 1450
+Wire Wire Line
+	10550 1200 10550 1450
+Connection ~ 10350 1450
+Wire Wire Line
+	10350 1450 10350 1500
+Wire Wire Line
+	10350 1450 10550 1450
+Connection ~ 10050 1450
+Wire Wire Line
+	10050 1450 10050 1400
+Wire Wire Line
+	9750 1450 9900 1450
+$Comp
+L Amalga_100-rescue:C_Small-Device C?
+U 1 1 5CCC3DAB
+P 9750 1350
+AR Path="/5895E6A0/5CCC3DAB" Ref="C?"  Part="1" 
+AR Path="/5C9D0FFC/5CCC3DAB" Ref="C79"  Part="1" 
+F 0 "C79" H 9760 1420 50  0000 L CNN
+F 1 "10nF" H 9760 1270 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9750 1350 50  0001 C CNN
+F 3 "" H 9750 1350 50  0000 C CNN
+	1    9750 1350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9750 1150 9750 1250
+Text HLabel 9900 1150 1    79   Output ~ 0
+Cos(S2)
+Text HLabel 10550 1200 1    79   Output ~ 0
+CosLO(S6)
+Connection ~ 8700 1500
+Wire Wire Line
+	8700 1500 8850 1500
+Wire Wire Line
+	8700 1200 8700 1500
+Wire Wire Line
+	9900 1150 9900 1450
+Connection ~ 9900 1450
+Wire Wire Line
+	9900 1450 10050 1450
+Text HLabel 8500 1200 1    79   Output ~ 0
+An_out_SIN_RES
+Text HLabel 9750 1150 1    79   Output ~ 0
+An_out_COS_RES
 $EndSCHEMATC
