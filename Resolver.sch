@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Amalga_100-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -588,7 +588,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 3900 6850 5000
 Wire Wire Line
-	6850 5000 7300 5000
+	6850 5000 7750 5000
 Wire Wire Line
 	5900 2350 5800 2350
 Wire Wire Line
@@ -772,7 +772,7 @@ P 8500 1400
 AR Path="/5895E6A0/5CCBD752" Ref="C?"  Part="1" 
 AR Path="/5C9D0FFC/5CCBD752" Ref="C80"  Part="1" 
 F 0 "C80" H 8510 1470 50  0000 L CNN
-F 1 "10nF" H 8510 1320 50  0000 L CNN
+F 1 "1uF" H 8510 1320 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 8500 1400 50  0001 C CNN
 F 3 "" H 8500 1400 50  0000 C CNN
 	1    8500 1400
@@ -893,7 +893,7 @@ P 9750 1350
 AR Path="/5895E6A0/5CCC3DAB" Ref="C?"  Part="1" 
 AR Path="/5C9D0FFC/5CCC3DAB" Ref="C79"  Part="1" 
 F 0 "C79" H 9760 1420 50  0000 L CNN
-F 1 "10nF" H 9760 1270 50  0000 L CNN
+F 1 "1uF" H 9760 1270 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 9750 1350 50  0001 C CNN
 F 3 "" H 9750 1350 50  0000 C CNN
 	1    9750 1350
@@ -919,4 +919,113 @@ Text HLabel 8500 1200 1    79   Output ~ 0
 An_out_SIN_RES
 Text HLabel 9750 1150 1    79   Output ~ 0
 An_out_COS_RES
+Text Notes 9200 3250 0    39   ~ 0
+After Reset:\nWhen Vdd >= 4.75V hold *RESET low for >= 10µS\nWhen*RESET high, wait 20mS, then pulse low on *SAMPLE to start.\n(DB S. 17)
+Wire Notes Line
+	9200 3100 8300 4550
+Wire Notes Line
+	11200 2900 9200 2900
+Wire Notes Line
+	9200 2900 9200 3300
+Wire Notes Line
+	11200 2900 11200 3300
+Wire Notes Line
+	11200 3300 9200 3300
+$Comp
+L Power_Supervisor:CAT811JTBI-GT3 U11
+U 1 1 5CC70E78
+P 8150 5000
+F 0 "U11" H 7950 5300 50  0000 R CNN
+F 1 "ADM811" H 8950 4700 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-143" H 8250 4700 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/CAT811-D.PDF" H 7800 4300 50  0001 C CNN
+	1    8150 5000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amalga_100-rescue:GND-power #PWR?
+U 1 1 5CC745B5
+P 8150 5400
+AR Path="/5895E6A0/5CC745B5" Ref="#PWR?"  Part="1" 
+AR Path="/5C9D0FFC/5CC745B5" Ref="#PWR058"  Part="1" 
+F 0 "#PWR058" H 8150 5150 50  0001 C CNN
+F 1 "GND" H 8150 5250 50  0000 C CNN
+F 2 "" H 8150 5400 50  0000 C CNN
+F 3 "" H 8150 5400 50  0000 C CNN
+	1    8150 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 5400 8150 5300
+$Comp
+L Amalga_100-rescue:+5V-power #PWR?
+U 1 1 5CC7E8A4
+P 8150 4600
+AR Path="/5899E25F/5CC7E8A4" Ref="#PWR?"  Part="1" 
+AR Path="/5C9D0FFC/5CC7E8A4" Ref="#PWR057"  Part="1" 
+F 0 "#PWR057" H 8150 4450 50  0001 C CNN
+F 1 "+5V" H 8150 4740 50  0000 C CNN
+F 2 "" H 8150 4600 50  0000 C CNN
+F 3 "" H 8150 4600 50  0000 C CNN
+	1    8150 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 4700 8150 4600
+$Comp
+L Amalga_100-rescue:R-Device R?
+U 1 1 5CC89A05
+P 7100 5150
+AR Path="/5CC89A05" Ref="R?"  Part="1" 
+AR Path="/5C9D0FFC/5CC89A05" Ref="R77"  Part="1" 
+F 0 "R77" V 7180 5150 50  0000 C CNN
+F 1 "10k" V 7100 5150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7030 5150 30  0001 C CNN
+F 3 "" H 7100 5150 30  0000 C CNN
+	1    7100 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amalga_100-rescue:GND-power #PWR?
+U 1 1 5CC8D039
+P 7100 5350
+AR Path="/5895E6A0/5CC8D039" Ref="#PWR?"  Part="1" 
+AR Path="/5C9D0FFC/5CC8D039" Ref="#PWR056"  Part="1" 
+F 0 "#PWR056" H 7100 5100 50  0001 C CNN
+F 1 "GND" H 7100 5200 50  0000 C CNN
+F 2 "" H 7100 5350 50  0000 C CNN
+F 3 "" H 7100 5350 50  0000 C CNN
+	1    7100 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 5350 7100 5300
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5CC9AC4B
+P 8800 5000
+F 0 "SW2" H 8800 5285 50  0000 C CNN
+F 1 "SW_Push" H 8800 5194 50  0000 C CNN
+F 2 "" H 8800 5200 50  0001 C CNN
+F 3 "" H 8800 5200 50  0001 C CNN
+	1    8800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amalga_100-rescue:GND-power #PWR?
+U 1 1 5CC9AD01
+P 9000 5400
+AR Path="/5895E6A0/5CC9AD01" Ref="#PWR?"  Part="1" 
+AR Path="/5C9D0FFC/5CC9AD01" Ref="#PWR059"  Part="1" 
+F 0 "#PWR059" H 9000 5150 50  0001 C CNN
+F 1 "GND" H 9000 5250 50  0000 C CNN
+F 2 "" H 9000 5400 50  0000 C CNN
+F 3 "" H 9000 5400 50  0000 C CNN
+	1    9000 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 5400 9000 5000
+Wire Wire Line
+	8550 5000 8600 5000
 $EndSCHEMATC

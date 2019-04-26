@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Amalga_100-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -238,7 +238,7 @@ U 1 1 53F77410
 P 10100 3150
 F 0 "P8" V 10050 3150 60  0000 C CNN
 F 1 "SWD" V 10150 3150 60  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 10100 3150 60  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 10100 3150 60  0001 C CNN
 F 3 "" H 10100 3150 60  0001 C CNN
 	1    10100 3150
 	1    0    0    -1  
