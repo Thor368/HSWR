@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Amalga_100-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -231,29 +231,11 @@ Wire Wire Line
 	3150 2350 3550 2350
 Wire Wire Line
 	3150 2450 3550 2450
-Wire Wire Line
-	2450 3400 2750 3400
-$Comp
-L Amalga_100-rescue:R-Device R?
-U 1 1 5CB7CEF0
-P 2300 3400
-AR Path="/5CB7CEF0" Ref="R?"  Part="1" 
-AR Path="/5CB8FAD2/5CB7CEF0" Ref="R11"  Part="1" 
-F 0 "R11" V 2380 3400 50  0000 C CNN
-F 1 "1Meg" V 2300 3400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 2230 3400 30  0001 C CNN
-F 3 "" H 2300 3400 30  0000 C CNN
-	1    2300 3400
-	0    1    1    0   
-$EndComp
-Connection ~ 2750 3400
 Connection ~ 2000 3400
 Wire Wire Line
 	2000 3400 2000 3200
 Wire Wire Line
 	2000 2050 2000 2650
-Wire Wire Line
-	2150 3400 2000 3400
 Wire Wire Line
 	2150 2550 1800 2550
 Wire Wire Line

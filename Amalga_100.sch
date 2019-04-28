@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Amalga_100-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1013,7 +1013,7 @@ U 1 1 5CB8C74E
 P 2600 3250
 F 0 "JP3" V 2554 3318 50  0000 L CNN
 F 1 "SolderJumper_3_Bridged12" V 2645 3318 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 2600 3250 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 2600 3250 50  0001 C CNN
 F 3 "~" H 2600 3250 50  0001 C CNN
 	1    2600 3250
 	0    -1   1    0   
@@ -1024,7 +1024,7 @@ U 1 1 5CBCA381
 P 2400 2950
 F 0 "JP1" V 2354 3018 50  0000 L CNN
 F 1 "SolderJumper_3_Bridged12" V 2445 3018 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 2400 2950 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 2400 2950 50  0001 C CNN
 F 3 "~" H 2400 2950 50  0001 C CNN
 	1    2400 2950
 	0    -1   1    0   
@@ -1035,7 +1035,7 @@ U 1 1 5CBC521D
 P 2500 3100
 F 0 "JP2" V 2454 3168 50  0000 L CNN
 F 1 "SolderJumper_3_Bridged12" V 2545 3168 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 2500 3100 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 2500 3100 50  0001 C CNN
 F 3 "~" H 2500 3100 50  0001 C CNN
 	1    2500 3100
 	0    -1   1    0   
@@ -1144,7 +1144,7 @@ U 1 1 5CB95475
 P 3450 6750
 F 0 "R18" V 3350 6750 50  0000 C CNN
 F 1 "10k" V 3450 6750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" H 3450 6750 60  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3450 6750 60  0001 C CNN
 F 3 "" H 3450 6750 60  0001 C CNN
 	1    3450 6750
 	0    1    1    0   
