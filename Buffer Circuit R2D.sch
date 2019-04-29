@@ -1251,7 +1251,7 @@ F 1 "AD8397" H 5850 2726 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5850 2450 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8610_8620.pdf" H 5850 2450 50  0001 C CNN
 	1    5850 2450
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:AD8620 U10
@@ -1262,7 +1262,7 @@ F 1 "AD8397" H 5900 4876 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5900 4600 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8610_8620.pdf" H 5900 4600 50  0001 C CNN
 	2    5900 4600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:AD8620 U10
