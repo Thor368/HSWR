@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 85)
-    (tracks 4039)
+    (tracks 4043)
     (zones 0)
     (modules 223)
     (nets 134)
@@ -11,7 +11,7 @@
 
   (page A4)
   (layers
-    (0 "F.Cu_(top)" signal hide)
+    (0 "F.Cu_(top)" signal)
     (1 inner_layer1 power hide)
     (2 inner_layer2 power hide)
     (3 "inner_layer3_(GND)" signal hide)
@@ -38,7 +38,7 @@
   )
 
   (setup
-    (last_trace_width 0.3)
+    (last_trace_width 0.6)
     (user_trace_width 0.2)
     (user_trace_width 0.25)
     (user_trace_width 0.3)
@@ -13915,7 +13915,7 @@
   (segment (start 245.81 73.41) (end 245.71 73.41) (width 1) (layer "B.Cu_(GND_bottom)") (net 98))
   (segment (start 245.71 73.41) (end 244.9 72.6) (width 1) (layer "B.Cu_(GND_bottom)") (net 98))
   (segment (start 244.9 71.6) (end 245.4 71.1) (width 1) (layer "B.Cu_(GND_bottom)") (net 98))
-  (segment (start 244.9 72.6) (end 244.9 71.6) (width 1) (layer "B.Cu_(GND_bottom)") (net 98))
+  (segment (start 244.77 72.58) (end 244.77 71.58) (width 0.8) (layer "B.Cu_(GND_bottom)") (net 98))
   (segment (start 246.1 68.4) (end 246.1 66.7) (width 1) (layer "B.Cu_(GND_bottom)") (net 98))
   (segment (start 245.4 71.1) (end 245.4 69.1) (width 1) (layer "B.Cu_(GND_bottom)") (net 98))
   (segment (start 245.4 69.1) (end 246.1 68.4) (width 1) (layer "B.Cu_(GND_bottom)") (net 98))
@@ -13928,6 +13928,10 @@
   (segment (start 241.9 43.3) (end 240.9 42.3) (width 0.6) (layer "F.Cu_(top)") (net 98))
   (segment (start 240.9 42.3) (end 240.8 42.2) (width 0.6) (layer "F.Cu_(top)") (net 98))
   (segment (start 240.8 42.2) (end 240.8 41.3) (width 0.6) (layer "F.Cu_(top)") (net 98))
+  (segment (start 245.4 74) (end 245.4 73.23) (width 0.6) (layer "B.Cu_(GND_bottom)") (net 98))
+  (segment (start 245.4 73.23) (end 246.09 72.54) (width 0.6) (layer "B.Cu_(GND_bottom)") (net 98))
+  (segment (start 246.09 71.79) (end 245.4 71.1) (width 0.6) (layer "B.Cu_(GND_bottom)") (net 98))
+  (segment (start 246.02 72.45) (end 246.02 71.7) (width 0.8) (layer "B.Cu_(GND_bottom)") (net 98))
   (via (at 49.9 75) (size 0.6) (drill 0.4) (layers "F.Cu_(top)" "B.Cu_(GND_bottom)") (net 99) (tstamp 5CBBF827))
   (segment (start 44.187351 76.312649) (end 44.574999 75.925001) (width 0.45) (layer "B.Cu_(GND_bottom)") (net 99) (tstamp 5CBBF350))
   (segment (start 44.574999 75.925001) (end 48.974999 75.925001) (width 0.45) (layer "B.Cu_(GND_bottom)") (net 99) (tstamp 5CBBF3AD))
