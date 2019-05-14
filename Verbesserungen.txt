@@ -1,0 +1,2 @@
+-Versorgung komplett nur auf Kondensator, von dort zu VCC-Eingangspin
+-Strommessung anderer Sensor? Hallsensor? Schnell genug?
