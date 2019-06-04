@@ -1,6 +1,0 @@
--Versorgung komplett nur auf Kondensator, von dort zu VCC-Eingangspin
--Strommessung anderer Sensor? Hallsensor? Schnell genug?
--Bodydioden näher an fet/igbt
--5V + 12V: 2 Dioden routen. Anderes Netzteil? Geregeltes Netzteil: 12V zu 15V
--Stencil für Rückseite!!
--ESD-Schutz µController
