@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:HSWR V2-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -23,7 +22,7 @@ CANH
 Text HLabel 5150 3350 0    60   Input ~ 0
 CANL
 $Comp
-L Device:C_Small C9
+L HSWR-V2-rescue:C_Small-Device C9
 U 1 1 5759CF39
 P 5700 2600
 F 0 "C9" H 5800 2600 50  0000 L CNN
@@ -34,7 +33,7 @@ F 3 "" H 5700 2600 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C11
+L HSWR-V2-rescue:C_Small-Device C11
 U 1 1 5759D08A
 P 4350 2600
 F 0 "C11" H 4500 2600 50  0000 L CNN
@@ -45,7 +44,7 @@ F 3 "" H 4350 2600 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR029
+L HSWR-V2-rescue:Earth-power #PWR029
 U 1 1 5759DCFE
 P 4650 2800
 F 0 "#PWR029" H 4650 2550 50  0001 C CNN
@@ -56,7 +55,7 @@ F 3 "" H 4650 2800 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR032
+L HSWR-V2-rescue:GND-power #PWR032
 U 1 1 5759E8F5
 P 6050 4050
 F 0 "#PWR032" H 6050 3800 50  0001 C CNN
@@ -67,7 +66,7 @@ F 3 "" H 6050 4050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R30
+L HSWR-V2-rescue:R_Small-Device R30
 U 1 1 5759ED7A
 P 5350 3250
 F 0 "R30" V 5250 3200 50  0000 L CNN
@@ -84,7 +83,7 @@ Wire Wire Line
 Text HLabel 6550 3300 2    60   Output ~ 0
 V+Sense
 $Comp
-L Device:C_Small C12
+L HSWR-V2-rescue:C_Small-Device C12
 U 1 1 575A0498
 P 6200 2600
 F 0 "C12" H 6350 2600 50  0000 L CNN
@@ -95,7 +94,7 @@ F 3 "" H 6200 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR033
+L HSWR-V2-rescue:+3V3-power #PWR033
 U 1 1 575A0BC8
 P 6200 2500
 F 0 "#PWR033" H 6200 2350 50  0001 C CNN
@@ -106,7 +105,7 @@ F 3 "" H 6200 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR0115
+L HSWR-V2-rescue:Earth-power #PWR0115
 U 1 1 5CA085F6
 P 5700 2700
 F 0 "#PWR0115" H 5700 2450 50  0001 C CNN
@@ -117,7 +116,7 @@ F 3 "" H 5700 2700 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:AP1117-50 U5
+L HSWR-V2-rescue:AP1117-50-Regulator_Linear U5
 U 1 1 5CA08F00
 P 4650 2500
 F 0 "U5" H 4650 2742 50  0000 C CNN
@@ -128,7 +127,7 @@ F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 4750 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR0167
+L HSWR-V2-rescue:Earth-power #PWR0167
 U 1 1 5CA09500
 P 4350 2800
 F 0 "#PWR0167" H 4350 2550 50  0001 C CNN
@@ -147,10 +146,8 @@ Wire Wire Line
 Connection ~ 5700 2500
 Wire Wire Line
 	5700 2500 5850 2500
-Connection ~ 5350 3150
-Connection ~ 5350 3350
 $Comp
-L HSWR-V2-rescue:ADUM3054-Auktoralib IC4
+L HSWR-V2-rescue:ADUM3054-Auktoralib-HSWR-rescue IC4
 U 1 1 5CA06D6C
 P 5950 3400
 AR Path="/5CA06D6C" Ref="IC4"  Part="1" 
@@ -163,7 +160,7 @@ F 3 "" H 5950 3300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR0168
+L HSWR-V2-rescue:Earth-power #PWR0168
 U 1 1 5CA09CBC
 P 5750 4050
 F 0 "#PWR0168" H 5750 3800 50  0001 C CNN
@@ -174,7 +171,7 @@ F 3 "" H 5750 4050 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR0169
+L HSWR-V2-rescue:Earth-power #PWR0169
 U 1 1 5CA09D7B
 P 5850 4050
 F 0 "#PWR0169" H 5850 3800 50  0001 C CNN
@@ -185,7 +182,7 @@ F 3 "" H 5850 4050 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0170
+L HSWR-V2-rescue:GND-power #PWR0170
 U 1 1 5CA0A130
 P 6150 4050
 F 0 "#PWR0170" H 6150 3800 50  0001 C CNN
@@ -196,7 +193,7 @@ F 3 "" H 6150 4050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0171
+L HSWR-V2-rescue:GND-power #PWR0171
 U 1 1 5CA0A147
 P 6250 4050
 F 0 "#PWR0171" H 6250 3800 50  0001 C CNN
@@ -207,7 +204,7 @@ F 3 "" H 6250 4050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0172
+L HSWR-V2-rescue:GND-power #PWR0172
 U 1 1 5CA0A1E2
 P 6200 2700
 F 0 "#PWR0172" H 6200 2450 50  0001 C CNN
@@ -223,7 +220,7 @@ Wire Wire Line
 	6050 2500 6200 2500
 Connection ~ 6200 2500
 $Comp
-L power:+12VA #PWR0199
+L HSWR-V2-rescue:+12VA-power #PWR0199
 U 1 1 5C9EF966
 P 4350 2500
 F 0 "#PWR0199" H 4350 2350 50  0001 C CNN
@@ -234,4 +231,5 @@ F 3 "" H 4350 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4350 2500
+NoConn ~ 5350 3550
 $EndSCHEMATC

@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:HSWR V2-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -25,9 +24,6 @@ SWDIO
 Text GLabel 9750 3300 0    60   Input ~ 0
 NRST
 Wire Wire Line
-	10150 1500 10150 1400
-Connection ~ 9900 1500
-Wire Wire Line
 	9900 1500 9900 1400
 Connection ~ 9650 1500
 Wire Wire Line
@@ -41,11 +37,8 @@ Wire Wire Line
 Connection ~ 9650 1000
 Wire Wire Line
 	9650 1000 9650 1100
-Connection ~ 9900 1000
 Wire Wire Line
 	9900 1000 9900 1100
-Wire Wire Line
-	10150 1000 10150 1100
 Wire Wire Line
 	9100 950  9100 1000
 Wire Wire Line
@@ -3893,10 +3886,10 @@ BE 45 22 51 79 79 F9 07 B9 2C 02 81 40 20 10 08 04 02 E1 7F 8F EE DD BB C3 3F 48
 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text Notes 9300 1600 0    40   ~ 0
+Text Notes 9350 1600 0    40   ~ 0
 Bypass, place next to VDD pins
 $Comp
-L power:+3V3 #PWR050
+L HSWR-V2-rescue:+3V3-power #PWR050
 U 1 1 5752A907
 P 9750 2900
 F 0 "#PWR050" H 9750 2750 50  0001 C CNN
@@ -3907,7 +3900,7 @@ F 3 "" H 9750 2900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3V3 #PWR051
+L HSWR-V2-rescue:+3V3-power #PWR051
 U 1 1 5752A9C6
 P 9100 950
 F 0 "#PWR051" H 9100 800 50  0001 C CNN
@@ -3922,19 +3915,11 @@ Wire Wire Line
 Wire Wire Line
 	9100 1500 9400 1500
 Wire Wire Line
-	9900 1500 10150 1500
-Wire Wire Line
 	9650 1500 9900 1500
 Wire Wire Line
-	9400 1500 9650 1500
-Wire Wire Line
-	9400 1000 9650 1000
-Wire Wire Line
 	9650 1000 9900 1000
-Wire Wire Line
-	9900 1000 10150 1000
 $Comp
-L Device:Crystal Y1
+L HSWR-V2-rescue:Crystal-Device Y1
 U 1 1 5B6893E1
 P 4100 3200
 F 0 "Y1" H 4100 3468 50  0000 C CNN
@@ -4018,7 +4003,7 @@ NoConn ~ 5000 5000
 NoConn ~ 5000 5100
 NoConn ~ 5000 5200
 $Comp
-L Device:C C13
+L HSWR-V2-rescue:C-Device C13
 U 1 1 5CA0C3E8
 P 4850 2650
 F 0 "C13" H 4965 2696 50  0000 L CNN
@@ -4029,7 +4014,7 @@ F 3 "~" H 4850 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C8
+L HSWR-V2-rescue:C-Device C8
 U 1 1 5CA0C416
 P 4550 2650
 F 0 "C8" H 4665 2696 50  0000 L CNN
@@ -4046,7 +4031,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 2400 4550 2500
 $Comp
-L power:GND #PWR0123
+L HSWR-V2-rescue:GND-power #PWR0123
 U 1 1 5CA0EB5F
 P 4550 2800
 F 0 "#PWR0123" H 4550 2550 50  0001 C CNN
@@ -4057,7 +4042,7 @@ F 3 "" H 4550 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0124
+L HSWR-V2-rescue:GND-power #PWR0124
 U 1 1 5CA0EB79
 P 4850 2800
 F 0 "#PWR0124" H 4850 2550 50  0001 C CNN
@@ -4068,7 +4053,7 @@ F 3 "" H 4850 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0125
+L HSWR-V2-rescue:GND-power #PWR0125
 U 1 1 5CA0EDF0
 P 5000 2200
 F 0 "#PWR0125" H 5000 1950 50  0001 C CNN
@@ -4079,7 +4064,7 @@ F 3 "" H 5000 2200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C7
+L HSWR-V2-rescue:C-Device C7
 U 1 1 5CA0F099
 P 4250 3550
 F 0 "C7" H 4365 3596 50  0000 L CNN
@@ -4090,7 +4075,7 @@ F 3 "~" H 4250 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0126
+L HSWR-V2-rescue:GND-power #PWR0126
 U 1 1 5CA0F12A
 P 4250 3700
 F 0 "#PWR0126" H 4250 3450 50  0001 C CNN
@@ -4101,7 +4086,7 @@ F 3 "" H 4250 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C6
+L HSWR-V2-rescue:C-Device C6
 U 1 1 5CA0F13F
 P 3950 3550
 F 0 "C6" H 3835 3504 50  0000 R CNN
@@ -4112,7 +4097,7 @@ F 3 "~" H 3950 3550 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0127
+L HSWR-V2-rescue:GND-power #PWR0127
 U 1 1 5CA0F180
 P 3950 3700
 F 0 "#PWR0127" H 3950 3450 50  0001 C CNN
@@ -4135,7 +4120,7 @@ Wire Wire Line
 	4250 3400 4250 3200
 Connection ~ 4250 3200
 $Comp
-L power:GND #PWR0128
+L HSWR-V2-rescue:GND-power #PWR0128
 U 1 1 5CA16A28
 P 5600 5400
 F 0 "#PWR0128" H 5600 5150 50  0001 C CNN
@@ -4146,7 +4131,7 @@ F 3 "" H 5600 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0129
+L HSWR-V2-rescue:GND-power #PWR0129
 U 1 1 5CA16A46
 P 5700 5400
 F 0 "#PWR0129" H 5700 5150 50  0001 C CNN
@@ -4157,7 +4142,7 @@ F 3 "" H 5700 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0130
+L HSWR-V2-rescue:GND-power #PWR0130
 U 1 1 5CA16A5D
 P 5800 5400
 F 0 "#PWR0130" H 5800 5150 50  0001 C CNN
@@ -4168,7 +4153,7 @@ F 3 "" H 5800 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0131
+L HSWR-V2-rescue:+3V3-power #PWR0131
 U 1 1 5CA19F46
 P 5500 1800
 F 0 "#PWR0131" H 5500 1650 50  0001 C CNN
@@ -4179,7 +4164,7 @@ F 3 "" H 5500 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0132
+L HSWR-V2-rescue:+3V3-power #PWR0132
 U 1 1 5CA19F6A
 P 5600 1800
 F 0 "#PWR0132" H 5600 1650 50  0001 C CNN
@@ -4190,7 +4175,7 @@ F 3 "" H 5600 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0133
+L HSWR-V2-rescue:+3V3-power #PWR0133
 U 1 1 5CA19F81
 P 5700 1800
 F 0 "#PWR0133" H 5700 1650 50  0001 C CNN
@@ -4201,7 +4186,7 @@ F 3 "" H 5700 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0134
+L HSWR-V2-rescue:+3V3-power #PWR0134
 U 1 1 5CA19F98
 P 5800 1800
 F 0 "#PWR0134" H 5800 1650 50  0001 C CNN
@@ -4212,7 +4197,7 @@ F 3 "" H 5800 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0135
+L HSWR-V2-rescue:+3V3-power #PWR0135
 U 1 1 5CA19FAF
 P 5900 1800
 F 0 "#PWR0135" H 5900 1650 50  0001 C CNN
@@ -4223,18 +4208,7 @@ F 3 "" H 5900 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0136
-U 1 1 5CA19FC6
-P 6000 1800
-F 0 "#PWR0136" H 6000 1650 50  0001 C CNN
-F 1 "+3V3" H 6000 2050 50  0000 C CNN
-F 2 "" H 6000 1800 50  0001 C CNN
-F 3 "" H 6000 1800 50  0001 C CNN
-	1    6000 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0137
+L HSWR-V2-rescue:GND-power #PWR0137
 U 1 1 5CA1AE02
 P 9100 1550
 F 0 "#PWR0137" H 9100 1300 50  0001 C CNN
@@ -4245,7 +4219,7 @@ F 3 "" H 9100 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C14
+L HSWR-V2-rescue:C-Device C14
 U 1 1 5CA1AE66
 P 9400 1250
 F 0 "C14" H 9450 1350 50  0000 L CNN
@@ -4256,10 +4230,10 @@ F 3 "~" H 9400 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C15
-U 1 1 5CA1B0CF
+L HSWR-V2-rescue:C-Device C16
+U 1 1 5CA1B11D
 P 9650 1250
-F 0 "C15" H 9700 1350 50  0000 L CNN
+F 0 "C16" H 9700 1350 50  0000 L CNN
 F 1 "1u" H 9700 1150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 9688 1100 50  0001 C CNN
 F 3 "~" H 9650 1250 50  0001 C CNN
@@ -4267,21 +4241,29 @@ F 3 "~" H 9650 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C16
-U 1 1 5CA1B11D
+L HSWR-V2-rescue:C-Device C17
+U 1 1 5CA1B141
 P 9900 1250
-F 0 "C16" H 9950 1350 50  0000 L CNN
+F 0 "C17" H 9950 1350 50  0000 L CNN
 F 1 "1u" H 9950 1150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 9938 1100 50  0001 C CNN
 F 3 "~" H 9900 1250 50  0001 C CNN
 	1    9900 1250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	10150 1500 10150 1400
+Wire Wire Line
+	10150 1000 10150 1100
+Wire Wire Line
+	9900 1500 10150 1500
+Wire Wire Line
+	9900 1000 10150 1000
 $Comp
-L Device:C C17
-U 1 1 5CA1B141
+L HSWR-V2-rescue:C-Device C18
+U 1 1 5CA1B849
 P 10150 1250
-F 0 "C17" H 10200 1350 50  0000 L CNN
+F 0 "C18" H 10200 1350 50  0000 L CNN
 F 1 "1u" H 10200 1150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 10188 1100 50  0001 C CNN
 F 3 "~" H 10150 1250 50  0001 C CNN
@@ -4297,41 +4279,22 @@ Wire Wire Line
 Wire Wire Line
 	10150 1000 10400 1000
 $Comp
-L Device:C C18
-U 1 1 5CA1B849
+L HSWR-V2-rescue:C-Device C19
+U 1 1 5CA1BC9F
 P 10400 1250
-F 0 "C18" H 10450 1350 50  0000 L CNN
+F 0 "C19" H 10450 1350 50  0000 L CNN
 F 1 "1u" H 10450 1150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 10438 1100 50  0001 C CNN
 F 3 "~" H 10400 1250 50  0001 C CNN
 	1    10400 1250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10650 1500 10650 1400
-Wire Wire Line
-	10650 1000 10650 1100
-Wire Wire Line
-	10400 1500 10650 1500
-Wire Wire Line
-	10400 1000 10650 1000
-$Comp
-L Device:C C19
-U 1 1 5CA1BC9F
-P 10650 1250
-F 0 "C19" H 10700 1350 50  0000 L CNN
-F 1 "1u" H 10700 1150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 10688 1100 50  0001 C CNN
-F 3 "~" H 10650 1250 50  0001 C CNN
-	1    10650 1250
-	1    0    0    -1  
-$EndComp
-Connection ~ 10150 1500
+Connection ~ 9900 1500
+Connection ~ 9900 1000
 Connection ~ 10150 1000
-Connection ~ 10400 1000
-Connection ~ 10400 1500
+Connection ~ 10150 1500
 $Comp
-L Connector:Conn_01x06_Male J10
+L HSWR-V2-rescue:Conn_01x06_Male-Connector J10
 U 1 1 5CA1C65D
 P 9950 3100
 F 0 "J10" H 9922 3073 50  0000 R CNN
@@ -4342,7 +4305,7 @@ F 3 "~" H 9950 3100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0138
+L HSWR-V2-rescue:GND-power #PWR0138
 U 1 1 5CA1C964
 P 9600 3100
 F 0 "#PWR0138" H 9600 2850 50  0001 C CNN
@@ -4353,7 +4316,7 @@ F 3 "" H 9600 3100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MCU_ST_STM32F4:STM32F405RGTx U1
+L HSWR-V2-rescue:STM32F405RGTx-MCU_ST_STM32F4 U1
 U 1 1 5C9EF5EF
 P 5700 3600
 F 0 "U1" H 5700 3500 50  0000 C CNN
@@ -4365,4 +4328,55 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 $EndComp
 Text HLabel 6400 3500 2    50   Input ~ 0
 CAN_VSS_SENSE
+$Comp
+L HSWR-V2-rescue:+3V3-power #PWR0136
+U 1 1 5E23B21C
+P 7000 1500
+F 0 "#PWR0136" H 7000 1350 50  0001 C CNN
+F 1 "+3V3" H 7015 1673 50  0000 C CNN
+F 2 "" H 7000 1500 50  0001 C CNN
+F 3 "" H 7000 1500 50  0001 C CNN
+	1    7000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L3
+U 1 1 5E23BFDF
+P 7000 1650
+F 0 "L3" H 6956 1604 50  0000 R CNN
+F 1 "22uH" H 6956 1695 50  0000 R CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" H 7000 1650 50  0001 C CNN
+F 3 "~" H 7000 1650 50  0001 C CNN
+	1    7000 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L HSWR-V2-rescue:C-Device C53
+U 1 1 5E23CCCB
+P 7000 1950
+F 0 "C53" H 7115 1996 50  0000 L CNN
+F 1 "22u/6V3" H 7115 1905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7038 1800 50  0001 C CNN
+F 3 "~" H 7000 1950 50  0001 C CNN
+	1    7000 1950
+	1    0    0    1   
+$EndComp
+$Comp
+L HSWR-V2-rescue:GND-power #PWR0177
+U 1 1 5E23DDB0
+P 7000 2100
+F 0 "#PWR0177" H 7000 1850 50  0001 C CNN
+F 1 "GND" H 7005 1927 50  0000 C CNN
+F 2 "" H 7000 2100 50  0001 C CNN
+F 3 "" H 7000 2100 50  0001 C CNN
+	1    7000 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ 7000 1800
+Wire Wire Line
+	6000 1800 7000 1800
+Wire Wire Line
+	9400 1000 9650 1000
+Wire Wire Line
+	9400 1500 9650 1500
 $EndSCHEMATC
