@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 7 8
 Title ""
 Date ""
 Rev ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L HSWR-V2-rescue:C-Device C55
+L Device:C C55
 U 1 1 5CA1534B
 P 5150 4200
 F 0 "C55" H 5035 4154 50  0000 R CNN
@@ -25,7 +25,7 @@ F 3 "~" H 5150 4200 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L HSWR-V2-rescue:C-Device C56
+L Device:C C56
 U 1 1 5CA1544F
 P 5450 2850
 F 0 "C56" H 5335 2804 50  0000 R CNN
@@ -38,7 +38,7 @@ $EndComp
 Text HLabel 5600 2600 1    50   Input ~ 0
 VBUS
 $Comp
-L HSWR-V2-rescue:C-Device C57
+L Device:C C57
 U 1 1 5CA15529
 P 6250 4200
 F 0 "C57" H 6135 4154 50  0000 R CNN
@@ -49,7 +49,7 @@ F 3 "~" H 6250 4200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L HSWR-V2-rescue:GND-power #PWR0118
+L power:GND #PWR0118
 U 1 1 5CA155CB
 P 6250 4350
 F 0 "#PWR0118" H 6250 4100 50  0001 C CNN
@@ -60,7 +60,7 @@ F 3 "" H 6250 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HSWR-V2-rescue:+3V3-power #PWR0115
+L power:+3V3 #PWR0115
 U 1 1 5CA1568C
 P 5800 2650
 F 0 "#PWR0115" H 5800 2500 50  0001 C CNN
@@ -71,7 +71,7 @@ F 3 "" H 5800 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HSWR-V2-rescue:GND-power #PWR0117
+L power:GND #PWR0117
 U 1 1 5CA15B5B
 P 5900 4350
 F 0 "#PWR0117" H 5900 4100 50  0001 C CNN
@@ -82,7 +82,7 @@ F 3 "" H 5900 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HSWR-V2-rescue:GND-power #PWR0116
+L power:GND #PWR0116
 U 1 1 5CA15B75
 P 5800 4350
 F 0 "#PWR0116" H 5800 4100 50  0001 C CNN
@@ -97,7 +97,7 @@ Device_D-
 Text HLabel 7050 3650 2    50   BiDi ~ 0
 Device_D+
 $Comp
-L HSWR-V2-rescue:R-Device R42
+L Device:R R42
 U 1 1 5CA2CFC2
 P 4500 3750
 F 0 "R42" V 4400 3750 50  0000 C CNN
@@ -108,7 +108,7 @@ F 3 "~" H 4500 3750 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L HSWR-V2-rescue:R-Device R41
+L Device:R R41
 U 1 1 5CA2D049
 P 4500 3650
 F 0 "R41" V 4400 3650 50  0000 C CNN
@@ -119,7 +119,7 @@ F 3 "~" H 4500 3650 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L HSWR-V2-rescue:R-Device R46
+L Device:R R46
 U 1 1 5CA2D1EF
 P 6900 3750
 F 0 "R46" V 6800 3750 50  0000 C CNN
@@ -130,7 +130,7 @@ F 3 "~" H 6900 3750 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L HSWR-V2-rescue:R-Device R45
+L Device:R R45
 U 1 1 5CA2D21F
 P 6900 3650
 F 0 "R45" V 6800 3650 50  0000 C CNN
@@ -141,7 +141,7 @@ F 3 "~" H 6900 3650 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L HSWR-V2-rescue:GNDD-power #PWR0114
+L power:GNDD #PWR0114
 U 1 1 5CA2D72E
 P 5600 4350
 F 0 "#PWR0114" H 5600 4100 50  0001 C CNN
@@ -152,7 +152,7 @@ F 3 "" H 5600 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HSWR-V2-rescue:GNDD-power #PWR0113
+L power:GNDD #PWR0113
 U 1 1 5CA2D7D0
 P 5500 4350
 F 0 "#PWR0113" H 5500 4100 50  0001 C CNN
@@ -163,7 +163,7 @@ F 3 "" H 5500 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HSWR-V2-rescue:GNDD-power #PWR0111
+L power:GNDD #PWR0111
 U 1 1 5CA2D853
 P 5150 4350
 F 0 "#PWR0111" H 5150 4100 50  0001 C CNN
@@ -174,7 +174,7 @@ F 3 "" H 5150 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HSWR-V2-rescue:GNDD-power #PWR0112
+L power:GNDD #PWR0112
 U 1 1 5CA2D86E
 P 5450 3000
 F 0 "#PWR0112" H 5450 2750 50  0001 C CNN
@@ -253,7 +253,7 @@ Wire Wire Line
 	5600 2600 5600 2700
 Connection ~ 5600 2700
 $Comp
-L HSWR-V2-rescue:R-Device R44
+L Device:R R44
 U 1 1 5E2DF282
 P 5700 4950
 F 0 "R44" V 5600 4950 50  0000 C CNN
@@ -264,7 +264,7 @@ F 3 "~" H 5700 4950 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L HSWR-V2-rescue:R-Device R43
+L Device:R R43
 U 1 1 5E2DFF19
 P 5700 4850
 F 0 "R43" V 5600 4850 50  0000 C CNN

@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name HSWR-V2-rescue)(type Legacy)(uri "${KIPRJMOD}/HSWR V2-rescue.lib")(options "")(descr ""))
+  (lib (name HSWR)(type Legacy)(uri ${KIPRJMOD}/HSWR.lib)(options "")(descr ""))
 )

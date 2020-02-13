@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 5 8
 Title "HSWR HAL Filters"
 Date "2017-02-05"
 Rev "2.0"
@@ -76,7 +76,7 @@ HALL1_OUT
 Text HLabel 6700 4050 2    60   Output ~ 0
 TEMP_OUT
 $Comp
-L HSWR-V2-rescue:+3V3-power #PWR095
+L power:+3V3 #PWR095
 U 1 1 5752258C
 P 4900 2950
 F 0 "#PWR095" H 4900 2800 50  0001 C CNN
@@ -106,7 +106,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 3050 4900 3150
 $Comp
-L HSWR-V2-rescue:R-Device R?
+L Device:R R?
 U 1 1 5C9EFE99
 P 4900 3300
 AR Path="/5895E6A0/5C9EFE99" Ref="R?"  Part="1" 
@@ -119,7 +119,7 @@ F 3 "~" H 4900 3300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L HSWR-V2-rescue:R-Device R?
+L Device:R R?
 U 1 1 5C9F02C4
 P 5100 3300
 AR Path="/5895E6A0/5C9F02C4" Ref="R?"  Part="1" 
@@ -135,7 +135,7 @@ Connection ~ 4900 4050
 Wire Wire Line
 	4800 4050 4900 4050
 $Comp
-L HSWR-V2-rescue:R-Device R?
+L Device:R R?
 U 1 1 5C9F1880
 P 5300 3300
 AR Path="/5895E6A0/5C9F1880" Ref="R?"  Part="1" 
@@ -148,7 +148,7 @@ F 3 "~" H 5300 3300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L HSWR-V2-rescue:R-Device R?
+L Device:R R?
 U 1 1 5C9F189A
 P 5500 3300
 AR Path="/5895E6A0/5C9F189A" Ref="R?"  Part="1" 
@@ -161,7 +161,7 @@ F 3 "~" H 5500 3300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L HSWR-V2-rescue:R-Device R?
+L Device:R R?
 U 1 1 5C9F21C4
 P 5750 3550
 AR Path="/5895E6A0/5C9F21C4" Ref="R?"  Part="1" 
@@ -174,7 +174,7 @@ F 3 "~" H 5750 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L HSWR-V2-rescue:R-Device R?
+L Device:R R?
 U 1 1 5C9F262F
 P 5750 3750
 AR Path="/5895E6A0/5C9F262F" Ref="R?"  Part="1" 
@@ -187,7 +187,7 @@ F 3 "~" H 5750 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L HSWR-V2-rescue:R-Device R?
+L Device:R R?
 U 1 1 5C9F2B46
 P 5750 3950
 AR Path="/5895E6A0/5C9F2B46" Ref="R?"  Part="1" 
@@ -202,7 +202,7 @@ $EndComp
 Wire Wire Line
 	4900 4050 6700 4050
 $Comp
-L HSWR-V2-rescue:C-Device C49
+L Device:C C49
 U 1 1 5C9F2C75
 P 6050 4300
 F 0 "C49" H 6100 4400 50  0000 L CNN
@@ -213,7 +213,7 @@ F 3 "~" H 6050 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HSWR-V2-rescue:GND-power #PWR097
+L power:GND #PWR097
 U 1 1 5C9F2CD2
 P 6050 4450
 F 0 "#PWR097" H 6050 4200 50  0001 C CNN
@@ -226,7 +226,7 @@ $EndComp
 Wire Wire Line
 	4900 4050 4900 4150
 $Comp
-L HSWR-V2-rescue:C-Device C48
+L Device:C C48
 U 1 1 5C9F3D39
 P 4900 4300
 F 0 "C48" H 5015 4346 50  0000 L CNN
@@ -237,7 +237,7 @@ F 3 "~" H 4900 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HSWR-V2-rescue:GND-power #PWR096
+L power:GND #PWR096
 U 1 1 5C9F3D40
 P 4900 4450
 F 0 "#PWR096" H 4900 4200 50  0001 C CNN
@@ -248,7 +248,7 @@ F 3 "" H 4900 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HSWR-V2-rescue:GND-power #PWR098
+L power:GND #PWR098
 U 1 1 5C9F4131
 P 6300 4450
 F 0 "#PWR098" H 6300 4200 50  0001 C CNN
@@ -259,7 +259,7 @@ F 3 "" H 6300 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HSWR-V2-rescue:C-Device C50
+L Device:C C50
 U 1 1 5C9F467A
 P 6300 4300
 F 0 "C50" H 6350 4400 50  0000 L CNN
@@ -270,7 +270,7 @@ F 3 "~" H 6300 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HSWR-V2-rescue:C-Device C51
+L Device:C C51
 U 1 1 5C9F46A6
 P 6550 4300
 F 0 "C51" H 6600 4400 50  0000 L CNN
@@ -281,7 +281,7 @@ F 3 "~" H 6550 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HSWR-V2-rescue:GND-power #PWR099
+L power:GND #PWR099
 U 1 1 5C9F46D2
 P 6550 4450
 F 0 "#PWR099" H 6550 4200 50  0001 C CNN
