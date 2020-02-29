@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:HSWR-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -225,8 +226,6 @@ F 3 "" H 4350 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5350 3550
-Wire Wire Line
-	4950 2500 5700 2500
 Connection ~ 5350 3150
 Connection ~ 5350 3350
 Connection ~ 6200 2500
@@ -234,4 +233,18 @@ Connection ~ 5700 2500
 Wire Wire Line
 	5700 2500 5850 2500
 Connection ~ 4350 2500
+Wire Wire Line
+	4950 2500 5700 2500
+$Comp
+L power:+5VA #PWR0144
+U 1 1 5E5C760E
+P 5850 2500
+F 0 "#PWR0144" H 5850 2350 50  0001 C CNN
+F 1 "+5VA" H 5865 2673 50  0000 C CNN
+F 2 "" H 5850 2500 50  0001 C CNN
+F 3 "" H 5850 2500 50  0001 C CNN
+	1    5850 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 5850 2500
 $EndSCHEMATC

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:HSWR-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -3935,16 +3936,6 @@ Text HLabel 6400 2100 2    50   Input ~ 0
 V_U
 Text HLabel 6400 2200 2    50   Input ~ 0
 W_U
-Text HLabel 6400 2300 2    50   Input ~ 0
-TEMP_INT
-Text HLabel 6400 2400 2    50   Input ~ 0
-RX_SDA_NSS
-Text HLabel 6400 2500 2    50   Input ~ 0
-SCK_ADC_EXT
-Text HLabel 6400 2600 2    50   Input ~ 0
-MISO_ADC_EXT2
-Text HLabel 6400 2700 2    50   Input ~ 0
-TX_SCL_MOSI
 Text HLabel 6400 2800 2    50   Input ~ 0
 U_PWM_H
 Text HLabel 6400 2900 2    50   Input ~ 0
@@ -3959,16 +3950,10 @@ Text HLabel 5000 4700 0    50   Input ~ 0
 LED_GREEN
 Text HLabel 5000 4800 0    50   Input ~ 0
 LED_RED
-Text HLabel 6400 4300 2    50   Input ~ 0
-SERVO
 Text HLabel 6400 4500 2    50   Input ~ 0
 CAN_RX
 Text HLabel 6400 4600 2    50   Output ~ 0
 CAN_TX
-Text HLabel 6400 4700 2    50   Input ~ 0
-TX_SCL_MOSI
-Text HLabel 6400 4800 2    50   Input ~ 0
-RX_SDA_NSS
 Text HLabel 6400 5000 2    50   Input ~ 0
 U_PWM_L
 Text HLabel 6400 5100 2    50   Input ~ 0
@@ -3988,8 +3973,6 @@ Text HLabel 5000 3900 0    50   Input ~ 0
 W_I
 Text HLabel 5000 4000 0    50   Input ~ 0
 BUS_U
-Text HLabel 5000 4100 0    50   Input ~ 0
-TEMP_M
 Text HLabel 5000 4300 0    50   Input ~ 0
 HALL_1
 Text HLabel 5000 4400 0    50   Input ~ 0
@@ -4026,8 +4009,6 @@ F 3 "~" H 4550 2650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5000 2500 4850 2500
-Wire Wire Line
-	5000 2400 4800 2400
 Wire Wire Line
 	4550 2400 4550 2500
 $Comp
@@ -4378,8 +4359,21 @@ F 3 "" H 4850 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4250 3200
-Connection ~ 4800 2400
-Wire Wire Line
-	4800 2400 4550 2400
 Connection ~ 7000 1800
+Wire Wire Line
+	4550 2400 5000 2400
+Text HLabel 3700 4400 0    50   Input ~ 0
+Fan_CPU
+NoConn ~ 6400 4700
+NoConn ~ 6400 4300
+NoConn ~ 6400 4400
+NoConn ~ 6400 2500
+NoConn ~ 6400 2600
+NoConn ~ 6400 2700
+Text HLabel 6400 4800 2    50   Input ~ 0
+UART_RX
+Text HLabel 6400 2300 2    50   Input ~ 0
+TEMP_INT
+NoConn ~ 6400 2400
+NoConn ~ 5000 4100
 $EndSCHEMATC
