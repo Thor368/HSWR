@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:HSWR-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -4362,9 +4361,8 @@ Connection ~ 4250 3200
 Connection ~ 7000 1800
 Wire Wire Line
 	4550 2400 5000 2400
-Text HLabel 3700 4400 0    50   Input ~ 0
+Text HLabel 6400 4700 2    50   Input ~ 0
 Fan_CPU
-NoConn ~ 6400 4700
 NoConn ~ 6400 4300
 NoConn ~ 6400 4400
 NoConn ~ 6400 2500
