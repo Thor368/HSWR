@@ -753,7 +753,7 @@ U 1 1 5E7F9298
 P 4700 5850
 F 0 "J9" H 4370 5946 50  0000 R CNN
 F 1 "AVR-ISP-6" H 4370 5855 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" V 4450 5900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 4450 5900 50  0001 C CNN
 F 3 " ~" H 3425 5300 50  0001 C CNN
 	1    4700 5850
 	-1   0    0    -1  

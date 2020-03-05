@@ -119,7 +119,7 @@ U 1 1 5CA00151
 P 2450 2100
 F 0 "U5" H 2450 2200 50  0000 C CNN
 F 1 "IRS2186" H 2700 1650 50  0000 C CNN
-F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 2600 2450 50  0001 L CIN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2600 2450 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irs2186pbf.pdf" H 2250 1550 50  0001 C CNN
 	1    2450 2100
 	1    0    0    -1  
@@ -398,7 +398,7 @@ U 1 1 5CA75A04
 P 2450 5600
 F 0 "U7" H 2450 5700 50  0000 C CNN
 F 1 "IRS2186" H 2650 5150 50  0000 C CNN
-F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 2600 5950 50  0001 L CIN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2600 5950 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irs2186pbf.pdf" H 2250 5050 50  0001 C CNN
 	1    2450 5600
 	1    0    0    -1  
@@ -467,7 +467,7 @@ U 1 1 5CA74639
 P 2450 3850
 F 0 "U6" H 2450 3950 50  0000 C CNN
 F 1 "IRS2186" H 2700 3400 50  0000 C CNN
-F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 2600 4200 50  0001 L CIN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2600 4200 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irs2186pbf.pdf" H 2250 3300 50  0001 C CNN
 	1    2450 3850
 	1    0    0    -1  
