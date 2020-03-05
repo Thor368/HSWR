@@ -116,17 +116,6 @@ F 3 "" H 5700 2700 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L HSWR:AP1117-50 U8
-U 1 1 5CA08F00
-P 4650 2500
-F 0 "U8" H 4650 2742 50  0000 C CNN
-F 1 "AP1117-50" H 4650 2651 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 4650 2700 50  0001 C CNN
-F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 4750 2250 50  0001 C CNN
-	1    4650 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:Earth #PWR0101
 U 1 1 5CA09500
 P 4350 2800
@@ -231,7 +220,6 @@ Connection ~ 6200 2500
 Connection ~ 5700 2500
 Wire Wire Line
 	5700 2500 5850 2500
-Connection ~ 4350 2500
 Wire Wire Line
 	4950 2500 5700 2500
 $Comp
@@ -246,4 +234,16 @@ F 3 "" H 5850 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 5850 2500
+$Comp
+L Regulator_Linear:AP1117-50 U8
+U 1 1 5E613077
+P 4650 2500
+F 0 "U8" H 4650 2742 50  0000 C CNN
+F 1 "AP1117-50" H 4650 2651 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 4650 2700 50  0001 C CNN
+F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 4750 2250 50  0001 C CNN
+	1    4650 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 4350 2500
 $EndSCHEMATC
