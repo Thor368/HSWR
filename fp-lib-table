@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name HSWR)(type KiCad)(uri ${KIPRJMOD}/HSWR.pretty)(options "")(descr ""))
+)
