@@ -100,7 +100,7 @@ L Isolator:ADuM120N U11
 U 1 1 5E5C48C7
 P 5300 1850
 F 0 "U11" H 5300 2317 50  0000 C CNN
-F 1 "ADuM120N" H 5300 2226 50  0000 C CNN
+F 1 "ADuM120N1" H 5300 2226 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5300 1450 50  0001 C CIN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM120N_121N.pdf" H 4850 2250 50  0001 C CNN
 	1    5300 1850
@@ -367,7 +367,7 @@ L Isolator:ADuM120N U12
 U 1 1 5E64C987
 P 5300 3300
 F 0 "U12" H 5300 3767 50  0000 C CNN
-F 1 "ADuM120N" H 5300 3676 50  0000 C CNN
+F 1 "ADuM120N1" H 5300 3676 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5300 2900 50  0001 C CIN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM120N_121N.pdf" H 4850 3700 50  0001 C CNN
 	1    5300 3300
