@@ -3,3 +3,5 @@ rescue-backup
 *.kicad_pcb-bak
 /Gerber
 *.sch-bak
+*.bck
+/HSWR-rescue.dcm
