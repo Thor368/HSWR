@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:Net-Tie_2 NT1
+L Device:NetTie_2 NT1
 U 1 1 5C9BC448
 P 3850 6600
 F 0 "NT1" H 3850 6778 50  0000 C CNN
@@ -432,7 +432,7 @@ $EndComp
 Wire Wire Line
 	4250 2900 4250 3100
 $Comp
-L Device:CP_Small C9
+L Device:C_Polarized_Small C9
 U 1 1 5E227FE9
 P 4600 2800
 F 0 "C9" H 4688 2846 50  0000 L CNN
@@ -447,7 +447,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 2900 4250 2900
 $Comp
-L Device:CP_Small C2
+L Device:C_Polarized_Small C2
 U 1 1 5E22948F
 P 3100 2900
 F 0 "C2" H 3200 2950 50  0000 L CNN

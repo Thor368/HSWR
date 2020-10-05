@@ -9198,7 +9198,7 @@
   (gr_text U (at 179 65) (layer F.SilkS)
     (effects (font (size 10 10) (thickness 1)))
   )
-  (gr_text "HSWR V4\n200V 100A\n*20200713\nAlexander\nSchröder" (at 200 32) (layer F.SilkS)
+  (gr_text "HSWR V4\n200V 100A\n*20201006\nAlexander\nSchröder" (at 200 32) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_text 2 (at 69 41) (layer GND)

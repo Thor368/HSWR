@@ -476,40 +476,27 @@ F 3 "~" H 4900 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP1
+L Jumper:Jumper_2_Open JP1
 U 1 1 5E6645D9
-P 3800 850
-F 0 "JP1" V 3754 898 50  0000 L CNN
-F 1 "H1" V 3845 898 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3800 850 50  0001 C CNN
-F 3 "~" H 3800 850 50  0001 C CNN
-	1    3800 850 
+P 3800 900
+F 0 "JP1" V 3754 948 50  0000 L CNN
+F 1 "H1" V 3845 948 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3800 900 50  0001 C CNN
+F 3 "~" H 3800 900 50  0001 C CNN
+	1    3800 900 
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP3
-U 1 1 5E6654E8
-P 4000 850
-F 0 "JP3" V 3954 898 50  0000 L CNN
-F 1 "H2" V 4045 898 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4000 850 50  0001 C CNN
-F 3 "~" H 4000 850 50  0001 C CNN
-	1    4000 850 
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Jumper_NO_Small JP4
+L Jumper:Jumper_2_Open JP4
 U 1 1 5E665A0A
-P 4200 850
-F 0 "JP4" V 4154 898 50  0000 L CNN
-F 1 "H3" V 4245 898 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4200 850 50  0001 C CNN
-F 3 "~" H 4200 850 50  0001 C CNN
-	1    4200 850 
+P 4200 900
+F 0 "JP4" V 4154 948 50  0000 L CNN
+F 1 "H3" V 4245 948 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4200 900 50  0001 C CNN
+F 3 "~" H 4200 900 50  0001 C CNN
+	1    4200 900 
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3800 950  3800 1650
 Wire Wire Line
 	3800 1750 3900 1750
 Wire Wire Line
@@ -517,18 +504,12 @@ Wire Wire Line
 Connection ~ 3800 1650
 Wire Wire Line
 	3800 1650 3800 1750
-Wire Wire Line
-	4000 950  4000 1950
 Connection ~ 4000 1950
 Wire Wire Line
 	4000 1950 4100 1950
-Wire Wire Line
-	4200 950  4200 2750
 Connection ~ 4200 2750
 Wire Wire Line
 	3600 2750 4200 2750
-Wire Wire Line
-	3800 750  3800 700 
 Wire Wire Line
 	3800 700  2200 700 
 Wire Wire Line
@@ -537,16 +518,12 @@ Connection ~ 2200 1550
 Wire Wire Line
 	2200 1550 2000 1550
 Wire Wire Line
-	4000 750  4000 650 
-Wire Wire Line
 	4000 650  2150 650 
 Wire Wire Line
 	2150 650  2150 1850
 Connection ~ 2150 1850
 Wire Wire Line
 	2150 1850 2000 1850
-Wire Wire Line
-	4200 750  4200 600 
 Wire Wire Line
 	4200 600  2100 600 
 Wire Wire Line
@@ -557,7 +534,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 3050 3800 3050
 $Comp
-L MCU_Microchip_ATtiny:ATtiny13A-SU U9
+L MCU_Microchip_ATtiny:ATtiny13-20S U9
 U 1 1 5E67C6EE
 P 3050 5850
 F 0 "U9" H 2521 5896 50  0000 R CNN
@@ -1001,4 +978,25 @@ Wire Wire Line
 Connection ~ 3800 3400
 Wire Wire Line
 	3800 3400 3800 5650
+$Comp
+L Jumper:Jumper_2_Open JP3
+U 1 1 5E6654E8
+P 4000 900
+F 0 "JP3" V 3954 948 50  0000 L CNN
+F 1 "H2" V 4045 948 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4000 900 50  0001 C CNN
+F 3 "~" H 4000 900 50  0001 C CNN
+	1    4000 900 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3800 1100 3800 1650
+Wire Wire Line
+	4000 700  4000 650 
+Wire Wire Line
+	4000 1100 4000 1950
+Wire Wire Line
+	4200 700  4200 600 
+Wire Wire Line
+	4200 1100 4200 2750
 $EndSCHEMATC

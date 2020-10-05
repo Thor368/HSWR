@@ -309,7 +309,7 @@ F 3 "" H 5800 7150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C15
+L Device:C_Polarized C15
 U 1 1 58A7B8F0
 P 3200 7150
 F 0 "C15" H 3225 7250 50  0000 L CNN
@@ -338,7 +338,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 3650 8950 3650
 $Comp
-L Device:CP C17
+L Device:C_Polarized C17
 U 1 1 5C9BC25E
 P 3450 7150
 F 0 "C17" H 3475 7250 50  0000 L CNN
@@ -349,7 +349,7 @@ F 3 "" H 3450 7150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C18
+L Device:C_Polarized C18
 U 1 1 5C9BC29A
 P 3700 7150
 F 0 "C18" H 3725 7250 50  0000 L CNN
@@ -360,7 +360,7 @@ F 3 "" H 3700 7150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C19
+L Device:C_Polarized C19
 U 1 1 5C9BD172
 P 3950 7150
 F 0 "C19" H 3975 7250 50  0000 L CNN
@@ -371,7 +371,7 @@ F 3 "" H 3950 7150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C14
+L Device:C_Polarized C14
 U 1 1 5C9BD1B2
 P 2950 7150
 F 0 "C14" H 2975 7250 50  0000 L CNN
