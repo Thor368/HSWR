@@ -6,15 +6,15 @@ encoding utf-8
 Sheet 1 8
 Title "HSWR.0 200V 50A"
 Date "2017-02-05"
-Rev "2.0"
-Comp "Benjamin Vedder"
+Rev "4.0"
+Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 "Top level"
+Comment4 ""
 $EndDescr
 Text Notes 800  1200 0    340  ~ 68
-HSWR V3.1 200V 100A
+HSWR V4 200V 100A
 Wire Wire Line
 	7650 3900 8300 3900
 Wire Notes Line

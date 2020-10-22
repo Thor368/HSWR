@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 8 8
 Title "HSWR MOSFET Driver"
 Date "2017-02-05"
-Rev "2.0"
+Rev "4.0"
 Comp ""
 Comment1 ""
 Comment2 ""

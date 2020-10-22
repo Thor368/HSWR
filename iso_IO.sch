@@ -6,8 +6,8 @@ encoding utf-8
 Sheet 5 8
 Title "HSWR HAL Filters"
 Date "2017-02-05"
-Rev "2.0"
-Comp "Benjamin Vedder"
+Rev "4.0"
+Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
