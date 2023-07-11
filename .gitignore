@@ -5,3 +5,4 @@ rescue-backup
 *.sch-bak
 *.bck
 /HSWR-rescue.dcm
+HSWR-backups
