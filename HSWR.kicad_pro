@@ -950,15 +950,23 @@
     ],
     [
       "00000000-0000-0000-0000-00005895e6a0",
-      "Mosfet driver"
+      "Mosfet driver 1"
     ],
     [
       "00000000-0000-0000-0000-00005895e67a",
-      "Power MOSFETS"
+      "Power MOSFETS 1"
     ],
     [
       "00000000-0000-0000-0000-00005899e25f",
       "Supply"
+    ],
+    [
+      "83cbfb81-8eb0-4f99-8a74-829149f40464",
+      "Mosfet driver 2"
+    ],
+    [
+      "e2e9d5db-9823-43ca-86ac-002f871f7258",
+      "Power MOSFETS 2"
     ]
   ],
   "text_variables": {}

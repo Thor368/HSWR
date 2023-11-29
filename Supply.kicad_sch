@@ -852,7 +852,7 @@
   (symbol (lib_id "power:GND") (at 95.25 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c9bc4aa)
-    (property "Reference" "#PWR029" (at 95.25 173.99 0)
+    (property "Reference" "#PWR0129" (at 95.25 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 95.25 171.45 0)
@@ -868,7 +868,7 @@
     (instances
       (project "HSWR"
         (path "/51094070-255e-40e7-bed5-d199e288e5dd/00000000-0000-0000-0000-00005899e25f"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR0129") (unit 1)
         )
       )
     )
@@ -877,7 +877,7 @@
   (symbol (lib_id "power:GNDPWR") (at 100.33 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c9bc4f1)
-    (property "Reference" "#PWR032" (at 100.33 172.72 0)
+    (property "Reference" "#PWR0131" (at 100.33 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 102.87 171.45 0)
@@ -893,7 +893,7 @@
     (instances
       (project "HSWR"
         (path "/51094070-255e-40e7-bed5-d199e288e5dd/00000000-0000-0000-0000-00005899e25f"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR0131") (unit 1)
         )
       )
     )
@@ -902,7 +902,7 @@
   (symbol (lib_id "HSWR:JW5052C") (at 97.79 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c9e348b)
-    (property "Reference" "IC3" (at 97.79 126.619 0)
+    (property "Reference" "IC4" (at 97.79 126.619 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "JW5052C" (at 97.79 128.9304 0)
@@ -923,7 +923,7 @@
     (instances
       (project "HSWR"
         (path "/51094070-255e-40e7-bed5-d199e288e5dd/00000000-0000-0000-0000-00005899e25f"
-          (reference "IC3") (unit 1)
+          (reference "IC4") (unit 1)
         )
       )
     )
@@ -932,7 +932,7 @@
   (symbol (lib_id "Device:C_Small") (at 107.95 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c9e3608)
-    (property "Reference" "C8" (at 110.2868 134.7216 0)
+    (property "Reference" "C57" (at 110.2868 134.7216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 110.2868 137.033 0)
@@ -949,7 +949,7 @@
     (instances
       (project "HSWR"
         (path "/51094070-255e-40e7-bed5-d199e288e5dd/00000000-0000-0000-0000-00005899e25f"
-          (reference "C8") (unit 1)
+          (reference "C57") (unit 1)
         )
       )
     )
@@ -984,7 +984,7 @@
   (symbol (lib_id "Device:C") (at 134.62 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c9e3fdf)
-    (property "Reference" "C11" (at 137.541 141.0716 0)
+    (property "Reference" "C59" (at 137.541 141.0716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u/6V3" (at 137.541 143.383 0)
@@ -1001,7 +1001,7 @@
     (instances
       (project "HSWR"
         (path "/51094070-255e-40e7-bed5-d199e288e5dd/00000000-0000-0000-0000-00005899e25f"
-          (reference "C11") (unit 1)
+          (reference "C59") (unit 1)
         )
       )
     )
@@ -1010,7 +1010,7 @@
   (symbol (lib_id "Device:R_Small") (at 123.19 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c9e4149)
-    (property "Reference" "R16" (at 124.6886 139.8016 0)
+    (property "Reference" "R48" (at 124.6886 139.8016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "49k9" (at 124.6886 142.113 0)
@@ -1027,7 +1027,7 @@
     (instances
       (project "HSWR"
         (path "/51094070-255e-40e7-bed5-d199e288e5dd/00000000-0000-0000-0000-00005899e25f"
-          (reference "R16") (unit 1)
+          (reference "R48") (unit 1)
         )
       )
     )
@@ -1036,7 +1036,7 @@
   (symbol (lib_id "Device:R_Small") (at 123.19 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c9e4171)
-    (property "Reference" "R17" (at 124.6886 144.8816 0)
+    (property "Reference" "R49" (at 124.6886 144.8816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "11k" (at 124.6886 147.193 0)
@@ -1053,7 +1053,7 @@
     (instances
       (project "HSWR"
         (path "/51094070-255e-40e7-bed5-d199e288e5dd/00000000-0000-0000-0000-00005899e25f"
-          (reference "R17") (unit 1)
+          (reference "R49") (unit 1)
         )
       )
     )
@@ -1062,7 +1062,7 @@
   (symbol (lib_id "power:GND") (at 97.79 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c9e41f1)
-    (property "Reference" "#PWR031" (at 97.79 158.75 0)
+    (property "Reference" "#PWR0130" (at 97.79 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.917 156.7942 0)
@@ -1078,7 +1078,7 @@
     (instances
       (project "HSWR"
         (path "/51094070-255e-40e7-bed5-d199e288e5dd/00000000-0000-0000-0000-00005899e25f"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR0130") (unit 1)
         )
       )
     )
@@ -1087,7 +1087,7 @@
   (symbol (lib_id "power:GND") (at 123.19 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c9e4213)
-    (property "Reference" "#PWR036" (at 123.19 154.94 0)
+    (property "Reference" "#PWR0134" (at 123.19 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 123.317 152.9842 0)
@@ -1103,7 +1103,7 @@
     (instances
       (project "HSWR"
         (path "/51094070-255e-40e7-bed5-d199e288e5dd/00000000-0000-0000-0000-00005899e25f"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR0134") (unit 1)
         )
       )
     )
@@ -1112,7 +1112,7 @@
   (symbol (lib_id "power:GND") (at 134.62 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c9e422e)
-    (property "Reference" "#PWR040" (at 134.62 152.4 0)
+    (property "Reference" "#PWR0136" (at 134.62 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 134.747 150.4442 0)
@@ -1128,7 +1128,7 @@
     (instances
       (project "HSWR"
         (path "/51094070-255e-40e7-bed5-d199e288e5dd/00000000-0000-0000-0000-00005899e25f"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR0136") (unit 1)
         )
       )
     )
@@ -1137,7 +1137,7 @@
   (symbol (lib_id "Device:R_Small") (at 87.63 135.89 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c9e4723)
-    (property "Reference" "R13" (at 86.1568 134.7216 0)
+    (property "Reference" "R47" (at 86.1568 134.7216 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 86.1568 137.033 0)
@@ -1154,7 +1154,7 @@
     (instances
       (project "HSWR"
         (path "/51094070-255e-40e7-bed5-d199e288e5dd/00000000-0000-0000-0000-00005899e25f"
-          (reference "R13") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
     )
@@ -1163,7 +1163,7 @@
   (symbol (lib_id "Device:C") (at 80.01 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c9e4c14)
-    (property "Reference" "C4" (at 82.931 141.0716 0)
+    (property "Reference" "C54" (at 82.931 141.0716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u/6V3" (at 82.931 143.383 0)
@@ -1180,7 +1180,7 @@
     (instances
       (project "HSWR"
         (path "/51094070-255e-40e7-bed5-d199e288e5dd/00000000-0000-0000-0000-00005899e25f"
-          (reference "C4") (unit 1)
+          (reference "C54") (unit 1)
         )
       )
     )
@@ -1189,7 +1189,7 @@
   (symbol (lib_id "power:GND") (at 80.01 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c9e4c52)
-    (property "Reference" "#PWR026" (at 80.01 152.4 0)
+    (property "Reference" "#PWR0126" (at 80.01 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.137 150.4442 0)
@@ -1205,7 +1205,7 @@
     (instances
       (project "HSWR"
         (path "/51094070-255e-40e7-bed5-d199e288e5dd/00000000-0000-0000-0000-00005899e25f"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR0126") (unit 1)
         )
       )
     )
@@ -1214,7 +1214,7 @@
   (symbol (lib_id "power:+3V3") (at 134.62 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c9e5148)
-    (property "Reference" "#PWR039" (at 134.62 142.24 0)
+    (property "Reference" "#PWR0135" (at 134.62 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 135.001 134.0358 0)
@@ -1230,7 +1230,7 @@
     (instances
       (project "HSWR"
         (path "/51094070-255e-40e7-bed5-d199e288e5dd/00000000-0000-0000-0000-00005899e25f"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR0135") (unit 1)
         )
       )
     )
@@ -1239,7 +1239,7 @@
   (symbol (lib_id "power:+12V") (at 80.01 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c9e6948)
-    (property "Reference" "#PWR023" (at 80.01 137.16 0)
+    (property "Reference" "#PWR0125" (at 80.01 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 80.391 128.9558 0)
@@ -1255,7 +1255,7 @@
     (instances
       (project "HSWR"
         (path "/51094070-255e-40e7-bed5-d199e288e5dd/00000000-0000-0000-0000-00005899e25f"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR0125") (unit 1)
         )
       )
     )
@@ -1264,7 +1264,7 @@
   (symbol (lib_id "Device:C_Small") (at 87.63 73.66 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c9eb58e)
-    (property "Reference" "C5" (at 85.2932 72.4916 0)
+    (property "Reference" "C55" (at 85.2932 72.4916 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2u2" (at 85.2932 74.803 0)
@@ -1281,7 +1281,7 @@
     (instances
       (project "HSWR"
         (path "/51094070-255e-40e7-bed5-d199e288e5dd/00000000-0000-0000-0000-00005899e25f"
-          (reference "C5") (unit 1)
+          (reference "C55") (unit 1)
         )
       )
     )
@@ -1290,7 +1290,7 @@
   (symbol (lib_id "Device:C_Small") (at 107.95 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c9eb75e)
-    (property "Reference" "C6" (at 110.2868 69.9516 0)
+    (property "Reference" "C56" (at 110.2868 69.9516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2u2" (at 110.2868 72.263 0)
@@ -1307,7 +1307,7 @@
     (instances
       (project "HSWR"
         (path "/51094070-255e-40e7-bed5-d199e288e5dd/00000000-0000-0000-0000-00005899e25f"
-          (reference "C6") (unit 1)
+          (reference "C56") (unit 1)
         )
       )
     )
@@ -1316,7 +1316,7 @@
   (symbol (lib_id "power:Earth") (at 87.63 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c9ebae0)
-    (property "Reference" "#PWR028" (at 87.63 82.55 0)
+    (property "Reference" "#PWR0128" (at 87.63 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 87.63 80.01 0)
@@ -1332,7 +1332,7 @@
     (instances
       (project "HSWR"
         (path "/51094070-255e-40e7-bed5-d199e288e5dd/00000000-0000-0000-0000-00005899e25f"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR0128") (unit 1)
         )
       )
     )
@@ -1341,7 +1341,7 @@
   (symbol (lib_id "power:GND") (at 107.95 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c9ebc32)
-    (property "Reference" "#PWR034" (at 107.95 85.09 0)
+    (property "Reference" "#PWR0133" (at 107.95 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 108.077 83.1342 0)
@@ -1357,7 +1357,7 @@
     (instances
       (project "HSWR"
         (path "/51094070-255e-40e7-bed5-d199e288e5dd/00000000-0000-0000-0000-00005899e25f"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR0133") (unit 1)
         )
       )
     )
@@ -1366,7 +1366,7 @@
   (symbol (lib_id "power:+12VA") (at 87.63 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c9f009d)
-    (property "Reference" "#PWR027" (at 87.63 74.93 0)
+    (property "Reference" "#PWR0127" (at 87.63 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12VA" (at 88.011 66.7258 0)
@@ -1382,7 +1382,7 @@
     (instances
       (project "HSWR"
         (path "/51094070-255e-40e7-bed5-d199e288e5dd/00000000-0000-0000-0000-00005899e25f"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR0127") (unit 1)
         )
       )
     )
@@ -1391,7 +1391,7 @@
   (symbol (lib_id "power:+12V") (at 107.95 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c9f02ad)
-    (property "Reference" "#PWR033" (at 107.95 72.39 0)
+    (property "Reference" "#PWR0132" (at 107.95 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 108.331 64.1858 0)
@@ -1407,7 +1407,7 @@
     (instances
       (project "HSWR"
         (path "/51094070-255e-40e7-bed5-d199e288e5dd/00000000-0000-0000-0000-00005899e25f"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR0132") (unit 1)
         )
       )
     )
@@ -1416,7 +1416,7 @@
   (symbol (lib_id "HSWR:DCDC_6pin") (at 97.79 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c9f1aaa)
-    (property "Reference" "IC1" (at 97.79 62.865 0)
+    (property "Reference" "IC3" (at 97.79 62.865 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "B1212S-2W" (at 97.79 65.1764 0)
@@ -1436,7 +1436,7 @@
     (instances
       (project "HSWR"
         (path "/51094070-255e-40e7-bed5-d199e288e5dd/00000000-0000-0000-0000-00005899e25f"
-          (reference "IC1") (unit 1)
+          (reference "IC3") (unit 1)
         )
       )
     )
@@ -1445,7 +1445,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 116.84 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e227fe9)
-    (property "Reference" "C9" (at 119.0752 69.9516 0)
+    (property "Reference" "C58" (at 119.0752 69.9516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100u/16V" (at 119.0752 72.263 0)
@@ -1462,7 +1462,7 @@
     (instances
       (project "HSWR"
         (path "/51094070-255e-40e7-bed5-d199e288e5dd/00000000-0000-0000-0000-00005899e25f"
-          (reference "C9") (unit 1)
+          (reference "C58") (unit 1)
         )
       )
     )
@@ -1471,7 +1471,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 78.74 73.66 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e22948f)
-    (property "Reference" "C2" (at 76.2 72.39 0)
+    (property "Reference" "C53" (at 76.2 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100u/16V" (at 76.2 74.93 0)
@@ -1488,7 +1488,7 @@
     (instances
       (project "HSWR"
         (path "/51094070-255e-40e7-bed5-d199e288e5dd/00000000-0000-0000-0000-00005899e25f"
-          (reference "C2") (unit 1)
+          (reference "C53") (unit 1)
         )
       )
     )
