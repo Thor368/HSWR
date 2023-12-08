@@ -670,6 +670,7 @@
   )
 
   (no_connect (at 127 106.68) (uuid 00968c6a-291a-4aa1-bb73-6e94b6d05f25))
+  (no_connect (at 127 88.9) (uuid 09157322-f920-44e1-bbc6-c009c1d33649))
   (no_connect (at 162.56 101.6) (uuid 0e54d5a4-2237-435a-89e5-5735c38c4353))
   (no_connect (at 127 129.54) (uuid 15b9df6a-d813-460f-b1ab-f4d7daa02b23))
   (no_connect (at 162.56 66.04) (uuid 1d67df7b-b030-42ad-bd53-4c2f5996d7de))
